@@ -5,11 +5,11 @@ __base__:
   - config/datasets/M_descriptors.yaml
 add_noise: None
 aux: 8
-batch_size: 72
+batch_size: 96
 cate_mask_value: 0
 categories:
   - 7
-ckpt: None # /internfs/zsy/proj/AMFormer/Metal_SPT_t1_result/save_model/metal/OS/TEST-train_size=1/ver0/806.pth
+ckpt: None 
 cont_mask_value: -1
 # data_file: /internfs/zsy/proj/AMFormer/datasets/exp_Co.csv
 # data_file: /internfs/zsy/proj/AMFormer/datasets/metal_site_test_Fe.csv
@@ -46,21 +46,21 @@ prod_num_per_group:
   - 8
   - 8
 qk_relu: false
-save_metric: acc
+save_metric: mse # mse 
 stepvalues:
   - 4000
 sum_num_per_group:
   - 32
   - 32
   - 32
-task: OS
-out: 5
+task: NNRS
+out: 1
 test_size: 0.15 
 token_descent: false
 use_prod: true
-save_folder: Metal_SPT_multi_NNRS/save_model/
-save_log: Metal_SPT_multi_NNRS/save_log/
+save_folder: Metal_SPT_tmp_NNRS/save_model/
+save_log: Metal_SPT_tmp_NNRS/save_log/
 
-multi_task: ['OS', 'OCN', 'CN', 'CN2', 'PSGO', 'NNRS', 'MOOD']
+
+multi_task: None # ['OS', 'OCN', 'CN', 'CN2', 'PSGO', 'NNRS', 'MOOD'] or None
 stratify_task: NNRS
-is_multi_task: True
