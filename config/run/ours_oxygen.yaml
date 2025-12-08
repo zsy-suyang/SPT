@@ -1,0 +1,57 @@
+__base__:
+  - config/base_schedule.yaml
+  - config/models/fttrans.yaml
+  - config/datasets/metal.yaml
+  - config/datasets/O_descriptors.yaml
+add_noise: 0.25
+aux: 7
+batch_size: 96
+cate_mask_value: 0
+categories:
+  - 1
+ckpt: None # /internfs/zsy/proj/AMFormer/Oxygen_SPT_t1_result/save_model/metal/NNOSM/TEST-train_size=1/ver0/857.pth
+cont_mask_value: -1
+data_file: /internfs/zsy/proj/AMFormer/datasets/O_site.csv
+e_layers: 2
+ele_dict:
+  O: 0
+epoch: 1000
+exp_name: TEST
+exp_param:
+  - train_size
+gpu_id: 0
+groups:
+  - 136
+  - 136
+  - 136
+lr: 0.001
+max_cate: 1
+min_log_data:  6.265807254999918
+max_log_data:  6.3973002539859385
+max_iter: 10000
+num_cate: 1
+num_cont: 512
+num_workers: 8
+prod_num_per_group:
+  - 8
+  - 8
+  - 8
+qk_relu: false
+save_folder: Oxygen_SPT_multi_NNOSM/save_model/
+save_log: Oxygen_SPT_multi_NNOSM/save_log/
+save_metric: mse
+stepvalues:
+  - 4000
+sum_num_per_group:
+  - 32
+  - 32
+  - 32
+task: NNOSM
+out: 1
+test_size: 0.15
+token_descent: false
+use_prod: true
+
+multi_task: ['CN', 'CN2', 'PSGO', 'NNRS', 'NNOSM']
+stratify_task: NNOSM
+is_multi_task: True
