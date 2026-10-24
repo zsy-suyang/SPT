@@ -1,0 +1,1630 @@
+{
+  "schema_version": 1,
+  "description": "Frozen non-SPT cases for the disordered-oxide comparison.",
+  "evaluation_order": "source_row ascending within saved inference blocks; each cohort inferred independently",
+  "models": [
+    {
+      "id": "transfer-direct_nn-OS-source",
+      "architecture": "direct_nn",
+      "task": "OS",
+      "training_mode": "zeroshot",
+      "training_fraction": 0,
+      "target_train_n": 0,
+      "config": "configs/transfer/baselines/direct_nn/OS/source.yaml",
+      "checkpoint": "checkpoints/transfer/baselines/direct_nn/OS/source.pth",
+      "manifest": "data/splits/transfer/manifest.json",
+      "evaluation_batch_size": 128,
+      "evaluations": {
+        "all": {
+          "n": 399,
+          "reference_predictions": "reference_predictions/transfer/baselines/direct_nn/OS/source-all.csv",
+          "expected_f1": 0.7277886227360281
+        },
+        "test": {
+          "n": 114,
+          "reference_predictions": "reference_predictions/transfer/baselines/direct_nn/OS/source-test.csv",
+          "expected_f1": 0.7816724659993649
+        }
+      },
+      "source_train_n": 18878,
+      "training_data": "datasets/transfer/source/metal_parent_excluded.csv",
+      "training_partition": "data/splits/transfer/source_metal.json",
+      "checkpoint_selection": {
+        "metric": "f1",
+        "value": 0.9572756290435791,
+        "epoch": 69
+      }
+    },
+    {
+      "id": "transfer-amformer-OS-source",
+      "architecture": "amformer",
+      "task": "OS",
+      "training_mode": "zeroshot",
+      "training_fraction": 0,
+      "target_train_n": 0,
+      "config": "configs/transfer/baselines/amformer/OS/source.yaml",
+      "checkpoint": "checkpoints/transfer/baselines/amformer/OS/source.pth",
+      "manifest": "data/splits/transfer/manifest.json",
+      "evaluation_batch_size": 128,
+      "evaluations": {
+        "all": {
+          "n": 399,
+          "reference_predictions": "reference_predictions/transfer/baselines/amformer/OS/source-all.csv",
+          "expected_f1": 0.6506487507283615,
+          "inference_parent_blocks": [
+            [
+              "mp-1174246",
+              "mp-19306",
+              "mp-25383",
+              "mp-2931"
+            ],
+            [
+              "mp-1400906",
+              "mp-766823",
+              "mp-9172",
+              "mpmorph:5000K:MnCo3O8"
+            ],
+            [
+              "mp-19009",
+              "mp-530177",
+              "mp-556550"
+            ]
+          ]
+        },
+        "test": {
+          "n": 114,
+          "reference_predictions": "reference_predictions/transfer/baselines/amformer/OS/source-test.csv",
+          "expected_f1": 0.6397660818713451
+        }
+      },
+      "source_train_n": 18878,
+      "training_data": "datasets/transfer/source/metal_parent_excluded.csv",
+      "training_partition": "data/splits/transfer/source_metal.json",
+      "checkpoint_selection": {
+        "metric": "f1",
+        "value": 0.9584466218948364,
+        "epoch": 57
+      }
+    },
+    {
+      "id": "transfer-random_forest-OS-source",
+      "architecture": "random_forest",
+      "task": "OS",
+      "training_mode": "zeroshot",
+      "training_fraction": 0,
+      "target_train_n": 0,
+      "config": "configs/transfer/baselines/random_forest/OS/source.yaml",
+      "checkpoint": "checkpoints/transfer/baselines/random_forest/OS/source.joblib",
+      "manifest": "data/splits/transfer/manifest.json",
+      "evaluation_batch_size": 128,
+      "evaluations": {
+        "all": {
+          "n": 399,
+          "reference_predictions": "reference_predictions/transfer/baselines/random_forest/OS/source-all.csv",
+          "expected_f1": 0.7267939503675359
+        },
+        "test": {
+          "n": 114,
+          "reference_predictions": "reference_predictions/transfer/baselines/random_forest/OS/source-test.csv",
+          "expected_f1": 0.7972915148781643
+        }
+      },
+      "source_train_n": 18878,
+      "training_data": "datasets/transfer/source/metal_parent_excluded.csv",
+      "training_partition": "data/splits/transfer/source_metal.json",
+      "checkpoint_selection": "one library-default source fit; no validation or target model search",
+      "estimator_parameters": {
+        "bootstrap": true,
+        "ccp_alpha": 0.0,
+        "class_weight": null,
+        "criterion": "gini",
+        "max_depth": null,
+        "max_features": "sqrt",
+        "max_leaf_nodes": null,
+        "max_samples": null,
+        "min_impurity_decrease": 0.0,
+        "min_samples_leaf": 1,
+        "min_samples_split": 2,
+        "min_weight_fraction_leaf": 0.0,
+        "monotonic_cst": null,
+        "n_estimators": 100,
+        "n_jobs": 4,
+        "oob_score": false,
+        "random_state": 42,
+        "verbose": 0,
+        "warm_start": false
+      },
+      "library_version": "1.6.1"
+    },
+    {
+      "id": "transfer-direct_nn-CN-source",
+      "architecture": "direct_nn",
+      "task": "CN",
+      "training_mode": "zeroshot",
+      "training_fraction": 0,
+      "target_train_n": 0,
+      "config": "configs/transfer/baselines/direct_nn/CN/source.yaml",
+      "checkpoint": "checkpoints/transfer/baselines/direct_nn/CN/source.pth",
+      "manifest": "data/splits/transfer/manifest.json",
+      "evaluation_batch_size": 128,
+      "evaluations": {
+        "all": {
+          "n": 399,
+          "reference_predictions": "reference_predictions/transfer/baselines/direct_nn/CN/source-all.csv",
+          "expected_f1": 0.2793466391167413
+        },
+        "test": {
+          "n": 114,
+          "reference_predictions": "reference_predictions/transfer/baselines/direct_nn/CN/source-test.csv",
+          "expected_f1": 0.2954545454545455
+        }
+      },
+      "source_train_n": 18878,
+      "training_data": "datasets/transfer/source/metal_parent_excluded.csv",
+      "training_partition": "data/splits/transfer/source_metal.json",
+      "checkpoint_selection": {
+        "metric": "f1",
+        "value": 0.9737427830696106,
+        "epoch": 63
+      }
+    },
+    {
+      "id": "transfer-amformer-CN-source",
+      "architecture": "amformer",
+      "task": "CN",
+      "training_mode": "zeroshot",
+      "training_fraction": 0,
+      "target_train_n": 0,
+      "config": "configs/transfer/baselines/amformer/CN/source.yaml",
+      "checkpoint": "checkpoints/transfer/baselines/amformer/CN/source.pth",
+      "manifest": "data/splits/transfer/manifest.json",
+      "evaluation_batch_size": 128,
+      "evaluations": {
+        "all": {
+          "n": 399,
+          "reference_predictions": "reference_predictions/transfer/baselines/amformer/CN/source-all.csv",
+          "expected_f1": 0.27686035747110227,
+          "inference_parent_blocks": [
+            [
+              "mp-1174246",
+              "mp-19306",
+              "mp-25383",
+              "mp-2931"
+            ],
+            [
+              "mp-1400906",
+              "mp-766823",
+              "mp-9172",
+              "mpmorph:5000K:MnCo3O8"
+            ],
+            [
+              "mp-19009",
+              "mp-530177",
+              "mp-556550"
+            ]
+          ]
+        },
+        "test": {
+          "n": 114,
+          "reference_predictions": "reference_predictions/transfer/baselines/amformer/CN/source-test.csv",
+          "expected_f1": 0.2820570206522685
+        }
+      },
+      "source_train_n": 18878,
+      "training_data": "datasets/transfer/source/metal_parent_excluded.csv",
+      "training_partition": "data/splits/transfer/source_metal.json",
+      "checkpoint_selection": {
+        "metric": "f1",
+        "value": 0.9682648181915283,
+        "epoch": 92
+      }
+    },
+    {
+      "id": "transfer-random_forest-CN-source",
+      "architecture": "random_forest",
+      "task": "CN",
+      "training_mode": "zeroshot",
+      "training_fraction": 0,
+      "target_train_n": 0,
+      "config": "configs/transfer/baselines/random_forest/CN/source.yaml",
+      "checkpoint": "checkpoints/transfer/baselines/random_forest/CN/source.joblib",
+      "manifest": "data/splits/transfer/manifest.json",
+      "evaluation_batch_size": 128,
+      "evaluations": {
+        "all": {
+          "n": 399,
+          "reference_predictions": "reference_predictions/transfer/baselines/random_forest/CN/source-all.csv",
+          "expected_f1": 0.2743232224350891
+        },
+        "test": {
+          "n": 114,
+          "reference_predictions": "reference_predictions/transfer/baselines/random_forest/CN/source-test.csv",
+          "expected_f1": 0.2686784133230272
+        }
+      },
+      "source_train_n": 18878,
+      "training_data": "datasets/transfer/source/metal_parent_excluded.csv",
+      "training_partition": "data/splits/transfer/source_metal.json",
+      "checkpoint_selection": "one library-default source fit; no validation or target model search",
+      "estimator_parameters": {
+        "bootstrap": true,
+        "ccp_alpha": 0.0,
+        "class_weight": null,
+        "criterion": "gini",
+        "max_depth": null,
+        "max_features": "sqrt",
+        "max_leaf_nodes": null,
+        "max_samples": null,
+        "min_impurity_decrease": 0.0,
+        "min_samples_leaf": 1,
+        "min_samples_split": 2,
+        "min_weight_fraction_leaf": 0.0,
+        "monotonic_cst": null,
+        "n_estimators": 100,
+        "n_jobs": 4,
+        "oob_score": false,
+        "random_state": 42,
+        "verbose": 0,
+        "warm_start": false
+      },
+      "library_version": "1.6.1"
+    },
+    {
+      "id": "transfer-direct_nn-OCN-source",
+      "architecture": "direct_nn",
+      "task": "OCN",
+      "training_mode": "zeroshot",
+      "training_fraction": 0,
+      "target_train_n": 0,
+      "config": "configs/transfer/baselines/direct_nn/OCN/source.yaml",
+      "checkpoint": "checkpoints/transfer/baselines/direct_nn/OCN/source.pth",
+      "manifest": "data/splits/transfer/manifest.json",
+      "evaluation_batch_size": 128,
+      "evaluations": {
+        "all": {
+          "n": 399,
+          "reference_predictions": "reference_predictions/transfer/baselines/direct_nn/OCN/source-all.csv",
+          "expected_f1": 0.28834918163526213
+        },
+        "test": {
+          "n": 114,
+          "reference_predictions": "reference_predictions/transfer/baselines/direct_nn/OCN/source-test.csv",
+          "expected_f1": 0.3112281522135945
+        }
+      },
+      "source_train_n": 18878,
+      "training_data": "datasets/transfer/source/metal_parent_excluded.csv",
+      "training_partition": "data/splits/transfer/source_metal.json",
+      "checkpoint_selection": {
+        "metric": "f1",
+        "value": 0.9745675325393677,
+        "epoch": 85
+      }
+    },
+    {
+      "id": "transfer-amformer-OCN-source",
+      "architecture": "amformer",
+      "task": "OCN",
+      "training_mode": "zeroshot",
+      "training_fraction": 0,
+      "target_train_n": 0,
+      "config": "configs/transfer/baselines/amformer/OCN/source.yaml",
+      "checkpoint": "checkpoints/transfer/baselines/amformer/OCN/source.pth",
+      "manifest": "data/splits/transfer/manifest.json",
+      "evaluation_batch_size": 128,
+      "evaluations": {
+        "all": {
+          "n": 399,
+          "reference_predictions": "reference_predictions/transfer/baselines/amformer/OCN/source-all.csv",
+          "expected_f1": 0.27261769600374736,
+          "inference_parent_blocks": [
+            [
+              "mp-1174246",
+              "mp-19306",
+              "mp-25383",
+              "mp-2931"
+            ],
+            [
+              "mp-1400906",
+              "mp-766823",
+              "mp-9172",
+              "mpmorph:5000K:MnCo3O8"
+            ],
+            [
+              "mp-19009",
+              "mp-530177",
+              "mp-556550"
+            ]
+          ]
+        },
+        "test": {
+          "n": 114,
+          "reference_predictions": "reference_predictions/transfer/baselines/amformer/OCN/source-test.csv",
+          "expected_f1": 0.29278627339569163
+        }
+      },
+      "source_train_n": 18878,
+      "training_data": "datasets/transfer/source/metal_parent_excluded.csv",
+      "training_partition": "data/splits/transfer/source_metal.json",
+      "checkpoint_selection": {
+        "metric": "f1",
+        "value": 0.9696124196052551,
+        "epoch": 97
+      }
+    },
+    {
+      "id": "transfer-random_forest-OCN-source",
+      "architecture": "random_forest",
+      "task": "OCN",
+      "training_mode": "zeroshot",
+      "training_fraction": 0,
+      "target_train_n": 0,
+      "config": "configs/transfer/baselines/random_forest/OCN/source.yaml",
+      "checkpoint": "checkpoints/transfer/baselines/random_forest/OCN/source.joblib",
+      "manifest": "data/splits/transfer/manifest.json",
+      "evaluation_batch_size": 128,
+      "evaluations": {
+        "all": {
+          "n": 399,
+          "reference_predictions": "reference_predictions/transfer/baselines/random_forest/OCN/source-all.csv",
+          "expected_f1": 0.2631634607958581
+        },
+        "test": {
+          "n": 114,
+          "reference_predictions": "reference_predictions/transfer/baselines/random_forest/OCN/source-test.csv",
+          "expected_f1": 0.24894117017528997
+        }
+      },
+      "source_train_n": 18878,
+      "training_data": "datasets/transfer/source/metal_parent_excluded.csv",
+      "training_partition": "data/splits/transfer/source_metal.json",
+      "checkpoint_selection": "one library-default source fit; no validation or target model search",
+      "estimator_parameters": {
+        "bootstrap": true,
+        "ccp_alpha": 0.0,
+        "class_weight": null,
+        "criterion": "gini",
+        "max_depth": null,
+        "max_features": "sqrt",
+        "max_leaf_nodes": null,
+        "max_samples": null,
+        "min_impurity_decrease": 0.0,
+        "min_samples_leaf": 1,
+        "min_samples_split": 2,
+        "min_weight_fraction_leaf": 0.0,
+        "monotonic_cst": null,
+        "n_estimators": 100,
+        "n_jobs": 4,
+        "oob_score": false,
+        "random_state": 42,
+        "verbose": 0,
+        "warm_start": false
+      },
+      "library_version": "1.6.1"
+    },
+    {
+      "id": "transfer-direct_nn-OS-scratch-10",
+      "architecture": "direct_nn",
+      "task": "OS",
+      "training_mode": "scratch",
+      "training_fraction": 10,
+      "target_train_n": 29,
+      "config": "configs/transfer/baselines/direct_nn/OS/scratch-10.yaml",
+      "checkpoint": "checkpoints/transfer/baselines/direct_nn/OS/scratch-10.pth",
+      "manifest": "data/splits/transfer/manifest.json",
+      "evaluation_batch_size": 128,
+      "evaluations": {
+        "test": {
+          "n": 114,
+          "reference_predictions": "reference_predictions/transfer/baselines/direct_nn/OS/scratch-10-test.csv",
+          "expected_f1": 0.7758284600389864
+        }
+      },
+      "training_data": "datasets/transfer/train/OS/scratch_10.csv",
+      "training_partition": "data/splits/transfer/manifest.json",
+      "checkpoint_selection": "final raw weights at epoch 100"
+    },
+    {
+      "id": "transfer-direct_nn-OS-tl-10",
+      "architecture": "direct_nn",
+      "task": "OS",
+      "training_mode": "tl",
+      "training_fraction": 10,
+      "target_train_n": 29,
+      "config": "configs/transfer/baselines/direct_nn/OS/tl-10.yaml",
+      "checkpoint": "checkpoints/transfer/baselines/direct_nn/OS/tl-10.pth",
+      "manifest": "data/splits/transfer/manifest.json",
+      "evaluation_batch_size": 128,
+      "evaluations": {
+        "test": {
+          "n": 114,
+          "reference_predictions": "reference_predictions/transfer/baselines/direct_nn/OS/tl-10-test.csv",
+          "expected_f1": 0.8745656411560302
+        }
+      },
+      "training_data": "datasets/transfer/train/OS/tl_10.csv",
+      "training_partition": "data/splits/transfer/manifest.json",
+      "checkpoint_selection": "final raw weights at epoch 100",
+      "initial_checkpoint": "checkpoints/transfer/baselines/direct_nn/OS/adaptation-source.pth",
+      "source_config": "configs/transfer/baselines/direct_nn/OS/adaptation-source.yaml"
+    },
+    {
+      "id": "transfer-amformer-OS-scratch-10",
+      "architecture": "amformer",
+      "task": "OS",
+      "training_mode": "scratch",
+      "training_fraction": 10,
+      "target_train_n": 29,
+      "config": "configs/transfer/baselines/amformer/OS/scratch-10.yaml",
+      "checkpoint": "checkpoints/transfer/baselines/amformer/OS/scratch-10.pth",
+      "manifest": "data/splits/transfer/manifest.json",
+      "evaluation_batch_size": 128,
+      "evaluations": {
+        "test": {
+          "n": 114,
+          "reference_predictions": "reference_predictions/transfer/baselines/amformer/OS/scratch-10-test.csv",
+          "expected_f1": 0.7392128971076339
+        }
+      },
+      "training_data": "datasets/transfer/train/OS/scratch_10.csv",
+      "training_partition": "data/splits/transfer/manifest.json",
+      "checkpoint_selection": "final raw weights at epoch 100"
+    },
+    {
+      "id": "transfer-amformer-OS-tl-10",
+      "architecture": "amformer",
+      "task": "OS",
+      "training_mode": "tl",
+      "training_fraction": 10,
+      "target_train_n": 29,
+      "config": "configs/transfer/baselines/amformer/OS/tl-10.yaml",
+      "checkpoint": "checkpoints/transfer/baselines/amformer/OS/tl-10.pth",
+      "manifest": "data/splits/transfer/manifest.json",
+      "evaluation_batch_size": 128,
+      "evaluations": {
+        "test": {
+          "n": 114,
+          "reference_predictions": "reference_predictions/transfer/baselines/amformer/OS/tl-10-test.csv",
+          "expected_f1": 0.7479016690662827
+        }
+      },
+      "training_data": "datasets/transfer/train/OS/tl_10.csv",
+      "training_partition": "data/splits/transfer/manifest.json",
+      "checkpoint_selection": "final raw weights at epoch 100",
+      "initial_checkpoint": "checkpoints/transfer/baselines/amformer/OS/source.pth",
+      "source_config": "configs/transfer/baselines/amformer/OS/source.yaml"
+    },
+    {
+      "id": "transfer-direct_nn-OS-scratch-25",
+      "architecture": "direct_nn",
+      "task": "OS",
+      "training_mode": "scratch",
+      "training_fraction": 25,
+      "target_train_n": 72,
+      "config": "configs/transfer/baselines/direct_nn/OS/scratch-25.yaml",
+      "checkpoint": "checkpoints/transfer/baselines/direct_nn/OS/scratch-25.pth",
+      "manifest": "data/splits/transfer/manifest.json",
+      "evaluation_batch_size": 128,
+      "evaluations": {
+        "test": {
+          "n": 114,
+          "reference_predictions": "reference_predictions/transfer/baselines/direct_nn/OS/scratch-25-test.csv",
+          "expected_f1": 0.893444136657433
+        }
+      },
+      "training_data": "datasets/transfer/train/OS/scratch_25.csv",
+      "training_partition": "data/splits/transfer/manifest.json",
+      "checkpoint_selection": "final raw weights at epoch 100"
+    },
+    {
+      "id": "transfer-direct_nn-OS-tl-25",
+      "architecture": "direct_nn",
+      "task": "OS",
+      "training_mode": "tl",
+      "training_fraction": 25,
+      "target_train_n": 72,
+      "config": "configs/transfer/baselines/direct_nn/OS/tl-25.yaml",
+      "checkpoint": "checkpoints/transfer/baselines/direct_nn/OS/tl-25.pth",
+      "manifest": "data/splits/transfer/manifest.json",
+      "evaluation_batch_size": 128,
+      "evaluations": {
+        "test": {
+          "n": 114,
+          "reference_predictions": "reference_predictions/transfer/baselines/direct_nn/OS/tl-25-test.csv",
+          "expected_f1": 0.8801619433198381
+        }
+      },
+      "training_data": "datasets/transfer/train/OS/tl_25.csv",
+      "training_partition": "data/splits/transfer/manifest.json",
+      "checkpoint_selection": "final raw weights at epoch 100",
+      "initial_checkpoint": "checkpoints/transfer/baselines/direct_nn/OS/adaptation-source.pth",
+      "source_config": "configs/transfer/baselines/direct_nn/OS/adaptation-source.yaml"
+    },
+    {
+      "id": "transfer-amformer-OS-scratch-25",
+      "architecture": "amformer",
+      "task": "OS",
+      "training_mode": "scratch",
+      "training_fraction": 25,
+      "target_train_n": 72,
+      "config": "configs/transfer/baselines/amformer/OS/scratch-25.yaml",
+      "checkpoint": "checkpoints/transfer/baselines/amformer/OS/scratch-25.pth",
+      "manifest": "data/splits/transfer/manifest.json",
+      "evaluation_batch_size": 128,
+      "evaluations": {
+        "test": {
+          "n": 114,
+          "reference_predictions": "reference_predictions/transfer/baselines/amformer/OS/scratch-25-test.csv",
+          "expected_f1": 0.7392128971076339
+        }
+      },
+      "training_data": "datasets/transfer/train/OS/scratch_25.csv",
+      "training_partition": "data/splits/transfer/manifest.json",
+      "checkpoint_selection": "final raw weights at epoch 100"
+    },
+    {
+      "id": "transfer-amformer-OS-tl-25",
+      "architecture": "amformer",
+      "task": "OS",
+      "training_mode": "tl",
+      "training_fraction": 25,
+      "target_train_n": 72,
+      "config": "configs/transfer/baselines/amformer/OS/tl-25.yaml",
+      "checkpoint": "checkpoints/transfer/baselines/amformer/OS/tl-25.pth",
+      "manifest": "data/splits/transfer/manifest.json",
+      "evaluation_batch_size": 128,
+      "evaluations": {
+        "test": {
+          "n": 114,
+          "reference_predictions": "reference_predictions/transfer/baselines/amformer/OS/tl-25-test.csv",
+          "expected_f1": 0.810625270579504
+        }
+      },
+      "training_data": "datasets/transfer/train/OS/tl_25.csv",
+      "training_partition": "data/splits/transfer/manifest.json",
+      "checkpoint_selection": "final raw weights at epoch 100",
+      "initial_checkpoint": "checkpoints/transfer/baselines/amformer/OS/source.pth",
+      "source_config": "configs/transfer/baselines/amformer/OS/source.yaml"
+    },
+    {
+      "id": "transfer-direct_nn-OS-scratch-50",
+      "architecture": "direct_nn",
+      "task": "OS",
+      "training_mode": "scratch",
+      "training_fraction": 50,
+      "target_train_n": 143,
+      "config": "configs/transfer/baselines/direct_nn/OS/scratch-50.yaml",
+      "checkpoint": "checkpoints/transfer/baselines/direct_nn/OS/scratch-50.pth",
+      "manifest": "data/splits/transfer/manifest.json",
+      "evaluation_batch_size": 128,
+      "evaluations": {
+        "test": {
+          "n": 114,
+          "reference_predictions": "reference_predictions/transfer/baselines/direct_nn/OS/scratch-50-test.csv",
+          "expected_f1": 0.8999550157444894
+        }
+      },
+      "training_data": "datasets/transfer/train/OS/scratch_50.csv",
+      "training_partition": "data/splits/transfer/manifest.json",
+      "checkpoint_selection": "final raw weights at epoch 100"
+    },
+    {
+      "id": "transfer-direct_nn-OS-tl-50",
+      "architecture": "direct_nn",
+      "task": "OS",
+      "training_mode": "tl",
+      "training_fraction": 50,
+      "target_train_n": 143,
+      "config": "configs/transfer/baselines/direct_nn/OS/tl-50.yaml",
+      "checkpoint": "checkpoints/transfer/baselines/direct_nn/OS/tl-50.pth",
+      "manifest": "data/splits/transfer/manifest.json",
+      "evaluation_batch_size": 128,
+      "evaluations": {
+        "test": {
+          "n": 114,
+          "reference_predictions": "reference_predictions/transfer/baselines/direct_nn/OS/tl-50-test.csv",
+          "expected_f1": 0.8857236500696474
+        }
+      },
+      "training_data": "datasets/transfer/train/OS/tl_50.csv",
+      "training_partition": "data/splits/transfer/manifest.json",
+      "checkpoint_selection": "final raw weights at epoch 100",
+      "initial_checkpoint": "checkpoints/transfer/baselines/direct_nn/OS/source.pth",
+      "source_config": "configs/transfer/baselines/direct_nn/OS/source.yaml"
+    },
+    {
+      "id": "transfer-amformer-OS-scratch-50",
+      "architecture": "amformer",
+      "task": "OS",
+      "training_mode": "scratch",
+      "training_fraction": 50,
+      "target_train_n": 143,
+      "config": "configs/transfer/baselines/amformer/OS/scratch-50.yaml",
+      "checkpoint": "checkpoints/transfer/baselines/amformer/OS/scratch-50.pth",
+      "manifest": "data/splits/transfer/manifest.json",
+      "evaluation_batch_size": 128,
+      "evaluations": {
+        "test": {
+          "n": 114,
+          "reference_predictions": "reference_predictions/transfer/baselines/amformer/OS/scratch-50-test.csv",
+          "expected_f1": 0.7392128971076339
+        }
+      },
+      "training_data": "datasets/transfer/train/OS/scratch_50.csv",
+      "training_partition": "data/splits/transfer/manifest.json",
+      "checkpoint_selection": "final raw weights at epoch 100"
+    },
+    {
+      "id": "transfer-amformer-OS-tl-50",
+      "architecture": "amformer",
+      "task": "OS",
+      "training_mode": "tl",
+      "training_fraction": 50,
+      "target_train_n": 143,
+      "config": "configs/transfer/baselines/amformer/OS/tl-50.yaml",
+      "checkpoint": "checkpoints/transfer/baselines/amformer/OS/tl-50.pth",
+      "manifest": "data/splits/transfer/manifest.json",
+      "evaluation_batch_size": 128,
+      "evaluations": {
+        "test": {
+          "n": 114,
+          "reference_predictions": "reference_predictions/transfer/baselines/amformer/OS/tl-50-test.csv",
+          "expected_f1": 0.8100997173785528
+        }
+      },
+      "training_data": "datasets/transfer/train/OS/tl_50.csv",
+      "training_partition": "data/splits/transfer/manifest.json",
+      "checkpoint_selection": "final raw weights at epoch 100",
+      "initial_checkpoint": "checkpoints/transfer/baselines/amformer/OS/source.pth",
+      "source_config": "configs/transfer/baselines/amformer/OS/source.yaml"
+    },
+    {
+      "id": "transfer-direct_nn-CN-scratch-10",
+      "architecture": "direct_nn",
+      "task": "CN",
+      "training_mode": "scratch",
+      "training_fraction": 10,
+      "target_train_n": 29,
+      "config": "configs/transfer/baselines/direct_nn/CN/scratch-10.yaml",
+      "checkpoint": "checkpoints/transfer/baselines/direct_nn/CN/scratch-10.pth",
+      "manifest": "data/splits/transfer/manifest.json",
+      "evaluation_batch_size": 128,
+      "evaluations": {
+        "test": {
+          "n": 114,
+          "reference_predictions": "reference_predictions/transfer/baselines/direct_nn/CN/scratch-10-test.csv",
+          "expected_f1": 0.16388685866640387
+        }
+      },
+      "training_data": "datasets/transfer/train/CN/scratch_10.csv",
+      "training_partition": "data/splits/transfer/manifest.json",
+      "checkpoint_selection": "final raw weights at epoch 100"
+    },
+    {
+      "id": "transfer-direct_nn-CN-tl-10",
+      "architecture": "direct_nn",
+      "task": "CN",
+      "training_mode": "tl",
+      "training_fraction": 10,
+      "target_train_n": 29,
+      "config": "configs/transfer/baselines/direct_nn/CN/tl-10.yaml",
+      "checkpoint": "checkpoints/transfer/baselines/direct_nn/CN/tl-10.pth",
+      "manifest": "data/splits/transfer/manifest.json",
+      "evaluation_batch_size": 128,
+      "evaluations": {
+        "test": {
+          "n": 114,
+          "reference_predictions": "reference_predictions/transfer/baselines/direct_nn/CN/tl-10-test.csv",
+          "expected_f1": 0.36009191098779497
+        }
+      },
+      "training_data": "datasets/transfer/train/CN/tl_10.csv",
+      "training_partition": "data/splits/transfer/manifest.json",
+      "checkpoint_selection": "final raw weights at epoch 100",
+      "initial_checkpoint": "checkpoints/transfer/baselines/direct_nn/CN/adaptation-source.pth",
+      "source_config": "configs/transfer/baselines/direct_nn/CN/adaptation-source.yaml"
+    },
+    {
+      "id": "transfer-amformer-CN-scratch-10",
+      "architecture": "amformer",
+      "task": "CN",
+      "training_mode": "scratch",
+      "training_fraction": 10,
+      "target_train_n": 29,
+      "config": "configs/transfer/baselines/amformer/CN/scratch-10.yaml",
+      "checkpoint": "checkpoints/transfer/baselines/amformer/CN/scratch-10.pth",
+      "manifest": "data/splits/transfer/manifest.json",
+      "evaluation_batch_size": 128,
+      "evaluations": {
+        "test": {
+          "n": 114,
+          "reference_predictions": "reference_predictions/transfer/baselines/amformer/CN/scratch-10-test.csv",
+          "expected_f1": 0.10964912280701754
+        }
+      },
+      "training_data": "datasets/transfer/train/CN/scratch_10.csv",
+      "training_partition": "data/splits/transfer/manifest.json",
+      "checkpoint_selection": "final raw weights at epoch 100"
+    },
+    {
+      "id": "transfer-amformer-CN-tl-10",
+      "architecture": "amformer",
+      "task": "CN",
+      "training_mode": "tl",
+      "training_fraction": 10,
+      "target_train_n": 29,
+      "config": "configs/transfer/baselines/amformer/CN/tl-10.yaml",
+      "checkpoint": "checkpoints/transfer/baselines/amformer/CN/tl-10.pth",
+      "manifest": "data/splits/transfer/manifest.json",
+      "evaluation_batch_size": 128,
+      "evaluations": {
+        "test": {
+          "n": 114,
+          "reference_predictions": "reference_predictions/transfer/baselines/amformer/CN/tl-10-test.csv",
+          "expected_f1": 0.26447870904757803
+        }
+      },
+      "training_data": "datasets/transfer/train/CN/tl_10.csv",
+      "training_partition": "data/splits/transfer/manifest.json",
+      "checkpoint_selection": "final raw weights at epoch 100",
+      "initial_checkpoint": "checkpoints/transfer/baselines/amformer/CN/source.pth",
+      "source_config": "configs/transfer/baselines/amformer/CN/source.yaml"
+    },
+    {
+      "id": "transfer-direct_nn-CN-scratch-25",
+      "architecture": "direct_nn",
+      "task": "CN",
+      "training_mode": "scratch",
+      "training_fraction": 25,
+      "target_train_n": 72,
+      "config": "configs/transfer/baselines/direct_nn/CN/scratch-25.yaml",
+      "checkpoint": "checkpoints/transfer/baselines/direct_nn/CN/scratch-25.pth",
+      "manifest": "data/splits/transfer/manifest.json",
+      "evaluation_batch_size": 128,
+      "evaluations": {
+        "test": {
+          "n": 114,
+          "reference_predictions": "reference_predictions/transfer/baselines/direct_nn/CN/scratch-25-test.csv",
+          "expected_f1": 0.15367613461272805
+        }
+      },
+      "training_data": "datasets/transfer/train/CN/scratch_25.csv",
+      "training_partition": "data/splits/transfer/manifest.json",
+      "checkpoint_selection": "final raw weights at epoch 100"
+    },
+    {
+      "id": "transfer-direct_nn-CN-tl-25",
+      "architecture": "direct_nn",
+      "task": "CN",
+      "training_mode": "tl",
+      "training_fraction": 25,
+      "target_train_n": 72,
+      "config": "configs/transfer/baselines/direct_nn/CN/tl-25.yaml",
+      "checkpoint": "checkpoints/transfer/baselines/direct_nn/CN/tl-25.pth",
+      "manifest": "data/splits/transfer/manifest.json",
+      "evaluation_batch_size": 128,
+      "evaluations": {
+        "test": {
+          "n": 114,
+          "reference_predictions": "reference_predictions/transfer/baselines/direct_nn/CN/tl-25-test.csv",
+          "expected_f1": 0.37214781255933377
+        }
+      },
+      "training_data": "datasets/transfer/train/CN/tl_25.csv",
+      "training_partition": "data/splits/transfer/manifest.json",
+      "checkpoint_selection": "final raw weights at epoch 100",
+      "initial_checkpoint": "checkpoints/transfer/baselines/direct_nn/CN/adaptation-source.pth",
+      "source_config": "configs/transfer/baselines/direct_nn/CN/adaptation-source.yaml"
+    },
+    {
+      "id": "transfer-amformer-CN-scratch-25",
+      "architecture": "amformer",
+      "task": "CN",
+      "training_mode": "scratch",
+      "training_fraction": 25,
+      "target_train_n": 72,
+      "config": "configs/transfer/baselines/amformer/CN/scratch-25.yaml",
+      "checkpoint": "checkpoints/transfer/baselines/amformer/CN/scratch-25.pth",
+      "manifest": "data/splits/transfer/manifest.json",
+      "evaluation_batch_size": 128,
+      "evaluations": {
+        "test": {
+          "n": 114,
+          "reference_predictions": "reference_predictions/transfer/baselines/amformer/CN/scratch-25-test.csv",
+          "expected_f1": 0.08471177944862157
+        }
+      },
+      "training_data": "datasets/transfer/train/CN/scratch_25.csv",
+      "training_partition": "data/splits/transfer/manifest.json",
+      "checkpoint_selection": "final raw weights at epoch 100"
+    },
+    {
+      "id": "transfer-amformer-CN-tl-25",
+      "architecture": "amformer",
+      "task": "CN",
+      "training_mode": "tl",
+      "training_fraction": 25,
+      "target_train_n": 72,
+      "config": "configs/transfer/baselines/amformer/CN/tl-25.yaml",
+      "checkpoint": "checkpoints/transfer/baselines/amformer/CN/tl-25.pth",
+      "manifest": "data/splits/transfer/manifest.json",
+      "evaluation_batch_size": 128,
+      "evaluations": {
+        "test": {
+          "n": 114,
+          "reference_predictions": "reference_predictions/transfer/baselines/amformer/CN/tl-25-test.csv",
+          "expected_f1": 0.3079744816586922
+        }
+      },
+      "training_data": "datasets/transfer/train/CN/tl_25.csv",
+      "training_partition": "data/splits/transfer/manifest.json",
+      "checkpoint_selection": "final raw weights at epoch 100",
+      "initial_checkpoint": "checkpoints/transfer/baselines/amformer/CN/source.pth",
+      "source_config": "configs/transfer/baselines/amformer/CN/source.yaml"
+    },
+    {
+      "id": "transfer-direct_nn-CN-scratch-50",
+      "architecture": "direct_nn",
+      "task": "CN",
+      "training_mode": "scratch",
+      "training_fraction": 50,
+      "target_train_n": 143,
+      "config": "configs/transfer/baselines/direct_nn/CN/scratch-50.yaml",
+      "checkpoint": "checkpoints/transfer/baselines/direct_nn/CN/scratch-50.pth",
+      "manifest": "data/splits/transfer/manifest.json",
+      "evaluation_batch_size": 128,
+      "evaluations": {
+        "test": {
+          "n": 114,
+          "reference_predictions": "reference_predictions/transfer/baselines/direct_nn/CN/scratch-50-test.csv",
+          "expected_f1": 0.15762094311408775
+        }
+      },
+      "training_data": "datasets/transfer/train/CN/scratch_50.csv",
+      "training_partition": "data/splits/transfer/manifest.json",
+      "checkpoint_selection": "final raw weights at epoch 100"
+    },
+    {
+      "id": "transfer-direct_nn-CN-tl-50",
+      "architecture": "direct_nn",
+      "task": "CN",
+      "training_mode": "tl",
+      "training_fraction": 50,
+      "target_train_n": 143,
+      "config": "configs/transfer/baselines/direct_nn/CN/tl-50.yaml",
+      "checkpoint": "checkpoints/transfer/baselines/direct_nn/CN/tl-50.pth",
+      "manifest": "data/splits/transfer/manifest.json",
+      "evaluation_batch_size": 128,
+      "evaluations": {
+        "test": {
+          "n": 114,
+          "reference_predictions": "reference_predictions/transfer/baselines/direct_nn/CN/tl-50-test.csv",
+          "expected_f1": 0.3536870181452587
+        }
+      },
+      "training_data": "datasets/transfer/train/CN/tl_50.csv",
+      "training_partition": "data/splits/transfer/manifest.json",
+      "checkpoint_selection": "final raw weights at epoch 100",
+      "initial_checkpoint": "checkpoints/transfer/baselines/direct_nn/CN/adaptation-source.pth",
+      "source_config": "configs/transfer/baselines/direct_nn/CN/adaptation-source.yaml"
+    },
+    {
+      "id": "transfer-amformer-CN-scratch-50",
+      "architecture": "amformer",
+      "task": "CN",
+      "training_mode": "scratch",
+      "training_fraction": 50,
+      "target_train_n": 143,
+      "config": "configs/transfer/baselines/amformer/CN/scratch-50.yaml",
+      "checkpoint": "checkpoints/transfer/baselines/amformer/CN/scratch-50.pth",
+      "manifest": "data/splits/transfer/manifest.json",
+      "evaluation_batch_size": 128,
+      "evaluations": {
+        "test": {
+          "n": 114,
+          "reference_predictions": "reference_predictions/transfer/baselines/amformer/CN/scratch-50-test.csv",
+          "expected_f1": 0.08471177944862157
+        }
+      },
+      "training_data": "datasets/transfer/train/CN/scratch_50.csv",
+      "training_partition": "data/splits/transfer/manifest.json",
+      "checkpoint_selection": "final raw weights at epoch 100"
+    },
+    {
+      "id": "transfer-amformer-CN-tl-50",
+      "architecture": "amformer",
+      "task": "CN",
+      "training_mode": "tl",
+      "training_fraction": 50,
+      "target_train_n": 143,
+      "config": "configs/transfer/baselines/amformer/CN/tl-50.yaml",
+      "checkpoint": "checkpoints/transfer/baselines/amformer/CN/tl-50.pth",
+      "manifest": "data/splits/transfer/manifest.json",
+      "evaluation_batch_size": 128,
+      "evaluations": {
+        "test": {
+          "n": 114,
+          "reference_predictions": "reference_predictions/transfer/baselines/amformer/CN/tl-50-test.csv",
+          "expected_f1": 0.2616452046369578
+        }
+      },
+      "training_data": "datasets/transfer/train/CN/tl_50.csv",
+      "training_partition": "data/splits/transfer/manifest.json",
+      "checkpoint_selection": "final raw weights at epoch 100",
+      "initial_checkpoint": "checkpoints/transfer/baselines/amformer/CN/source.pth",
+      "source_config": "configs/transfer/baselines/amformer/CN/source.yaml"
+    },
+    {
+      "id": "transfer-direct_nn-OCN-scratch-10",
+      "architecture": "direct_nn",
+      "task": "OCN",
+      "training_mode": "scratch",
+      "training_fraction": 10,
+      "target_train_n": 29,
+      "config": "configs/transfer/baselines/direct_nn/OCN/scratch-10.yaml",
+      "checkpoint": "checkpoints/transfer/baselines/direct_nn/OCN/scratch-10.pth",
+      "manifest": "data/splits/transfer/manifest.json",
+      "evaluation_batch_size": 128,
+      "evaluations": {
+        "test": {
+          "n": 114,
+          "reference_predictions": "reference_predictions/transfer/baselines/direct_nn/OCN/scratch-10-test.csv",
+          "expected_f1": 0.21081363458273475
+        }
+      },
+      "training_data": "datasets/transfer/train/OCN/scratch_10.csv",
+      "training_partition": "data/splits/transfer/manifest.json",
+      "checkpoint_selection": "final raw weights at epoch 100"
+    },
+    {
+      "id": "transfer-direct_nn-OCN-tl-10",
+      "architecture": "direct_nn",
+      "task": "OCN",
+      "training_mode": "tl",
+      "training_fraction": 10,
+      "target_train_n": 29,
+      "config": "configs/transfer/baselines/direct_nn/OCN/tl-10.yaml",
+      "checkpoint": "checkpoints/transfer/baselines/direct_nn/OCN/tl-10.pth",
+      "manifest": "data/splits/transfer/manifest.json",
+      "evaluation_batch_size": 128,
+      "evaluations": {
+        "test": {
+          "n": 114,
+          "reference_predictions": "reference_predictions/transfer/baselines/direct_nn/OCN/tl-10-test.csv",
+          "expected_f1": 0.4138898382319435
+        }
+      },
+      "training_data": "datasets/transfer/train/OCN/tl_10.csv",
+      "training_partition": "data/splits/transfer/manifest.json",
+      "checkpoint_selection": "final raw weights at epoch 100",
+      "initial_checkpoint": "checkpoints/transfer/baselines/direct_nn/OCN/adaptation-source.pth",
+      "source_config": "configs/transfer/baselines/direct_nn/OCN/adaptation-source.yaml"
+    },
+    {
+      "id": "transfer-amformer-OCN-scratch-10",
+      "architecture": "amformer",
+      "task": "OCN",
+      "training_mode": "scratch",
+      "training_fraction": 10,
+      "target_train_n": 29,
+      "config": "configs/transfer/baselines/amformer/OCN/scratch-10.yaml",
+      "checkpoint": "checkpoints/transfer/baselines/amformer/OCN/scratch-10.pth",
+      "manifest": "data/splits/transfer/manifest.json",
+      "evaluation_batch_size": 128,
+      "evaluations": {
+        "test": {
+          "n": 114,
+          "reference_predictions": "reference_predictions/transfer/baselines/amformer/OCN/scratch-10-test.csv",
+          "expected_f1": 0.12304734438836817
+        }
+      },
+      "training_data": "datasets/transfer/train/OCN/scratch_10.csv",
+      "training_partition": "data/splits/transfer/manifest.json",
+      "checkpoint_selection": "final raw weights at epoch 100"
+    },
+    {
+      "id": "transfer-amformer-OCN-tl-10",
+      "architecture": "amformer",
+      "task": "OCN",
+      "training_mode": "tl",
+      "training_fraction": 10,
+      "target_train_n": 29,
+      "config": "configs/transfer/baselines/amformer/OCN/tl-10.yaml",
+      "checkpoint": "checkpoints/transfer/baselines/amformer/OCN/tl-10.pth",
+      "manifest": "data/splits/transfer/manifest.json",
+      "evaluation_batch_size": 128,
+      "evaluations": {
+        "test": {
+          "n": 114,
+          "reference_predictions": "reference_predictions/transfer/baselines/amformer/OCN/tl-10-test.csv",
+          "expected_f1": 0.2887458608126459
+        }
+      },
+      "training_data": "datasets/transfer/train/OCN/tl_10.csv",
+      "training_partition": "data/splits/transfer/manifest.json",
+      "checkpoint_selection": "final raw weights at epoch 100",
+      "initial_checkpoint": "checkpoints/transfer/baselines/amformer/OCN/source.pth",
+      "source_config": "configs/transfer/baselines/amformer/OCN/source.yaml"
+    },
+    {
+      "id": "transfer-direct_nn-OCN-scratch-25",
+      "architecture": "direct_nn",
+      "task": "OCN",
+      "training_mode": "scratch",
+      "training_fraction": 25,
+      "target_train_n": 72,
+      "config": "configs/transfer/baselines/direct_nn/OCN/scratch-25.yaml",
+      "checkpoint": "checkpoints/transfer/baselines/direct_nn/OCN/scratch-25.pth",
+      "manifest": "data/splits/transfer/manifest.json",
+      "evaluation_batch_size": 128,
+      "evaluations": {
+        "test": {
+          "n": 114,
+          "reference_predictions": "reference_predictions/transfer/baselines/direct_nn/OCN/scratch-25-test.csv",
+          "expected_f1": 0.18206355048460313
+        }
+      },
+      "training_data": "datasets/transfer/train/OCN/scratch_25.csv",
+      "training_partition": "data/splits/transfer/manifest.json",
+      "checkpoint_selection": "final raw weights at epoch 100"
+    },
+    {
+      "id": "transfer-direct_nn-OCN-tl-25",
+      "architecture": "direct_nn",
+      "task": "OCN",
+      "training_mode": "tl",
+      "training_fraction": 25,
+      "target_train_n": 72,
+      "config": "configs/transfer/baselines/direct_nn/OCN/tl-25.yaml",
+      "checkpoint": "checkpoints/transfer/baselines/direct_nn/OCN/tl-25.pth",
+      "manifest": "data/splits/transfer/manifest.json",
+      "evaluation_batch_size": 128,
+      "evaluations": {
+        "test": {
+          "n": 114,
+          "reference_predictions": "reference_predictions/transfer/baselines/direct_nn/OCN/tl-25-test.csv",
+          "expected_f1": 0.4188445547836802
+        }
+      },
+      "training_data": "datasets/transfer/train/OCN/tl_25.csv",
+      "training_partition": "data/splits/transfer/manifest.json",
+      "checkpoint_selection": "final raw weights at epoch 100",
+      "initial_checkpoint": "checkpoints/transfer/baselines/direct_nn/OCN/adaptation-source.pth",
+      "source_config": "configs/transfer/baselines/direct_nn/OCN/adaptation-source.yaml"
+    },
+    {
+      "id": "transfer-amformer-OCN-scratch-25",
+      "architecture": "amformer",
+      "task": "OCN",
+      "training_mode": "scratch",
+      "training_fraction": 25,
+      "target_train_n": 72,
+      "config": "configs/transfer/baselines/amformer/OCN/scratch-25.yaml",
+      "checkpoint": "checkpoints/transfer/baselines/amformer/OCN/scratch-25.pth",
+      "manifest": "data/splits/transfer/manifest.json",
+      "evaluation_batch_size": 128,
+      "evaluations": {
+        "test": {
+          "n": 114,
+          "reference_predictions": "reference_predictions/transfer/baselines/amformer/OCN/scratch-25-test.csv",
+          "expected_f1": 0.10964912280701754
+        }
+      },
+      "training_data": "datasets/transfer/train/OCN/scratch_25.csv",
+      "training_partition": "data/splits/transfer/manifest.json",
+      "checkpoint_selection": "final raw weights at epoch 100"
+    },
+    {
+      "id": "transfer-amformer-OCN-tl-25",
+      "architecture": "amformer",
+      "task": "OCN",
+      "training_mode": "tl",
+      "training_fraction": 25,
+      "target_train_n": 72,
+      "config": "configs/transfer/baselines/amformer/OCN/tl-25.yaml",
+      "checkpoint": "checkpoints/transfer/baselines/amformer/OCN/tl-25.pth",
+      "manifest": "data/splits/transfer/manifest.json",
+      "evaluation_batch_size": 128,
+      "evaluations": {
+        "test": {
+          "n": 114,
+          "reference_predictions": "reference_predictions/transfer/baselines/amformer/OCN/tl-25-test.csv",
+          "expected_f1": 0.36036058755147593
+        }
+      },
+      "training_data": "datasets/transfer/train/OCN/tl_25.csv",
+      "training_partition": "data/splits/transfer/manifest.json",
+      "checkpoint_selection": "final raw weights at epoch 100",
+      "initial_checkpoint": "checkpoints/transfer/baselines/amformer/OCN/source.pth",
+      "source_config": "configs/transfer/baselines/amformer/OCN/source.yaml"
+    },
+    {
+      "id": "transfer-direct_nn-OCN-scratch-50",
+      "architecture": "direct_nn",
+      "task": "OCN",
+      "training_mode": "scratch",
+      "training_fraction": 50,
+      "target_train_n": 143,
+      "config": "configs/transfer/baselines/direct_nn/OCN/scratch-50.yaml",
+      "checkpoint": "checkpoints/transfer/baselines/direct_nn/OCN/scratch-50.pth",
+      "manifest": "data/splits/transfer/manifest.json",
+      "evaluation_batch_size": 128,
+      "evaluations": {
+        "test": {
+          "n": 114,
+          "reference_predictions": "reference_predictions/transfer/baselines/direct_nn/OCN/scratch-50-test.csv",
+          "expected_f1": 0.17429776627360755
+        }
+      },
+      "training_data": "datasets/transfer/train/OCN/scratch_50.csv",
+      "training_partition": "data/splits/transfer/manifest.json",
+      "checkpoint_selection": "final raw weights at epoch 100"
+    },
+    {
+      "id": "transfer-direct_nn-OCN-tl-50",
+      "architecture": "direct_nn",
+      "task": "OCN",
+      "training_mode": "tl",
+      "training_fraction": 50,
+      "target_train_n": 143,
+      "config": "configs/transfer/baselines/direct_nn/OCN/tl-50.yaml",
+      "checkpoint": "checkpoints/transfer/baselines/direct_nn/OCN/tl-50.pth",
+      "manifest": "data/splits/transfer/manifest.json",
+      "evaluation_batch_size": 128,
+      "evaluations": {
+        "test": {
+          "n": 114,
+          "reference_predictions": "reference_predictions/transfer/baselines/direct_nn/OCN/tl-50-test.csv",
+          "expected_f1": 0.40164292737167184
+        }
+      },
+      "training_data": "datasets/transfer/train/OCN/tl_50.csv",
+      "training_partition": "data/splits/transfer/manifest.json",
+      "checkpoint_selection": "final raw weights at epoch 100",
+      "initial_checkpoint": "checkpoints/transfer/baselines/direct_nn/OCN/adaptation-source.pth",
+      "source_config": "configs/transfer/baselines/direct_nn/OCN/adaptation-source.yaml"
+    },
+    {
+      "id": "transfer-amformer-OCN-scratch-50",
+      "architecture": "amformer",
+      "task": "OCN",
+      "training_mode": "scratch",
+      "training_fraction": 50,
+      "target_train_n": 143,
+      "config": "configs/transfer/baselines/amformer/OCN/scratch-50.yaml",
+      "checkpoint": "checkpoints/transfer/baselines/amformer/OCN/scratch-50.pth",
+      "manifest": "data/splits/transfer/manifest.json",
+      "evaluation_batch_size": 128,
+      "evaluations": {
+        "test": {
+          "n": 114,
+          "reference_predictions": "reference_predictions/transfer/baselines/amformer/OCN/scratch-50-test.csv",
+          "expected_f1": 0.10964912280701754
+        }
+      },
+      "training_data": "datasets/transfer/train/OCN/scratch_50.csv",
+      "training_partition": "data/splits/transfer/manifest.json",
+      "checkpoint_selection": "final raw weights at epoch 100"
+    },
+    {
+      "id": "transfer-amformer-OCN-tl-50",
+      "architecture": "amformer",
+      "task": "OCN",
+      "training_mode": "tl",
+      "training_fraction": 50,
+      "target_train_n": 143,
+      "config": "configs/transfer/baselines/amformer/OCN/tl-50.yaml",
+      "checkpoint": "checkpoints/transfer/baselines/amformer/OCN/tl-50.pth",
+      "manifest": "data/splits/transfer/manifest.json",
+      "evaluation_batch_size": 128,
+      "evaluations": {
+        "test": {
+          "n": 114,
+          "reference_predictions": "reference_predictions/transfer/baselines/amformer/OCN/tl-50-test.csv",
+          "expected_f1": 0.30780687857648
+        }
+      },
+      "training_data": "datasets/transfer/train/OCN/tl_50.csv",
+      "training_partition": "data/splits/transfer/manifest.json",
+      "checkpoint_selection": "final raw weights at epoch 100",
+      "initial_checkpoint": "checkpoints/transfer/baselines/amformer/OCN/source.pth",
+      "source_config": "configs/transfer/baselines/amformer/OCN/source.yaml"
+    },
+    {
+      "id": "transfer-random_forest-OS-target_only-10",
+      "architecture": "random_forest",
+      "task": "OS",
+      "training_mode": "target_only",
+      "training_fraction": 10,
+      "target_train_n": 29,
+      "config": "configs/transfer/baselines/random_forest/OS/target_only-10.yaml",
+      "checkpoint": "checkpoints/transfer/baselines/random_forest/OS/target_only-10.joblib",
+      "manifest": "data/splits/transfer/manifest.json",
+      "evaluation_batch_size": 128,
+      "evaluations": {
+        "test": {
+          "n": 114,
+          "reference_predictions": "reference_predictions/transfer/baselines/random_forest/OS/target_only-10-test.csv",
+          "expected_f1": 0.9028614316540012
+        }
+      },
+      "training_data": "datasets/transfer/train/OS/scratch_10.csv",
+      "training_partition": "data/splits/transfer/manifest.json",
+      "checkpoint_selection": "single target-only fit",
+      "estimator_parameters": {
+        "bootstrap": true,
+        "ccp_alpha": 0.0,
+        "class_weight": null,
+        "criterion": "gini",
+        "max_depth": null,
+        "max_features": "sqrt",
+        "max_leaf_nodes": null,
+        "max_samples": null,
+        "min_impurity_decrease": 0.0,
+        "min_samples_leaf": 1,
+        "min_samples_split": 2,
+        "min_weight_fraction_leaf": 0.0,
+        "monotonic_cst": null,
+        "n_estimators": 100,
+        "n_jobs": 2,
+        "oob_score": false,
+        "random_state": 42,
+        "verbose": 0,
+        "warm_start": false
+      },
+      "library_version": "1.6.1"
+    },
+    {
+      "id": "transfer-random_forest-OS-target_only-25",
+      "architecture": "random_forest",
+      "task": "OS",
+      "training_mode": "target_only",
+      "training_fraction": 25,
+      "target_train_n": 72,
+      "config": "configs/transfer/baselines/random_forest/OS/target_only-25.yaml",
+      "checkpoint": "checkpoints/transfer/baselines/random_forest/OS/target_only-25.joblib",
+      "manifest": "data/splits/transfer/manifest.json",
+      "evaluation_batch_size": 128,
+      "evaluations": {
+        "test": {
+          "n": 114,
+          "reference_predictions": "reference_predictions/transfer/baselines/random_forest/OS/target_only-25-test.csv",
+          "expected_f1": 0.8900584795321638
+        }
+      },
+      "training_data": "datasets/transfer/train/OS/scratch_25.csv",
+      "training_partition": "data/splits/transfer/manifest.json",
+      "checkpoint_selection": "single target-only fit",
+      "estimator_parameters": {
+        "bootstrap": true,
+        "ccp_alpha": 0.0,
+        "class_weight": null,
+        "criterion": "gini",
+        "max_depth": null,
+        "max_features": "sqrt",
+        "max_leaf_nodes": null,
+        "max_samples": null,
+        "min_impurity_decrease": 0.0,
+        "min_samples_leaf": 1,
+        "min_samples_split": 2,
+        "min_weight_fraction_leaf": 0.0,
+        "monotonic_cst": null,
+        "n_estimators": 100,
+        "n_jobs": 2,
+        "oob_score": false,
+        "random_state": 42,
+        "verbose": 0,
+        "warm_start": false
+      },
+      "library_version": "1.6.1"
+    },
+    {
+      "id": "transfer-random_forest-OS-target_only-50",
+      "architecture": "random_forest",
+      "task": "OS",
+      "training_mode": "target_only",
+      "training_fraction": 50,
+      "target_train_n": 143,
+      "config": "configs/transfer/baselines/random_forest/OS/target_only-50.yaml",
+      "checkpoint": "checkpoints/transfer/baselines/random_forest/OS/target_only-50.joblib",
+      "manifest": "data/splits/transfer/manifest.json",
+      "evaluation_batch_size": 128,
+      "evaluations": {
+        "test": {
+          "n": 114,
+          "reference_predictions": "reference_predictions/transfer/baselines/random_forest/OS/target_only-50-test.csv",
+          "expected_f1": 0.8900584795321638
+        }
+      },
+      "training_data": "datasets/transfer/train/OS/scratch_50.csv",
+      "training_partition": "data/splits/transfer/manifest.json",
+      "checkpoint_selection": "single target-only fit",
+      "estimator_parameters": {
+        "bootstrap": true,
+        "ccp_alpha": 0.0,
+        "class_weight": null,
+        "criterion": "gini",
+        "max_depth": null,
+        "max_features": "sqrt",
+        "max_leaf_nodes": null,
+        "max_samples": null,
+        "min_impurity_decrease": 0.0,
+        "min_samples_leaf": 1,
+        "min_samples_split": 2,
+        "min_weight_fraction_leaf": 0.0,
+        "monotonic_cst": null,
+        "n_estimators": 100,
+        "n_jobs": 2,
+        "oob_score": false,
+        "random_state": 42,
+        "verbose": 0,
+        "warm_start": false
+      },
+      "library_version": "1.6.1"
+    },
+    {
+      "id": "transfer-random_forest-CN-target_only-10",
+      "architecture": "random_forest",
+      "task": "CN",
+      "training_mode": "target_only",
+      "training_fraction": 10,
+      "target_train_n": 29,
+      "config": "configs/transfer/baselines/random_forest/CN/target_only-10.yaml",
+      "checkpoint": "checkpoints/transfer/baselines/random_forest/CN/target_only-10.joblib",
+      "manifest": "data/splits/transfer/manifest.json",
+      "evaluation_batch_size": 128,
+      "evaluations": {
+        "test": {
+          "n": 114,
+          "reference_predictions": "reference_predictions/transfer/baselines/random_forest/CN/target_only-10-test.csv",
+          "expected_f1": 0.21936437546193643
+        }
+      },
+      "training_data": "datasets/transfer/train/CN/scratch_10.csv",
+      "training_partition": "data/splits/transfer/manifest.json",
+      "checkpoint_selection": "single target-only fit",
+      "estimator_parameters": {
+        "bootstrap": true,
+        "ccp_alpha": 0.0,
+        "class_weight": null,
+        "criterion": "gini",
+        "max_depth": null,
+        "max_features": "sqrt",
+        "max_leaf_nodes": null,
+        "max_samples": null,
+        "min_impurity_decrease": 0.0,
+        "min_samples_leaf": 1,
+        "min_samples_split": 2,
+        "min_weight_fraction_leaf": 0.0,
+        "monotonic_cst": null,
+        "n_estimators": 100,
+        "n_jobs": 2,
+        "oob_score": false,
+        "random_state": 42,
+        "verbose": 0,
+        "warm_start": false
+      },
+      "library_version": "1.6.1"
+    },
+    {
+      "id": "transfer-random_forest-CN-target_only-25",
+      "architecture": "random_forest",
+      "task": "CN",
+      "training_mode": "target_only",
+      "training_fraction": 25,
+      "target_train_n": 72,
+      "config": "configs/transfer/baselines/random_forest/CN/target_only-25.yaml",
+      "checkpoint": "checkpoints/transfer/baselines/random_forest/CN/target_only-25.joblib",
+      "manifest": "data/splits/transfer/manifest.json",
+      "evaluation_batch_size": 128,
+      "evaluations": {
+        "test": {
+          "n": 114,
+          "reference_predictions": "reference_predictions/transfer/baselines/random_forest/CN/target_only-25-test.csv",
+          "expected_f1": 0.2730566262766328
+        }
+      },
+      "training_data": "datasets/transfer/train/CN/scratch_25.csv",
+      "training_partition": "data/splits/transfer/manifest.json",
+      "checkpoint_selection": "single target-only fit",
+      "estimator_parameters": {
+        "bootstrap": true,
+        "ccp_alpha": 0.0,
+        "class_weight": null,
+        "criterion": "gini",
+        "max_depth": null,
+        "max_features": "sqrt",
+        "max_leaf_nodes": null,
+        "max_samples": null,
+        "min_impurity_decrease": 0.0,
+        "min_samples_leaf": 1,
+        "min_samples_split": 2,
+        "min_weight_fraction_leaf": 0.0,
+        "monotonic_cst": null,
+        "n_estimators": 100,
+        "n_jobs": 2,
+        "oob_score": false,
+        "random_state": 42,
+        "verbose": 0,
+        "warm_start": false
+      },
+      "library_version": "1.6.1"
+    },
+    {
+      "id": "transfer-random_forest-CN-target_only-50",
+      "architecture": "random_forest",
+      "task": "CN",
+      "training_mode": "target_only",
+      "training_fraction": 50,
+      "target_train_n": 143,
+      "config": "configs/transfer/baselines/random_forest/CN/target_only-50.yaml",
+      "checkpoint": "checkpoints/transfer/baselines/random_forest/CN/target_only-50.joblib",
+      "manifest": "data/splits/transfer/manifest.json",
+      "evaluation_batch_size": 128,
+      "evaluations": {
+        "test": {
+          "n": 114,
+          "reference_predictions": "reference_predictions/transfer/baselines/random_forest/CN/target_only-50-test.csv",
+          "expected_f1": 0.2403606643701262
+        }
+      },
+      "training_data": "datasets/transfer/train/CN/scratch_50.csv",
+      "training_partition": "data/splits/transfer/manifest.json",
+      "checkpoint_selection": "single target-only fit",
+      "estimator_parameters": {
+        "bootstrap": true,
+        "ccp_alpha": 0.0,
+        "class_weight": null,
+        "criterion": "gini",
+        "max_depth": null,
+        "max_features": "sqrt",
+        "max_leaf_nodes": null,
+        "max_samples": null,
+        "min_impurity_decrease": 0.0,
+        "min_samples_leaf": 1,
+        "min_samples_split": 2,
+        "min_weight_fraction_leaf": 0.0,
+        "monotonic_cst": null,
+        "n_estimators": 100,
+        "n_jobs": 2,
+        "oob_score": false,
+        "random_state": 42,
+        "verbose": 0,
+        "warm_start": false
+      },
+      "library_version": "1.6.1"
+    },
+    {
+      "id": "transfer-random_forest-OCN-target_only-10",
+      "architecture": "random_forest",
+      "task": "OCN",
+      "training_mode": "target_only",
+      "training_fraction": 10,
+      "target_train_n": 29,
+      "config": "configs/transfer/baselines/random_forest/OCN/target_only-10.yaml",
+      "checkpoint": "checkpoints/transfer/baselines/random_forest/OCN/target_only-10.joblib",
+      "manifest": "data/splits/transfer/manifest.json",
+      "evaluation_batch_size": 128,
+      "evaluations": {
+        "test": {
+          "n": 114,
+          "reference_predictions": "reference_predictions/transfer/baselines/random_forest/OCN/target_only-10-test.csv",
+          "expected_f1": 0.252614587315747
+        }
+      },
+      "training_data": "datasets/transfer/train/OCN/scratch_10.csv",
+      "training_partition": "data/splits/transfer/manifest.json",
+      "checkpoint_selection": "single target-only fit",
+      "estimator_parameters": {
+        "bootstrap": true,
+        "ccp_alpha": 0.0,
+        "class_weight": null,
+        "criterion": "gini",
+        "max_depth": null,
+        "max_features": "sqrt",
+        "max_leaf_nodes": null,
+        "max_samples": null,
+        "min_impurity_decrease": 0.0,
+        "min_samples_leaf": 1,
+        "min_samples_split": 2,
+        "min_weight_fraction_leaf": 0.0,
+        "monotonic_cst": null,
+        "n_estimators": 100,
+        "n_jobs": 2,
+        "oob_score": false,
+        "random_state": 42,
+        "verbose": 0,
+        "warm_start": false
+      },
+      "library_version": "1.6.1"
+    },
+    {
+      "id": "transfer-random_forest-OCN-target_only-25",
+      "architecture": "random_forest",
+      "task": "OCN",
+      "training_mode": "target_only",
+      "training_fraction": 25,
+      "target_train_n": 72,
+      "config": "configs/transfer/baselines/random_forest/OCN/target_only-25.yaml",
+      "checkpoint": "checkpoints/transfer/baselines/random_forest/OCN/target_only-25.joblib",
+      "manifest": "data/splits/transfer/manifest.json",
+      "evaluation_batch_size": 128,
+      "evaluations": {
+        "test": {
+          "n": 114,
+          "reference_predictions": "reference_predictions/transfer/baselines/random_forest/OCN/target_only-25-test.csv",
+          "expected_f1": 0.28109127438819587
+        }
+      },
+      "training_data": "datasets/transfer/train/OCN/scratch_25.csv",
+      "training_partition": "data/splits/transfer/manifest.json",
+      "checkpoint_selection": "single target-only fit",
+      "estimator_parameters": {
+        "bootstrap": true,
+        "ccp_alpha": 0.0,
+        "class_weight": null,
+        "criterion": "gini",
+        "max_depth": null,
+        "max_features": "sqrt",
+        "max_leaf_nodes": null,
+        "max_samples": null,
+        "min_impurity_decrease": 0.0,
+        "min_samples_leaf": 1,
+        "min_samples_split": 2,
+        "min_weight_fraction_leaf": 0.0,
+        "monotonic_cst": null,
+        "n_estimators": 100,
+        "n_jobs": 2,
+        "oob_score": false,
+        "random_state": 42,
+        "verbose": 0,
+        "warm_start": false
+      },
+      "library_version": "1.6.1"
+    },
+    {
+      "id": "transfer-random_forest-OCN-target_only-50",
+      "architecture": "random_forest",
+      "task": "OCN",
+      "training_mode": "target_only",
+      "training_fraction": 50,
+      "target_train_n": 143,
+      "config": "configs/transfer/baselines/random_forest/OCN/target_only-50.yaml",
+      "checkpoint": "checkpoints/transfer/baselines/random_forest/OCN/target_only-50.joblib",
+      "manifest": "data/splits/transfer/manifest.json",
+      "evaluation_batch_size": 128,
+      "evaluations": {
+        "test": {
+          "n": 114,
+          "reference_predictions": "reference_predictions/transfer/baselines/random_forest/OCN/target_only-50-test.csv",
+          "expected_f1": 0.27002417189174405
+        }
+      },
+      "training_data": "datasets/transfer/train/OCN/scratch_50.csv",
+      "training_partition": "data/splits/transfer/manifest.json",
+      "checkpoint_selection": "single target-only fit",
+      "estimator_parameters": {
+        "bootstrap": true,
+        "ccp_alpha": 0.0,
+        "class_weight": null,
+        "criterion": "gini",
+        "max_depth": null,
+        "max_features": "sqrt",
+        "max_leaf_nodes": null,
+        "max_samples": null,
+        "min_impurity_decrease": 0.0,
+        "min_samples_leaf": 1,
+        "min_samples_split": 2,
+        "min_weight_fraction_leaf": 0.0,
+        "monotonic_cst": null,
+        "n_estimators": 100,
+        "n_jobs": 2,
+        "oob_score": false,
+        "random_state": 42,
+        "verbose": 0,
+        "warm_start": false
+      },
+      "library_version": "1.6.1"
+    }
+  ]
+}

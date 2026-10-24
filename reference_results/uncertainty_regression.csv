@@ -1,0 +1,5 @@
+site,site_label,descriptor,display_order,n_validation,n_test,nominal_coverage,covered_count,empirical_coverage,mean_interval_width,half_width,mean_mc_standard_deviation,high_error_detection_auroc,high_error_definition,mc_passes,seed,inference_batch_size
+metal,Non-oxygen,NNRS,1,3989,3970,0.95,3765,0.9483627204030227,0.0917601101100444,0.0458800550550222,0.005077157779746907,0.6898754838303239,test absolute error >= test-set 75th percentile,30,42,128
+metal,Non-oxygen,MOOD,2,3989,3970,0.95,3773,0.9503778337531487,0.3380589485168448,0.1690294742584224,0.014309242574167185,0.736886793397323,test absolute error >= test-set 75th percentile,30,42,128
+oxygen,Oxygen,NNRS,3,4117,4124,0.95,3884,0.94180407371484,0.12041679024696361,0.060208395123481806,0.005316092572708713,0.7558842703882712,test absolute error >= test-set 75th percentile,30,42,128
+oxygen,Oxygen,NNOSM,4,4117,4124,0.95,3925,0.9517458777885548,0.8269085884094238,0.4134542942047119,0.0441885804551386,0.7807178876702707,test absolute error >= test-set 75th percentile,30,42,128

@@ -1,0 +1,529 @@
+ckpt_strict: true
+exp_name: TEST
+trainer: delta
+seed: 42
+optim: Adam
+sub_iter: 0
+time_delay: 0
+debug: false
+gamma: 0.1
+momentum: 0.9
+mix: false
+display_freq: 20
+use_amp: false
+use_amp_in_eval: false
+load_optim: true
+attn_dropout: 0.2
+ff_dropout: 0.05
+attn_drop: 0.2
+ffn_drop: 0.1
+has_ff: true
+has_residual: true
+cls_token_split: false
+dim: 96
+heads: 8
+num_layers: 6
+qk_relu: false
+gpu_id: 0
+model_name: SPT
+target_mode: mix
+cluster: true
+use_cls_token: true
+depth: 3
+prod_num_per_group:
+- 8
+- 8
+- 8
+sum_num_per_group:
+- 32
+- 32
+- 32
+num_special_tokens: 2
+use_sigmoid: false
+train_size: 1
+data_name: metal
+val_freq: 100
+validation_after: 0
+stepvalues:
+- 4000
+lr: 0.001
+test_set: test
+OS:
+  idx: 0
+  num: 5
+  value:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  label:
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
+  mode: Cls
+  cnts:
+    '1': 13962
+    '2': 630
+    '3': 7259
+    '4': 3830
+    '5': 1189
+CN:
+  idx: 1
+  num: 5
+  value:
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  label:
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
+  mode: Cls
+  cnts:
+    '2': 148
+    '3': 175
+    '4': 3180
+    '5': 665
+    '6': 22702
+OCN:
+  idx: 2
+  num: 5
+  value:
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  label:
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
+  mode: Cls
+  cnts:
+    '2': 151
+    '3': 175
+    '4': 3181
+    '5': 663
+    '6': 22700
+NNRS:
+  idx: 3
+  mode: Reg
+NNAS:
+  idx: 4
+  mode: Reg
+MOOD:
+  idx: 5
+  mode: Reg
+CN2:
+  idx: 6
+  num: 23
+  value:
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  - 10
+  - 11
+  - 12
+  - 13
+  - 14
+  - 15
+  - 16
+  - 17
+  - 18
+  - 19
+  - 20
+  - 21
+  - 22
+  label:
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  - 10
+  - 11
+  - 12
+  - 13
+  - 14
+  - 15
+  - 16
+  - 17
+  - 18
+  - 19
+  - 20
+  - 21
+  - 22
+  mode: Cls
+  cnts:
+    '0': 28
+    '1': 9
+    '2': 149
+    '3': 77
+    '4': 254
+    '5': 463
+    '6': 788
+    '7': 895
+    '8': 943
+    '9': 580
+    '10': 610
+    '11': 715
+    '12': 1051
+    '13': 338
+    '14': 481
+    '15': 402
+    '16': 540
+    '17': 230
+    '18': 18177
+    '19': 84
+    '20': 25
+    '21': 17
+    '22': 14
+PSGO:
+  idx: 7
+  num: 68
+  value:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  - 10
+  - 11
+  - 12
+  - 13
+  - 14
+  - 15
+  - 18
+  - 19
+  - 20
+  - 22
+  - 25
+  - 26
+  - 29
+  - 31
+  - 33
+  - 36
+  - 38
+  - 41
+  - 44
+  - 55
+  - 57
+  - 58
+  - 59
+  - 60
+  - 61
+  - 62
+  - 63
+  - 64
+  - 65
+  - 71
+  - 74
+  - 82
+  - 92
+  - 114
+  - 119
+  - 123
+  - 136
+  - 137
+  - 139
+  - 141
+  - 143
+  - 146
+  - 147
+  - 148
+  - 150
+  - 155
+  - 156
+  - 159
+  - 160
+  - 164
+  - 165
+  - 166
+  - 169
+  - 170
+  - 185
+  - 186
+  - 198
+  - 212
+  - 227
+  label:
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  - 10
+  - 11
+  - 12
+  - 13
+  - 14
+  - 15
+  - 16
+  - 17
+  - 18
+  - 19
+  - 20
+  - 21
+  - 22
+  - 23
+  - 24
+  - 25
+  - 26
+  - 27
+  - 28
+  - 29
+  - 30
+  - 31
+  - 32
+  - 33
+  - 34
+  - 35
+  - 36
+  - 37
+  - 38
+  - 39
+  - 40
+  - 41
+  - 42
+  - 43
+  - 44
+  - 45
+  - 46
+  - 47
+  - 48
+  - 49
+  - 50
+  - 51
+  - 52
+  - 53
+  - 54
+  - 55
+  - 56
+  - 57
+  - 58
+  - 59
+  - 60
+  - 61
+  - 62
+  - 63
+  - 64
+  - 65
+  - 66
+  - 67
+  mode: Cls
+  cnts:
+    '1': 10581
+    '2': 5477
+    '3': 310
+    '4': 248
+    '5': 773
+    '6': 1254
+    '7': 241
+    '8': 2890
+    '9': 217
+    '10': 808
+    '11': 45
+    '12': 2211
+    '13': 61
+    '14': 311
+    '15': 180
+    '18': 21
+    '19': 21
+    '20': 21
+    '22': 8
+    '25': 24
+    '26': 6
+    '29': 45
+    '31': 20
+    '33': 39
+    '36': 24
+    '38': 12
+    '41': 14
+    '44': 15
+    '55': 10
+    '57': 11
+    '58': 31
+    '59': 11
+    '60': 11
+    '61': 53
+    '62': 49
+    '63': 35
+    '64': 21
+    '65': 26
+    '71': 11
+    '74': 66
+    '82': 14
+    '92': 7
+    '114': 13
+    '119': 13
+    '123': 7
+    '136': 9
+    '137': 18
+    '139': 12
+    '141': 9
+    '143': 12
+    '146': 47
+    '147': 9
+    '148': 13
+    '150': 8
+    '155': 9
+    '156': 60
+    '159': 8
+    '160': 88
+    '164': 42
+    '165': 11
+    '166': 149
+    '169': 9
+    '170': 7
+    '185': 11
+    '186': 29
+    '198': 8
+    '212': 21
+    '227': 15
+data_file: datasets/computed/metal.csv
+ckpt: None
+add_noise: None
+dataset_mode: test
+validation_set: val
+evaluate_during_training: true
+evaluate_test_after_training: true
+evaluate_after_training_split: test
+allow_lockbox_access: false
+calc_train_set: false
+save_dat: false
+aux: 8
+batch_size: 128
+epoch: 100
+weight_decay: 0.001
+warmup_steps: 1250
+lr_adjust: cosine
+start_iter: 0
+max_iter: 0
+e_layers: 6
+top_k: 5
+num_kernels: 6
+architecture: spt
+spectral_pair_tokens: true
+force_expert: fft_graph
+spectral_decomposition: haar
+spectral_num_bands: 9
+stft_n_fft: 64
+lifting_contrast_rms_floor: 0.1
+branch_gate_init: 0.05
+graph_neighbors: 3
+graph_heads: 4
+drop_path: 0.1
+residual_dropout: 0.0
+graph_dropout: 0.0
+task: CN
+out: 5
+save_metric: acc
+selection_metric: f1
+f1_average: weighted
+test_size: 0.15
+val_size: 0.15
+dev_size: 0.0
+lockbox_size: 0.0
+split_strategy: group_stratified
+group_column: material_id
+split_seed: 42
+split_file: data/splits/final/metal.json
+min_class_samples: 20
+min_class_groups: 20
+save_folder: runs/transform-haar-metal-CN/checkpoints
+save_log: runs/transform-haar-metal-CN/logs
+save_final_checkpoint: false
+fail_if_run_exists: true
+multi_task: None
+stratify_task: CN
+categories:
+- 7
+ele_dict:
+  Co: 0
+  Fe: 1
+  Li: 2
+  Mn: 3
+  Ni: 4
+  P: 5
+  Ti: 6
+min_log_data: 3.9983986270348093
+max_log_data: 9.036342397855188
+exp_param:
+- train_size
+groups:
+- 136
+- 136
+- 136
+max_cate: 1
+num_cate: 1
+num_cont: 512
+num_workers: 4
+token_descent: false
+use_prod: true
+compose_mode: parallel
+keep_dc: true
+lifting_steps: 1
+lifting_kernel: 5
+lifting_shrinkage: true
+input_preprocessing: none
+head_hidden:
+- 64
+head_dropout: 0.05
+intensity_norm: true
+cls_loss: ce
+focal_gamma: 1.0
+label_smoothing: 0.01
+spectral_gate_init: 1.0
+graph_gate_init: 0.15
+disjoint_branch_channels: false
+graph_channel_fraction: 0.5
+allocation_logit_init: 2.0
+graph_global_heads: 2
+graph_global_k: 8
+graph_spectral_context: 0.0
+mixup_alpha: 0.0
+mixup_steps: 0
+ema_decay: 0.999
+regression_target_std: 1.0
+regression_output: standardized
+readout_bins: 4
+head_use_category: true
+branch_fusion: residual
+config: configs/models/transform-haar-metal-CN.yaml
+eval_batch_size: 128
+metrics_output: outputs/transform-haar-metal-CN/metrics.json
+prediction_output_dir: outputs/transform-haar-metal-CN/predictions
+reference_device: cuda
+inference_backend:
+  cuda_matmul_allow_tf32: true
+  cudnn_allow_tf32: true

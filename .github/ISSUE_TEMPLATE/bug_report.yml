@@ -1,0 +1,44 @@
+name: Bug report
+description: Report a reproducible problem with installation, inference, training or evaluation.
+title: "[Bug] "
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Expected and observed behaviour
+      description: Describe what you expected and what occurred.
+    validations:
+      required: true
+  - type: input
+    id: revision
+    attributes:
+      label: SPT version
+      description: Include the release version or tag, if available.
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Include operating system, Python, PyTorch, CUDA and GPU or CPU details relevant to the problem.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Minimal reproduction
+      description: Provide the exact command, model identifier and relevant configuration. Remove credentials and private paths.
+      render: text
+    validations:
+      required: true
+  - type: textarea
+    id: assets
+    attributes:
+      label: Data and checkpoint versions
+      description: Identify the dataset, checkpoint filename and model identifier. For custom data, describe the format or provide a small shareable example.
+  - type: textarea
+    id: log
+    attributes:
+      label: Error output
+      description: Paste the complete relevant traceback or output.
+      render: text

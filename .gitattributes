@@ -1,0 +1,6 @@
+# Preserve registered asset sizes and configuration snapshots across platforms.
+/configs/** -text
+/data/** -text
+/reference_results/** -text
+/checkpoints/WEIGHT_INDEX.csv -text
+/datasets/DATA_INDEX.csv -text

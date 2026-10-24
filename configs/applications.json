@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "cohorts": [
+    {
+      "id": "lco_computed_co_sites",
+      "execution": {"device": "cuda:0", "batch_size": 128, "seed": 42, "normalization_dtype": "float32", "inference_backend": {"cuda_matmul_allow_tf32": true, "cudnn_allow_tf32": true}},
+      "spectrum_type": "computed",
+      "reported_spectra": 17,
+      "models": {
+        "OS": "app-lco_computed_co_sites-OS",
+        "OCN": "app-lco_computed_co_sites-OCN",
+        "CN": "app-lco_computed_co_sites-CN",
+        "CN2": "app-lco_computed_co_sites-CN2",
+        "PSGO": "app-lco_computed_co_sites-PSGO",
+        "NNRS": "app-lco_computed_co_sites-NNRS",
+        "MOOD": "app-lco_computed_co_sites-MOOD"
+      },
+      "prepared_input": {
+        "path": "datasets/applications/lco_computed_co_sites/prepared.csv",
+        "bytes": 512118
+      },
+      "provenance": "datasets/applications/lco_computed_co_sites/provenance.json",
+      "reference_predictions": "datasets/applications/lco_computed_co_sites/reference_predictions.csv"
+    },
+    {
+      "id": "lco_measured_charging",
+      "execution": {"device": "cuda:0", "batch_size": 128, "seed": 42, "normalization_dtype": "float32", "inference_backend": {"cuda_matmul_allow_tf32": true, "cudnn_allow_tf32": true}},
+      "spectrum_type": "measured",
+      "reported_spectra": 11,
+      "models": {
+        "OS": "app-lco_measured_charging-OS"
+      },
+      "prepared_input": {
+        "path": "datasets/applications/lco_measured_charging/prepared.csv",
+        "bytes": 172555
+      },
+      "provenance": "datasets/applications/lco_measured_charging/provenance.json",
+      "reference_predictions": "datasets/applications/lco_measured_charging/reference_predictions.csv"
+    },
+    {
+      "id": "co_lisa_compounds",
+      "execution": {"device": "cuda:0", "batch_size": 128, "seed": 42, "normalization_dtype": "float64", "inference_backend": {"cuda_matmul_allow_tf32": true, "cudnn_allow_tf32": true}},
+      "spectrum_type": "measured",
+      "reported_spectra": 8,
+      "models": {
+        "OS": "app-co_lisa_compounds-OS",
+        "OCN": "app-co_lisa_compounds-OCN",
+        "CN": "app-co_lisa_compounds-CN",
+        "CN2": "app-co_lisa_compounds-CN2",
+        "PSGO": "app-co_lisa_compounds-PSGO",
+        "NNRS": "app-co_lisa_compounds-NNRS",
+        "MOOD": "app-co_lisa_compounds-MOOD"
+      },
+      "prepared_input": {
+        "path": "datasets/applications/co_lisa_compounds/prepared.csv",
+        "bytes": 133289
+      },
+      "provenance": "datasets/applications/co_lisa_compounds/provenance.json",
+      "reference_predictions": "datasets/applications/co_lisa_compounds/reference_predictions.csv"
+    },
+    {
+      "id": "ti_nist_standards",
+      "execution": {"device": "cuda:0", "batch_size": 128, "seed": 42, "normalization_dtype": "float64", "inference_block_size": 34, "inference_backend": {"cuda_matmul_allow_tf32": true, "cudnn_allow_tf32": true}},
+      "spectrum_type": "measured",
+      "reported_spectra": 9,
+      "models": {
+        "OS": "app-ti_nist_standards-OS",
+        "CN": "app-ti_nist_standards-CN"
+      },
+      "prepared_input": {
+        "path": "datasets/applications/ti_nist_standards/prepared.csv",
+        "bytes": 158546
+      },
+      "provenance": "datasets/applications/ti_nist_standards/provenance.json",
+      "reference_predictions": "datasets/applications/ti_nist_standards/reference_predictions.csv"
+    },
+    {
+      "id": "fe_charging",
+      "execution": {"device": "cuda:0", "batch_size": 128, "seed": 42, "normalization_dtype": "float64", "inference_backend": {"cuda_matmul_allow_tf32": true, "cudnn_allow_tf32": true}},
+      "spectrum_type": "measured",
+      "reported_spectra": 36,
+      "models": {
+        "OS": "app-fe_charging-OS",
+        "OCN": "app-fe_charging-OCN",
+        "CN": "app-fe_charging-CN",
+        "CN2": "app-fe_charging-CN2",
+        "PSGO": "app-fe_charging-PSGO",
+        "NNRS": "app-fe_charging-NNRS",
+        "MOOD": "app-fe_charging-MOOD"
+      },
+      "prepared_input": {
+        "path": "datasets/applications/fe_charging/prepared.csv",
+        "bytes": 683839
+      },
+      "provenance": "datasets/applications/fe_charging/provenance.json",
+      "reference_predictions": "datasets/applications/fe_charging/reference_predictions.csv"
+    },
+    {
+      "id": "ni_fe_activation",
+      "execution": {"device": "cpu", "batch_size": 128, "seed": 42, "normalization_dtype": "float32", "torch_num_threads": 4},
+      "spectrum_type": "measured",
+      "reported_spectra": 8,
+      "models": {
+        "OS": "app-ni_fe_activation-OS",
+        "OCN": "app-ni_fe_activation-OCN",
+        "CN": "app-ni_fe_activation-CN",
+        "NNRS": "app-ni_fe_activation-NNRS",
+        "MOOD": "app-ni_fe_activation-MOOD"
+      },
+      "prepared_input": {
+        "path": "datasets/applications/ni_fe_activation/prepared.csv",
+        "bytes": 142096
+      },
+      "provenance": "datasets/applications/ni_fe_activation/provenance.json",
+      "reference_predictions": "datasets/applications/ni_fe_activation/reference_predictions.csv",
+      "series_spectra": 6,
+      "reference_spectra": 2
+    },
+    {
+      "id": "ni_first_sodiation",
+      "execution": {"device": "cpu", "batch_size": 128, "seed": 42, "normalization_dtype": "float32", "torch_num_threads": 4},
+      "spectrum_type": "measured",
+      "reported_spectra": 6,
+      "models": {
+        "OS": "app-ni_first_sodiation-OS",
+        "OCN": "app-ni_first_sodiation-OCN",
+        "CN": "app-ni_first_sodiation-CN",
+        "NNRS": "app-ni_first_sodiation-NNRS",
+        "MOOD": "app-ni_first_sodiation-MOOD"
+      },
+      "prepared_input": {
+        "path": "datasets/applications/ni_first_sodiation/prepared.csv",
+        "bytes": 130459
+      },
+      "provenance": "datasets/applications/ni_first_sodiation/provenance.json",
+      "reference_predictions": "datasets/applications/ni_first_sodiation/reference_predictions.csv"
+    }
+  ]
+}

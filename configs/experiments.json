@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "experiments": {
+    "gaussian": {
+      "purpose": "Matched Gaussian noise comparison",
+      "model_ids": [
+        "gaussian-expert-metal-OS",
+        "gaussian-baseline-amformer-metal-OS",
+        "gaussian-baseline-direct_nn-metal-OS",
+        "gaussian-baseline-random_forest-metal-OS",
+        "gaussian-expert-metal-CN",
+        "gaussian-baseline-amformer-metal-CN",
+        "gaussian-baseline-direct_nn-metal-CN",
+        "gaussian-baseline-random_forest-metal-CN",
+        "gaussian-expert-metal-OCN",
+        "gaussian-baseline-amformer-metal-OCN",
+        "gaussian-baseline-direct_nn-metal-OCN",
+        "gaussian-baseline-random_forest-metal-OCN",
+        "gaussian-expert-metal-CN2",
+        "gaussian-baseline-amformer-metal-CN2",
+        "gaussian-baseline-direct_nn-metal-CN2",
+        "gaussian-baseline-random_forest-metal-CN2",
+        "gaussian-expert-metal-PSGO",
+        "gaussian-baseline-amformer-metal-PSGO",
+        "gaussian-baseline-direct_nn-metal-PSGO",
+        "gaussian-baseline-random_forest-metal-PSGO",
+        "gaussian-expert-metal-NNRS",
+        "gaussian-baseline-amformer-metal-NNRS",
+        "gaussian-baseline-direct_nn-metal-NNRS",
+        "gaussian-baseline-random_forest-metal-NNRS",
+        "gaussian-expert-metal-MOOD",
+        "gaussian-baseline-amformer-metal-MOOD",
+        "gaussian-baseline-direct_nn-metal-MOOD",
+        "gaussian-baseline-random_forest-metal-MOOD",
+        "gaussian-expert-oxygen-CN",
+        "gaussian-baseline-amformer-oxygen-CN",
+        "gaussian-baseline-direct_nn-oxygen-CN",
+        "gaussian-baseline-random_forest-oxygen-CN",
+        "gaussian-expert-oxygen-CN2",
+        "gaussian-baseline-amformer-oxygen-CN2",
+        "gaussian-baseline-direct_nn-oxygen-CN2",
+        "gaussian-baseline-random_forest-oxygen-CN2",
+        "gaussian-expert-oxygen-PSGO",
+        "gaussian-baseline-amformer-oxygen-PSGO",
+        "gaussian-baseline-direct_nn-oxygen-PSGO",
+        "gaussian-baseline-random_forest-oxygen-PSGO",
+        "gaussian-expert-oxygen-NNRS",
+        "gaussian-baseline-amformer-oxygen-NNRS",
+        "gaussian-baseline-direct_nn-oxygen-NNRS",
+        "gaussian-baseline-random_forest-oxygen-NNRS",
+        "gaussian-expert-oxygen-NNOSM",
+        "gaussian-baseline-amformer-oxygen-NNOSM",
+        "gaussian-baseline-direct_nn-oxygen-NNOSM",
+        "gaussian-baseline-random_forest-oxygen-NNOSM"
+      ]
+    },
+    "bands": {
+      "purpose": "Fourier-band interventions",
+      "model_ids": [
+        "bands-expert-metal-OS",
+        "bands-expert-metal-CN",
+        "bands-expert-metal-OCN",
+        "bands-expert-metal-CN2",
+        "bands-expert-metal-PSGO",
+        "bands-expert-metal-NNRS",
+        "bands-expert-metal-MOOD",
+        "bands-expert-oxygen-CN",
+        "bands-expert-oxygen-CN2",
+        "bands-expert-oxygen-PSGO",
+        "bands-expert-oxygen-NNRS",
+        "bands-expert-oxygen-NNOSM"
+      ]
+    },
+    "energy_windows": {
+      "purpose": "Energy-window interventions",
+      "model_ids": [
+        "energy_windows-expert-metal-OS",
+        "energy_windows-expert-metal-CN",
+        "energy_windows-expert-metal-CN2",
+        "energy_windows-expert-oxygen-CN",
+        "energy_windows-expert-oxygen-CN2"
+      ]
+    },
+    "uncertainty": {
+      "purpose": "Monte Carlo dropout",
+      "model_ids": [
+        "uncertainty-expert-metal-OS",
+        "uncertainty-expert-metal-CN",
+        "uncertainty-expert-metal-OCN",
+        "uncertainty-expert-metal-CN2",
+        "uncertainty-expert-metal-PSGO",
+        "uncertainty-expert-metal-NNRS",
+        "uncertainty-expert-metal-MOOD",
+        "uncertainty-expert-oxygen-CN",
+        "uncertainty-expert-oxygen-CN2",
+        "uncertainty-expert-oxygen-PSGO",
+        "uncertainty-expert-oxygen-NNRS",
+        "uncertainty-expert-oxygen-NNOSM"
+      ]
+    },
+    "runtime": {
+      "purpose": "Model-execution timing",
+      "model_ids": [
+        "runtime-expert-metal-OS",
+        "runtime-expert-metal-CN",
+        "runtime-expert-metal-OCN",
+        "runtime-expert-metal-CN2",
+        "runtime-expert-metal-PSGO",
+        "runtime-expert-metal-NNRS",
+        "runtime-expert-metal-MOOD",
+        "runtime-expert-oxygen-CN",
+        "runtime-expert-oxygen-CN2",
+        "runtime-expert-oxygen-PSGO",
+        "runtime-expert-oxygen-NNRS",
+        "runtime-expert-oxygen-NNOSM",
+        "runtime-joint-metal",
+        "runtime-joint-oxygen"
+      ]
+    }
+  }
+}

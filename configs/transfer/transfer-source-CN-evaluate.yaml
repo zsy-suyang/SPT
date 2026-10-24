@@ -1,0 +1,4 @@
+__base__: transfer-source-CN.yaml
+hermitian_irfft: true
+eval_batch_size: 128
+use_amp_in_eval: false

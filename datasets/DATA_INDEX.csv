@@ -1,0 +1,402 @@
+collection,spectrum_type,role,path,bytes
+co_lisa_compounds,measured,prepared input,datasets/applications/co_lisa_compounds/prepared.csv,133289
+co_lisa_compounds,measured,provenance,datasets/applications/co_lisa_compounds/provenance.json,1794
+co_lisa_compounds,measured,source spectra,datasets/applications/co_lisa_compounds/raw/Co2O3_111_80K.xdi,29261
+co_lisa_compounds,measured,source spectra,datasets/applications/co_lisa_compounds/raw/Co3O4_111_80K.xdi,29264
+co_lisa_compounds,measured,source spectra,datasets/applications/co_lisa_compounds/raw/CoAl2O4_111_80K.xdi,29267
+co_lisa_compounds,measured,source spectra,datasets/applications/co_lisa_compounds/raw/CoFe2O4_Co_111_80K.xdi,29263
+co_lisa_compounds,measured,source spectra,datasets/applications/co_lisa_compounds/raw/CoO_111_80K.xdi,29258
+co_lisa_compounds,measured,source spectra,datasets/applications/co_lisa_compounds/raw/LiCoO2_80K_111.xdi,29270
+co_lisa_compounds,measured,source spectra,datasets/applications/co_lisa_compounds/raw/NiCo2O4_Co_80K_111.xdi,20380
+co_lisa_compounds,measured,source spectra,datasets/applications/co_lisa_compounds/raw/ZnCo2O4_Co_80K_111.xdi,29263
+co_lisa_compounds,measured,reference predictions,datasets/applications/co_lisa_compounds/reference_predictions.csv,27093
+co_lisa_compounds,measured,data table,datasets/applications/co_lisa_compounds/source_context/calibration_audit.csv,3624
+fe_charging,measured,prepared input,datasets/applications/fe_charging/prepared.csv,683839
+fe_charging,measured,provenance,datasets/applications/fe_charging/provenance.json,1418
+fe_charging,measured,source spectra,datasets/applications/fe_charging/raw/LFP-potential-time_curve.txt,5492064
+fe_charging,measured,source spectra,datasets/applications/fe_charging/raw/LFP-spectra-assignment.xlsx,9607
+fe_charging,measured,source spectra,datasets/applications/fe_charging/raw/LFP_3xBin_01-65.dat,739439
+fe_charging,measured,reference predictions,datasets/applications/fe_charging/reference_predictions.csv,126369
+fe_charging,measured,data table,datasets/applications/fe_charging/source_context/model_input_arrays.csv,359276
+lco_computed_co_sites,computed,prepared input,datasets/applications/lco_computed_co_sites/prepared.csv,512118
+lco_computed_co_sites,computed,provenance,datasets/applications/lco_computed_co_sites/provenance.json,2089
+lco_computed_co_sites,computed,source spectra,datasets/applications/lco_computed_co_sites/raw/computed_Li_Co_O_all_26_sites.csv,179524
+lco_computed_co_sites,computed,reference predictions,datasets/applications/lco_computed_co_sites/reference_predictions.csv,5240
+lco_measured_charging,measured,prepared input,datasets/applications/lco_measured_charging/prepared.csv,172555
+lco_measured_charging,measured,provenance,datasets/applications/lco_measured_charging/provenance.json,1994
+lco_measured_charging,measured,source spectra,datasets/applications/lco_measured_charging/raw/LiCoO2_reference.xdi,29270
+lco_measured_charging,measured,reference predictions,datasets/applications/lco_measured_charging/reference_predictions.csv,2954
+lco_measured_charging,measured,data table,datasets/applications/lco_measured_charging/source_context/processed_LISA_Co_reference_collection.csv,39917
+lco_measured_charging,measured,data table,datasets/applications/lco_measured_charging/source_context/supplied_processed_spectra.csv,103970
+ni_fe_activation,measured,prepared input,datasets/applications/ni_fe_activation/prepared.csv,142096
+ni_fe_activation,measured,provenance,datasets/applications/ni_fe_activation/provenance.json,1841
+ni_fe_activation,measured,source spectra,datasets/applications/ni_fe_activation/raw/published_Figure2b.csv,20395
+ni_fe_activation,measured,source spectra,datasets/applications/ni_fe_activation/raw/published_Figure2c_EXAFS.csv,26112
+ni_fe_activation,measured,source spectra,datasets/applications/ni_fe_activation/raw/published_Source_Data.xlsx,65467
+ni_fe_activation,measured,reference predictions,datasets/applications/ni_fe_activation/reference_predictions.csv,814
+ni_fe_activation,measured,data table,datasets/applications/ni_fe_activation/source_context/scientific_input_controls.json,418531
+ni_first_sodiation,measured,prepared input,datasets/applications/ni_first_sodiation/prepared.csv,130459
+ni_first_sodiation,measured,provenance,datasets/applications/ni_first_sodiation/provenance.json,1207
+ni_first_sodiation,measured,source spectra,datasets/applications/ni_first_sodiation/raw/Ni_Kedge_source.opju,631224
+ni_first_sodiation,measured,reference predictions,datasets/applications/ni_first_sodiation/reference_predictions.csv,8982
+ni_first_sodiation,measured,data table,datasets/applications/ni_first_sodiation/source_context/supplied_processed_spectra.csv,56836
+ti_nist_standards,measured,prepared input,datasets/applications/ti_nist_standards/prepared.csv,158546
+ti_nist_standards,measured,provenance,datasets/applications/ti_nist_standards/provenance.json,2050
+ti_nist_standards,measured,source spectra,datasets/applications/ti_nist_standards/raw/Ti-K-Anatase.xdi,30420
+ti_nist_standards,measured,source spectra,datasets/applications/ti_nist_standards/raw/Ti-K-BaTiO3.xdi,30403
+ti_nist_standards,measured,source spectra,datasets/applications/ti_nist_standards/raw/Ti-K-Brookite.xdi,30455
+ti_nist_standards,measured,source spectra,datasets/applications/ti_nist_standards/raw/Ti-K-CaTiO3.xdi,30460
+ti_nist_standards,measured,source spectra,datasets/applications/ti_nist_standards/raw/Ti-K-FeTiO3.xdi,30432
+ti_nist_standards,measured,source spectra,datasets/applications/ti_nist_standards/raw/Ti-K-NiTiO3.xdi,30440
+ti_nist_standards,measured,source spectra,datasets/applications/ti_nist_standards/raw/Ti-K-Rutile.xdi,30406
+ti_nist_standards,measured,source spectra,datasets/applications/ti_nist_standards/raw/Ti-K-SrTiO3.xdi,30449
+ti_nist_standards,measured,source spectra,datasets/applications/ti_nist_standards/raw/Ti-K-Ti2O3.xdi,30402
+ti_nist_standards,measured,reference predictions,datasets/applications/ti_nist_standards/reference_predictions.csv,5725
+ti_nist_standards,measured,data table,datasets/applications/ti_nist_standards/source_context/fixed_Ti_grid.csv,5031
+ti_nist_standards,measured,data table,datasets/applications/ti_nist_standards/source_context/NIST_LICENSE,2283
+ti_nist_standards,measured,data table,datasets/applications/ti_nist_standards/source_context/standards_catalog.json,81298
+computed,computed,data table,datasets/computed/metal.csv,151076522
+computed,computed,data table,datasets/computed/oxygen.csv,186513611
+transfer,computed,data table,datasets/transfer/source/metal_parent_excluded.csv,151041024
+transfer,computed,data table,datasets/transfer/target/CN.csv,2669645
+transfer,computed,data table,datasets/transfer/target/OCN.csv,2669645
+transfer,computed,data table,datasets/transfer/target/OS.csv,2669645
+transfer,computed,data table,datasets/transfer/train/CN/scratch_10.csv,196911
+transfer,computed,data table,datasets/transfer/train/CN/scratch_25.csv,482591
+transfer,computed,data table,datasets/transfer/train/CN/scratch_50.csv,951896
+transfer,computed,data table,datasets/transfer/train/CN/tl_10.csv,196911
+transfer,computed,data table,datasets/transfer/train/CN/tl_25.csv,482591
+transfer,computed,data table,datasets/transfer/train/CN/tl_50.csv,951896
+transfer,computed,data table,datasets/transfer/train/OCN/scratch_10.csv,196911
+transfer,computed,data table,datasets/transfer/train/OCN/scratch_25.csv,482591
+transfer,computed,data table,datasets/transfer/train/OCN/scratch_50.csv,951896
+transfer,computed,data table,datasets/transfer/train/OCN/tl_10.csv,196911
+transfer,computed,data table,datasets/transfer/train/OCN/tl_25.csv,482591
+transfer,computed,data table,datasets/transfer/train/OCN/tl_50.csv,951896
+transfer,computed,data table,datasets/transfer/train/OS/scratch_10.csv,196911
+transfer,computed,data table,datasets/transfer/train/OS/scratch_25.csv,482591
+transfer,computed,data table,datasets/transfer/train/OS/scratch_50.csv,951896
+transfer,computed,data table,datasets/transfer/train/OS/tl_10.csv,196911
+transfer,computed,data table,datasets/transfer/train/OS/tl_25.csv,482591
+transfer,computed,data table,datasets/transfer/train/OS/tl_50.csv,951896
+splits,computed,frozen partition,data/splits/final/metal.json,84281
+splits,computed,frozen partition,data/splits/final/oxygen.json,82225
+splits,computed,frozen partition,data/splits/transfer/manifest.json,39075
+splits,computed,frozen partition,data/splits/transfer/source_metal.json,84281
+ni_fe_activation,measured,reference predictions with class scores,datasets/applications/ni_fe_activation/reference_predictions_long.csv,4965
+ni_fe_activation,measured,inference metadata,datasets/applications/ni_fe_activation/reference_predictions_long.metadata.json,1840
+lco_computed_co_sites,computed,source group mapping,datasets/applications/lco_computed_co_sites/source_context/source_groups.csv,420
+computed_benchmark,computed,frozen reference predictions,reference_predictions/ablation-bare-metal-CN.csv,324908
+computed_benchmark,computed,frozen reference predictions,reference_predictions/ablation-bare-metal-CN2.csv,1240911
+computed_benchmark,computed,frozen reference predictions,reference_predictions/ablation-bare-metal-MOOD.csv,99461
+computed_benchmark,computed,frozen reference predictions,reference_predictions/ablation-bare-metal-NNRS.csv,113196
+computed_benchmark,computed,frozen reference predictions,reference_predictions/ablation-bare-metal-OCN.csv,324345
+computed_benchmark,computed,frozen reference predictions,reference_predictions/ablation-bare-metal-OS.csv,320890
+computed_benchmark,computed,frozen reference predictions,reference_predictions/ablation-bare-metal-PSGO.csv,3545604
+computed_benchmark,computed,frozen reference predictions,reference_predictions/ablation-bare-oxygen-CN.csv,390625
+computed_benchmark,computed,frozen reference predictions,reference_predictions/ablation-bare-oxygen-CN2.csv,1591140
+computed_benchmark,computed,frozen reference predictions,reference_predictions/ablation-bare-oxygen-NNOSM.csv,89654
+computed_benchmark,computed,frozen reference predictions,reference_predictions/ablation-bare-oxygen-NNRS.csv,114885
+computed_benchmark,computed,frozen reference predictions,reference_predictions/ablation-bare-oxygen-PSGO.csv,3351499
+computed_benchmark,computed,frozen reference predictions,reference_predictions/ablation-graph_only-metal-CN.csv,323441
+computed_benchmark,computed,frozen reference predictions,reference_predictions/ablation-graph_only-metal-CN2.csv,1276557
+computed_benchmark,computed,frozen reference predictions,reference_predictions/ablation-graph_only-metal-MOOD.csv,99471
+computed_benchmark,computed,frozen reference predictions,reference_predictions/ablation-graph_only-metal-NNRS.csv,113027
+computed_benchmark,computed,frozen reference predictions,reference_predictions/ablation-graph_only-metal-OCN.csv,323529
+computed_benchmark,computed,frozen reference predictions,reference_predictions/ablation-graph_only-metal-OS.csv,321659
+computed_benchmark,computed,frozen reference predictions,reference_predictions/ablation-graph_only-metal-PSGO.csv,3554692
+computed_benchmark,computed,frozen reference predictions,reference_predictions/ablation-graph_only-oxygen-CN.csv,390801
+computed_benchmark,computed,frozen reference predictions,reference_predictions/ablation-graph_only-oxygen-CN2.csv,1615095
+computed_benchmark,computed,frozen reference predictions,reference_predictions/ablation-graph_only-oxygen-NNOSM.csv,89597
+computed_benchmark,computed,frozen reference predictions,reference_predictions/ablation-graph_only-oxygen-NNRS.csv,115026
+computed_benchmark,computed,frozen reference predictions,reference_predictions/ablation-graph_only-oxygen-PSGO.csv,3354449
+computed_benchmark,computed,frozen reference predictions,reference_predictions/baseline-amformer-metal-CN.csv,335352
+computed_benchmark,computed,frozen reference predictions,reference_predictions/baseline-amformer-metal-CN2.csv,1272659
+computed_benchmark,computed,frozen reference predictions,reference_predictions/baseline-amformer-metal-MOOD.csv,99506
+computed_benchmark,computed,frozen reference predictions,reference_predictions/baseline-amformer-metal-NNRS.csv,113122
+computed_benchmark,computed,frozen reference predictions,reference_predictions/baseline-amformer-metal-OCN.csv,334561
+computed_benchmark,computed,frozen reference predictions,reference_predictions/baseline-amformer-metal-OS.csv,331877
+computed_benchmark,computed,frozen reference predictions,reference_predictions/baseline-amformer-metal-PSGO.csv,3511070
+computed_benchmark,computed,frozen reference predictions,reference_predictions/baseline-amformer-oxygen-CN.csv,400515
+computed_benchmark,computed,frozen reference predictions,reference_predictions/baseline-amformer-oxygen-CN2.csv,1610611
+computed_benchmark,computed,frozen reference predictions,reference_predictions/baseline-amformer-oxygen-NNOSM.csv,89607
+computed_benchmark,computed,frozen reference predictions,reference_predictions/baseline-amformer-oxygen-NNRS.csv,115005
+computed_benchmark,computed,frozen reference predictions,reference_predictions/baseline-amformer-oxygen-PSGO.csv,3339958
+computed_benchmark,computed,frozen reference predictions,reference_predictions/baseline-cnn1d-metal-CN.csv,326234
+computed_benchmark,computed,frozen reference predictions,reference_predictions/baseline-cnn1d-metal-CN2.csv,1245804
+computed_benchmark,computed,frozen reference predictions,reference_predictions/baseline-cnn1d-metal-MOOD.csv,99509
+computed_benchmark,computed,frozen reference predictions,reference_predictions/baseline-cnn1d-metal-NNRS.csv,112769
+computed_benchmark,computed,frozen reference predictions,reference_predictions/baseline-cnn1d-metal-OCN.csv,328567
+computed_benchmark,computed,frozen reference predictions,reference_predictions/baseline-cnn1d-metal-OS.csv,331051
+computed_benchmark,computed,frozen reference predictions,reference_predictions/baseline-cnn1d-metal-PSGO.csv,3503655
+computed_benchmark,computed,frozen reference predictions,reference_predictions/baseline-cnn1d-oxygen-CN.csv,394155
+computed_benchmark,computed,frozen reference predictions,reference_predictions/baseline-cnn1d-oxygen-CN2.csv,1577889
+computed_benchmark,computed,frozen reference predictions,reference_predictions/baseline-cnn1d-oxygen-NNOSM.csv,89565
+computed_benchmark,computed,frozen reference predictions,reference_predictions/baseline-cnn1d-oxygen-NNRS.csv,114936
+computed_benchmark,computed,frozen reference predictions,reference_predictions/baseline-cnn1d-oxygen-PSGO.csv,3326622
+computed_benchmark,computed,frozen reference predictions,reference_predictions/baseline-decision_tree-metal-CN.csv,38041
+computed_benchmark,computed,frozen reference predictions,reference_predictions/baseline-decision_tree-metal-CN2.csv,44677
+computed_benchmark,computed,frozen reference predictions,reference_predictions/baseline-decision_tree-metal-MOOD.csv,162223
+computed_benchmark,computed,frozen reference predictions,reference_predictions/baseline-decision_tree-metal-NNRS.csv,166616
+computed_benchmark,computed,frozen reference predictions,reference_predictions/baseline-decision_tree-metal-OCN.csv,38041
+computed_benchmark,computed,frozen reference predictions,reference_predictions/baseline-decision_tree-metal-OS.csv,38041
+computed_benchmark,computed,frozen reference predictions,reference_predictions/baseline-decision_tree-metal-PSGO.csv,37252
+computed_benchmark,computed,frozen reference predictions,reference_predictions/baseline-decision_tree-oxygen-CN.csv,39570
+computed_benchmark,computed,frozen reference predictions,reference_predictions/baseline-decision_tree-oxygen-CN2.csv,46453
+computed_benchmark,computed,frozen reference predictions,reference_predictions/baseline-decision_tree-oxygen-NNOSM.csv,103435
+computed_benchmark,computed,frozen reference predictions,reference_predictions/baseline-decision_tree-oxygen-NNRS.csv,173744
+computed_benchmark,computed,frozen reference predictions,reference_predictions/baseline-decision_tree-oxygen-PSGO.csv,38532
+computed_benchmark,computed,frozen reference predictions,reference_predictions/baseline-direct_nn-metal-CN.csv,333295
+computed_benchmark,computed,frozen reference predictions,reference_predictions/baseline-direct_nn-metal-CN2.csv,1278784
+computed_benchmark,computed,frozen reference predictions,reference_predictions/baseline-direct_nn-metal-MOOD.csv,99516
+computed_benchmark,computed,frozen reference predictions,reference_predictions/baseline-direct_nn-metal-NNRS.csv,113211
+computed_benchmark,computed,frozen reference predictions,reference_predictions/baseline-direct_nn-metal-OCN.csv,333349
+computed_benchmark,computed,frozen reference predictions,reference_predictions/baseline-direct_nn-metal-OS.csv,289807
+computed_benchmark,computed,frozen reference predictions,reference_predictions/baseline-direct_nn-metal-PSGO.csv,3518058
+computed_benchmark,computed,frozen reference predictions,reference_predictions/baseline-direct_nn-oxygen-CN.csv,386406
+computed_benchmark,computed,frozen reference predictions,reference_predictions/baseline-direct_nn-oxygen-CN2.csv,1608706
+computed_benchmark,computed,frozen reference predictions,reference_predictions/baseline-direct_nn-oxygen-NNOSM.csv,89640
+computed_benchmark,computed,frozen reference predictions,reference_predictions/baseline-direct_nn-oxygen-NNRS.csv,115079
+computed_benchmark,computed,frozen reference predictions,reference_predictions/baseline-direct_nn-oxygen-PSGO.csv,3331208
+computed_benchmark,computed,frozen reference predictions,reference_predictions/baseline-extra_trees-metal-CN.csv,38041
+computed_benchmark,computed,frozen reference predictions,reference_predictions/baseline-extra_trees-metal-CN2.csv,44741
+computed_benchmark,computed,frozen reference predictions,reference_predictions/baseline-extra_trees-metal-MOOD.csv,165471
+computed_benchmark,computed,frozen reference predictions,reference_predictions/baseline-extra_trees-metal-NNRS.csv,173920
+computed_benchmark,computed,frozen reference predictions,reference_predictions/baseline-extra_trees-metal-OCN.csv,38041
+computed_benchmark,computed,frozen reference predictions,reference_predictions/baseline-extra_trees-metal-OS.csv,38041
+computed_benchmark,computed,frozen reference predictions,reference_predictions/baseline-extra_trees-metal-PSGO.csv,37061
+computed_benchmark,computed,frozen reference predictions,reference_predictions/baseline-extra_trees-oxygen-CN.csv,39570
+computed_benchmark,computed,frozen reference predictions,reference_predictions/baseline-extra_trees-oxygen-CN2.csv,46602
+computed_benchmark,computed,frozen reference predictions,reference_predictions/baseline-extra_trees-oxygen-NNOSM.csv,133248
+computed_benchmark,computed,frozen reference predictions,reference_predictions/baseline-extra_trees-oxygen-NNRS.csv,180066
+computed_benchmark,computed,frozen reference predictions,reference_predictions/baseline-extra_trees-oxygen-PSGO.csv,38281
+computed_benchmark,computed,frozen reference predictions,reference_predictions/baseline-fttransformer-metal-CN.csv,332458
+computed_benchmark,computed,frozen reference predictions,reference_predictions/baseline-fttransformer-metal-CN2.csv,1261193
+computed_benchmark,computed,frozen reference predictions,reference_predictions/baseline-fttransformer-metal-MOOD.csv,99450
+computed_benchmark,computed,frozen reference predictions,reference_predictions/baseline-fttransformer-metal-NNRS.csv,112955
+computed_benchmark,computed,frozen reference predictions,reference_predictions/baseline-fttransformer-metal-OCN.csv,332637
+computed_benchmark,computed,frozen reference predictions,reference_predictions/baseline-fttransformer-metal-OS.csv,328402
+computed_benchmark,computed,frozen reference predictions,reference_predictions/baseline-fttransformer-metal-PSGO.csv,3506427
+computed_benchmark,computed,frozen reference predictions,reference_predictions/baseline-fttransformer-oxygen-CN.csv,395842
+computed_benchmark,computed,frozen reference predictions,reference_predictions/baseline-fttransformer-oxygen-CN2.csv,1597177
+computed_benchmark,computed,frozen reference predictions,reference_predictions/baseline-fttransformer-oxygen-NNOSM.csv,89638
+computed_benchmark,computed,frozen reference predictions,reference_predictions/baseline-fttransformer-oxygen-NNRS.csv,115075
+computed_benchmark,computed,frozen reference predictions,reference_predictions/baseline-fttransformer-oxygen-PSGO.csv,3315564
+computed_benchmark,computed,frozen reference predictions,reference_predictions/baseline-random_forest-metal-CN.csv,38041
+computed_benchmark,computed,frozen reference predictions,reference_predictions/baseline-random_forest-metal-CN2.csv,44752
+computed_benchmark,computed,frozen reference predictions,reference_predictions/baseline-random_forest-metal-MOOD.csv,165521
+computed_benchmark,computed,frozen reference predictions,reference_predictions/baseline-random_forest-metal-NNRS.csv,173933
+computed_benchmark,computed,frozen reference predictions,reference_predictions/baseline-random_forest-metal-OCN.csv,38041
+computed_benchmark,computed,frozen reference predictions,reference_predictions/baseline-random_forest-metal-OS.csv,38041
+computed_benchmark,computed,frozen reference predictions,reference_predictions/baseline-random_forest-metal-PSGO.csv,37014
+computed_benchmark,computed,frozen reference predictions,reference_predictions/baseline-random_forest-oxygen-CN.csv,39570
+computed_benchmark,computed,frozen reference predictions,reference_predictions/baseline-random_forest-oxygen-CN2.csv,46604
+computed_benchmark,computed,frozen reference predictions,reference_predictions/baseline-random_forest-oxygen-NNOSM.csv,133616
+computed_benchmark,computed,frozen reference predictions,reference_predictions/baseline-random_forest-oxygen-NNRS.csv,180067
+computed_benchmark,computed,frozen reference predictions,reference_predictions/baseline-random_forest-oxygen-PSGO.csv,38259
+computed_benchmark,computed,frozen reference predictions,reference_predictions/baseline-rankaae-metal-CN.csv,326342
+computed_benchmark,computed,frozen reference predictions,reference_predictions/baseline-rankaae-metal-CN2.csv,1245205
+computed_benchmark,computed,frozen reference predictions,reference_predictions/baseline-rankaae-metal-MOOD.csv,99535
+computed_benchmark,computed,frozen reference predictions,reference_predictions/baseline-rankaae-metal-NNRS.csv,113096
+computed_benchmark,computed,frozen reference predictions,reference_predictions/baseline-rankaae-metal-OCN.csv,328259
+computed_benchmark,computed,frozen reference predictions,reference_predictions/baseline-rankaae-metal-OS.csv,329521
+computed_benchmark,computed,frozen reference predictions,reference_predictions/baseline-rankaae-metal-PSGO.csv,3540603
+computed_benchmark,computed,frozen reference predictions,reference_predictions/baseline-rankaae-oxygen-CN.csv,389934
+computed_benchmark,computed,frozen reference predictions,reference_predictions/baseline-rankaae-oxygen-CN2.csv,1569224
+computed_benchmark,computed,frozen reference predictions,reference_predictions/baseline-rankaae-oxygen-NNOSM.csv,89600
+computed_benchmark,computed,frozen reference predictions,reference_predictions/baseline-rankaae-oxygen-NNRS.csv,114884
+computed_benchmark,computed,frozen reference predictions,reference_predictions/baseline-rankaae-oxygen-PSGO.csv,3294771
+computed_benchmark,computed,frozen reference predictions,reference_predictions/baseline-xgboost-metal-CN.csv,38041
+computed_benchmark,computed,frozen reference predictions,reference_predictions/baseline-xgboost-metal-CN2.csv,44743
+computed_benchmark,computed,frozen reference predictions,reference_predictions/baseline-xgboost-metal-MOOD.csv,130634
+computed_benchmark,computed,frozen reference predictions,reference_predictions/baseline-xgboost-metal-NNRS.csv,139523
+computed_benchmark,computed,frozen reference predictions,reference_predictions/baseline-xgboost-metal-OCN.csv,38041
+computed_benchmark,computed,frozen reference predictions,reference_predictions/baseline-xgboost-metal-OS.csv,38041
+computed_benchmark,computed,frozen reference predictions,reference_predictions/baseline-xgboost-metal-PSGO.csv,37041
+computed_benchmark,computed,frozen reference predictions,reference_predictions/baseline-xgboost-oxygen-CN.csv,39570
+computed_benchmark,computed,frozen reference predictions,reference_predictions/baseline-xgboost-oxygen-CN2.csv,46604
+computed_benchmark,computed,frozen reference predictions,reference_predictions/baseline-xgboost-oxygen-NNOSM.csv,102975
+computed_benchmark,computed,frozen reference predictions,reference_predictions/baseline-xgboost-oxygen-NNRS.csv,144218
+computed_benchmark,computed,frozen reference predictions,reference_predictions/baseline-xgboost-oxygen-PSGO.csv,38301
+computed_benchmark,computed,frozen reference predictions,reference_predictions/expert-metal-CN.csv,323507
+computed_benchmark,computed,frozen reference predictions,reference_predictions/expert-metal-CN2.csv,1289706
+computed_benchmark,computed,frozen reference predictions,reference_predictions/expert-metal-MOOD.csv,99512
+computed_benchmark,computed,frozen reference predictions,reference_predictions/expert-metal-NNRS.csv,113164
+computed_benchmark,computed,frozen reference predictions,reference_predictions/expert-metal-OCN.csv,323805
+computed_benchmark,computed,frozen reference predictions,reference_predictions/expert-metal-OS.csv,321940
+computed_benchmark,computed,frozen reference predictions,reference_predictions/expert-metal-PSGO.csv,3556446
+computed_benchmark,computed,frozen reference predictions,reference_predictions/expert-oxygen-CN.csv,390708
+computed_benchmark,computed,frozen reference predictions,reference_predictions/expert-oxygen-CN2.csv,1625651
+computed_benchmark,computed,frozen reference predictions,reference_predictions/expert-oxygen-NNOSM.csv,89720
+computed_benchmark,computed,frozen reference predictions,reference_predictions/expert-oxygen-NNRS.csv,115132
+computed_benchmark,computed,frozen reference predictions,reference_predictions/expert-oxygen-PSGO.csv,3359052
+transfer,computed,frozen reference predictions,reference_predictions/transfer/baselines/amformer/CN/scratch-10-test.csv,18395
+transfer,computed,frozen reference predictions,reference_predictions/transfer/baselines/amformer/CN/scratch-25-test.csv,18393
+transfer,computed,frozen reference predictions,reference_predictions/transfer/baselines/amformer/CN/scratch-50-test.csv,18415
+transfer,computed,frozen reference predictions,reference_predictions/transfer/baselines/amformer/CN/source-all.csv,66970
+transfer,computed,frozen reference predictions,reference_predictions/transfer/baselines/amformer/CN/source-test.csv,18660
+transfer,computed,frozen reference predictions,reference_predictions/transfer/baselines/amformer/CN/tl-10-test.csv,18624
+transfer,computed,frozen reference predictions,reference_predictions/transfer/baselines/amformer/CN/tl-25-test.csv,18605
+transfer,computed,frozen reference predictions,reference_predictions/transfer/baselines/amformer/CN/tl-50-test.csv,18565
+transfer,computed,frozen reference predictions,reference_predictions/transfer/baselines/amformer/OCN/scratch-10-test.csv,18374
+transfer,computed,frozen reference predictions,reference_predictions/transfer/baselines/amformer/OCN/scratch-25-test.csv,18436
+transfer,computed,frozen reference predictions,reference_predictions/transfer/baselines/amformer/OCN/scratch-50-test.csv,18427
+transfer,computed,frozen reference predictions,reference_predictions/transfer/baselines/amformer/OCN/source-all.csv,67061
+transfer,computed,frozen reference predictions,reference_predictions/transfer/baselines/amformer/OCN/source-test.csv,18647
+transfer,computed,frozen reference predictions,reference_predictions/transfer/baselines/amformer/OCN/tl-10-test.csv,18612
+transfer,computed,frozen reference predictions,reference_predictions/transfer/baselines/amformer/OCN/tl-25-test.csv,18548
+transfer,computed,frozen reference predictions,reference_predictions/transfer/baselines/amformer/OCN/tl-50-test.csv,18533
+transfer,computed,frozen reference predictions,reference_predictions/transfer/baselines/amformer/OS/scratch-10-test.csv,18397
+transfer,computed,frozen reference predictions,reference_predictions/transfer/baselines/amformer/OS/scratch-25-test.csv,18469
+transfer,computed,frozen reference predictions,reference_predictions/transfer/baselines/amformer/OS/scratch-50-test.csv,18640
+transfer,computed,frozen reference predictions,reference_predictions/transfer/baselines/amformer/OS/source-all.csv,68307
+transfer,computed,frozen reference predictions,reference_predictions/transfer/baselines/amformer/OS/source-test.csv,19159
+transfer,computed,frozen reference predictions,reference_predictions/transfer/baselines/amformer/OS/tl-10-test.csv,19177
+transfer,computed,frozen reference predictions,reference_predictions/transfer/baselines/amformer/OS/tl-25-test.csv,19153
+transfer,computed,frozen reference predictions,reference_predictions/transfer/baselines/amformer/OS/tl-50-test.csv,19192
+transfer,computed,frozen reference predictions,reference_predictions/transfer/baselines/direct_nn/CN/scratch-10-test.csv,18392
+transfer,computed,frozen reference predictions,reference_predictions/transfer/baselines/direct_nn/CN/scratch-25-test.csv,18439
+transfer,computed,frozen reference predictions,reference_predictions/transfer/baselines/direct_nn/CN/scratch-50-test.csv,18476
+transfer,computed,frozen reference predictions,reference_predictions/transfer/baselines/direct_nn/CN/source-all.csv,69969
+transfer,computed,frozen reference predictions,reference_predictions/transfer/baselines/direct_nn/CN/source-test.csv,20169
+transfer,computed,frozen reference predictions,reference_predictions/transfer/baselines/direct_nn/CN/tl-10-test.csv,18900
+transfer,computed,frozen reference predictions,reference_predictions/transfer/baselines/direct_nn/CN/tl-25-test.csv,18847
+transfer,computed,frozen reference predictions,reference_predictions/transfer/baselines/direct_nn/CN/tl-50-test.csv,18740
+transfer,computed,frozen reference predictions,reference_predictions/transfer/baselines/direct_nn/OCN/scratch-10-test.csv,18392
+transfer,computed,frozen reference predictions,reference_predictions/transfer/baselines/direct_nn/OCN/scratch-25-test.csv,18424
+transfer,computed,frozen reference predictions,reference_predictions/transfer/baselines/direct_nn/OCN/scratch-50-test.csv,18466
+transfer,computed,frozen reference predictions,reference_predictions/transfer/baselines/direct_nn/OCN/source-all.csv,70133
+transfer,computed,frozen reference predictions,reference_predictions/transfer/baselines/direct_nn/OCN/source-test.csv,20189
+transfer,computed,frozen reference predictions,reference_predictions/transfer/baselines/direct_nn/OCN/tl-10-test.csv,18875
+transfer,computed,frozen reference predictions,reference_predictions/transfer/baselines/direct_nn/OCN/tl-25-test.csv,18858
+transfer,computed,frozen reference predictions,reference_predictions/transfer/baselines/direct_nn/OCN/tl-50-test.csv,18752
+transfer,computed,frozen reference predictions,reference_predictions/transfer/baselines/direct_nn/OS/scratch-10-test.csv,18686
+transfer,computed,frozen reference predictions,reference_predictions/transfer/baselines/direct_nn/OS/scratch-25-test.csv,18918
+transfer,computed,frozen reference predictions,reference_predictions/transfer/baselines/direct_nn/OS/scratch-50-test.csv,19084
+transfer,computed,frozen reference predictions,reference_predictions/transfer/baselines/direct_nn/OS/source-all.csv,69726
+transfer,computed,frozen reference predictions,reference_predictions/transfer/baselines/direct_nn/OS/source-test.csv,20002
+transfer,computed,frozen reference predictions,reference_predictions/transfer/baselines/direct_nn/OS/tl-10-test.csv,18426
+transfer,computed,frozen reference predictions,reference_predictions/transfer/baselines/direct_nn/OS/tl-25-test.csv,18390
+transfer,computed,frozen reference predictions,reference_predictions/transfer/baselines/direct_nn/OS/tl-50-test.csv,18896
+transfer,computed,frozen reference predictions,reference_predictions/transfer/baselines/random_forest/CN/source-all.csv,42297
+transfer,computed,frozen reference predictions,reference_predictions/transfer/baselines/random_forest/CN/source-test.csv,11566
+transfer,computed,frozen reference predictions,reference_predictions/transfer/baselines/random_forest/CN/target_only-10-test.csv,12920
+transfer,computed,frozen reference predictions,reference_predictions/transfer/baselines/random_forest/CN/target_only-25-test.csv,12944
+transfer,computed,frozen reference predictions,reference_predictions/transfer/baselines/random_forest/CN/target_only-50-test.csv,12916
+transfer,computed,frozen reference predictions,reference_predictions/transfer/baselines/random_forest/OCN/source-all.csv,42338
+transfer,computed,frozen reference predictions,reference_predictions/transfer/baselines/random_forest/OCN/source-test.csv,11575
+transfer,computed,frozen reference predictions,reference_predictions/transfer/baselines/random_forest/OCN/target_only-10-test.csv,12920
+transfer,computed,frozen reference predictions,reference_predictions/transfer/baselines/random_forest/OCN/target_only-25-test.csv,12935
+transfer,computed,frozen reference predictions,reference_predictions/transfer/baselines/random_forest/OCN/target_only-50-test.csv,12932
+transfer,computed,frozen reference predictions,reference_predictions/transfer/baselines/random_forest/OS/source-all.csv,41481
+transfer,computed,frozen reference predictions,reference_predictions/transfer/baselines/random_forest/OS/source-test.csv,11255
+transfer,computed,frozen reference predictions,reference_predictions/transfer/baselines/random_forest/OS/target_only-10-test.csv,11520
+transfer,computed,frozen reference predictions,reference_predictions/transfer/baselines/random_forest/OS/target_only-25-test.csv,11449
+transfer,computed,frozen reference predictions,reference_predictions/transfer/baselines/random_forest/OS/target_only-50-test.csv,11433
+transfer,computed,frozen reference predictions,reference_predictions/transfer/CN/scratch_10.csv,19720
+transfer,computed,frozen reference predictions,reference_predictions/transfer/CN/scratch_25.csv,18452
+transfer,computed,frozen reference predictions,reference_predictions/transfer/CN/scratch_50.csv,19635
+transfer,computed,frozen reference predictions,reference_predictions/transfer/CN/source_all.csv,69328
+transfer,computed,frozen reference predictions,reference_predictions/transfer/CN/source_test.csv,18696
+transfer,computed,frozen reference predictions,reference_predictions/transfer/CN/tl_10.csv,18574
+transfer,computed,frozen reference predictions,reference_predictions/transfer/CN/tl_25.csv,18566
+transfer,computed,frozen reference predictions,reference_predictions/transfer/CN/tl_50.csv,18639
+transfer,computed,frozen reference predictions,reference_predictions/transfer/OCN/scratch_10.csv,19699
+transfer,computed,frozen reference predictions,reference_predictions/transfer/OCN/scratch_25.csv,18462
+transfer,computed,frozen reference predictions,reference_predictions/transfer/OCN/scratch_50.csv,19651
+transfer,computed,frozen reference predictions,reference_predictions/transfer/OCN/source_all.csv,69668
+transfer,computed,frozen reference predictions,reference_predictions/transfer/OCN/source_test.csv,18753
+transfer,computed,frozen reference predictions,reference_predictions/transfer/OCN/tl_10.csv,18654
+transfer,computed,frozen reference predictions,reference_predictions/transfer/OCN/tl_25.csv,18730
+transfer,computed,frozen reference predictions,reference_predictions/transfer/OCN/tl_50.csv,18762
+transfer,computed,frozen reference predictions,reference_predictions/transfer/OS/scratch_10.csv,18763
+transfer,computed,frozen reference predictions,reference_predictions/transfer/OS/scratch_25.csv,18805
+transfer,computed,frozen reference predictions,reference_predictions/transfer/OS/scratch_50.csv,18894
+transfer,computed,frozen reference predictions,reference_predictions/transfer/OS/source_all.csv,70264
+transfer,computed,frozen reference predictions,reference_predictions/transfer/OS/source_test.csv,19018
+transfer,computed,frozen reference predictions,reference_predictions/transfer/OS/tl_10.csv,19348
+transfer,computed,frozen reference predictions,reference_predictions/transfer/OS/tl_25.csv,19338
+transfer,computed,frozen reference predictions,reference_predictions/transfer/OS/tl_50.csv,19456
+computed_benchmark,computed,frozen reference predictions,reference_predictions/transform-dct-metal-CN.csv,323902
+computed_benchmark,computed,frozen reference predictions,reference_predictions/transform-dct-metal-CN2.csv,1280810
+computed_benchmark,computed,frozen reference predictions,reference_predictions/transform-dct-metal-MOOD.csv,99498
+computed_benchmark,computed,frozen reference predictions,reference_predictions/transform-dct-metal-NNRS.csv,113068
+computed_benchmark,computed,frozen reference predictions,reference_predictions/transform-dct-metal-OCN.csv,323826
+computed_benchmark,computed,frozen reference predictions,reference_predictions/transform-dct-metal-OS.csv,321490
+computed_benchmark,computed,frozen reference predictions,reference_predictions/transform-dct-metal-PSGO.csv,3549336
+computed_benchmark,computed,frozen reference predictions,reference_predictions/transform-dct-oxygen-CN.csv,391553
+computed_benchmark,computed,frozen reference predictions,reference_predictions/transform-dct-oxygen-CN2.csv,1619490
+computed_benchmark,computed,frozen reference predictions,reference_predictions/transform-dct-oxygen-NNOSM.csv,89666
+computed_benchmark,computed,frozen reference predictions,reference_predictions/transform-dct-oxygen-NNRS.csv,115092
+computed_benchmark,computed,frozen reference predictions,reference_predictions/transform-dct-oxygen-PSGO.csv,3359299
+computed_benchmark,computed,frozen reference predictions,reference_predictions/transform-fft-metal-CN.csv,323715
+computed_benchmark,computed,frozen reference predictions,reference_predictions/transform-fft-metal-CN2.csv,1280023
+computed_benchmark,computed,frozen reference predictions,reference_predictions/transform-fft-metal-MOOD.csv,99554
+computed_benchmark,computed,frozen reference predictions,reference_predictions/transform-fft-metal-NNRS.csv,113145
+computed_benchmark,computed,frozen reference predictions,reference_predictions/transform-fft-metal-OCN.csv,323938
+computed_benchmark,computed,frozen reference predictions,reference_predictions/transform-fft-metal-OS.csv,321479
+computed_benchmark,computed,frozen reference predictions,reference_predictions/transform-fft-metal-PSGO.csv,3553772
+computed_benchmark,computed,frozen reference predictions,reference_predictions/transform-fft-oxygen-CN.csv,391785
+computed_benchmark,computed,frozen reference predictions,reference_predictions/transform-fft-oxygen-CN2.csv,1619263
+computed_benchmark,computed,frozen reference predictions,reference_predictions/transform-fft-oxygen-NNOSM.csv,89663
+computed_benchmark,computed,frozen reference predictions,reference_predictions/transform-fft-oxygen-NNRS.csv,115058
+computed_benchmark,computed,frozen reference predictions,reference_predictions/transform-fft-oxygen-PSGO.csv,3357235
+computed_benchmark,computed,frozen reference predictions,reference_predictions/transform-haar-metal-CN.csv,323602
+computed_benchmark,computed,frozen reference predictions,reference_predictions/transform-haar-metal-CN2.csv,1282533
+computed_benchmark,computed,frozen reference predictions,reference_predictions/transform-haar-metal-MOOD.csv,99484
+computed_benchmark,computed,frozen reference predictions,reference_predictions/transform-haar-metal-NNRS.csv,113159
+computed_benchmark,computed,frozen reference predictions,reference_predictions/transform-haar-metal-OCN.csv,323657
+computed_benchmark,computed,frozen reference predictions,reference_predictions/transform-haar-metal-OS.csv,321824
+computed_benchmark,computed,frozen reference predictions,reference_predictions/transform-haar-metal-PSGO.csv,3553733
+computed_benchmark,computed,frozen reference predictions,reference_predictions/transform-haar-oxygen-CN.csv,391366
+computed_benchmark,computed,frozen reference predictions,reference_predictions/transform-haar-oxygen-CN2.csv,1622061
+computed_benchmark,computed,frozen reference predictions,reference_predictions/transform-haar-oxygen-NNOSM.csv,89667
+computed_benchmark,computed,frozen reference predictions,reference_predictions/transform-haar-oxygen-NNRS.csv,115130
+computed_benchmark,computed,frozen reference predictions,reference_predictions/transform-haar-oxygen-PSGO.csv,3355873
+computed_benchmark,computed,frozen reference predictions,reference_predictions/transform-stft-metal-CN.csv,323603
+computed_benchmark,computed,frozen reference predictions,reference_predictions/transform-stft-metal-CN2.csv,1282169
+computed_benchmark,computed,frozen reference predictions,reference_predictions/transform-stft-metal-MOOD.csv,99482
+computed_benchmark,computed,frozen reference predictions,reference_predictions/transform-stft-metal-NNRS.csv,113082
+computed_benchmark,computed,frozen reference predictions,reference_predictions/transform-stft-metal-OCN.csv,323358
+computed_benchmark,computed,frozen reference predictions,reference_predictions/transform-stft-metal-OS.csv,321669
+computed_benchmark,computed,frozen reference predictions,reference_predictions/transform-stft-metal-PSGO.csv,3550327
+computed_benchmark,computed,frozen reference predictions,reference_predictions/transform-stft-oxygen-CN.csv,391426
+computed_benchmark,computed,frozen reference predictions,reference_predictions/transform-stft-oxygen-CN2.csv,1619557
+computed_benchmark,computed,frozen reference predictions,reference_predictions/transform-stft-oxygen-NNOSM.csv,89621
+computed_benchmark,computed,frozen reference predictions,reference_predictions/transform-stft-oxygen-NNRS.csv,115047
+computed_benchmark,computed,frozen reference predictions,reference_predictions/transform-stft-oxygen-PSGO.csv,3359466
+uncertainty,computed,frozen reference predictions,reference_predictions/uncertainty/metal/CN/test.csv,737936
+uncertainty,computed,frozen reference predictions,reference_predictions/uncertainty/metal/CN/val.csv,741485
+uncertainty,computed,frozen reference predictions,reference_predictions/uncertainty/metal/CN2/test.csv,2385915
+uncertainty,computed,frozen reference predictions,reference_predictions/uncertainty/metal/CN2/val.csv,2396583
+uncertainty,computed,frozen reference predictions,reference_predictions/uncertainty/metal/MOOD/test.csv,332556
+uncertainty,computed,frozen reference predictions,reference_predictions/uncertainty/metal/MOOD/val.csv,334459
+uncertainty,computed,frozen reference predictions,reference_predictions/uncertainty/metal/NNRS/test.csv,349850
+uncertainty,computed,frozen reference predictions,reference_predictions/uncertainty/metal/NNRS/val.csv,351654
+uncertainty,computed,frozen reference predictions,reference_predictions/uncertainty/metal/OCN/test.csv,738223
+uncertainty,computed,frozen reference predictions,reference_predictions/uncertainty/metal/OCN/val.csv,741801
+uncertainty,computed,frozen reference predictions,reference_predictions/uncertainty/metal/OS/test.csv,734287
+uncertainty,computed,frozen reference predictions,reference_predictions/uncertainty/metal/OS/val.csv,737785
+uncertainty,computed,frozen reference predictions,reference_predictions/uncertainty/metal/PSGO/test.csv,6274092
+uncertainty,computed,frozen reference predictions,reference_predictions/uncertainty/metal/PSGO/val.csv,6317491
+uncertainty,computed,frozen reference predictions,reference_predictions/uncertainty/oxygen/CN/test.csv,858394
+uncertainty,computed,frozen reference predictions,reference_predictions/uncertainty/oxygen/CN/val.csv,856868
+uncertainty,computed,frozen reference predictions,reference_predictions/uncertainty/oxygen/CN2/test.csv,2961590
+uncertainty,computed,frozen reference predictions,reference_predictions/uncertainty/oxygen/CN2/val.csv,2957193
+uncertainty,computed,frozen reference predictions,reference_predictions/uncertainty/oxygen/NNOSM/test.csv,310432
+uncertainty,computed,frozen reference predictions,reference_predictions/uncertainty/oxygen/NNOSM/val.csv,310013
+uncertainty,computed,frozen reference predictions,reference_predictions/uncertainty/oxygen/NNRS/test.csv,360523
+uncertainty,computed,frozen reference predictions,reference_predictions/uncertainty/oxygen/NNRS/val.csv,359851
+uncertainty,computed,frozen reference predictions,reference_predictions/uncertainty/oxygen/PSGO/test.csv,5941642
+uncertainty,computed,frozen reference predictions,reference_predictions/uncertainty/oxygen/PSGO/val.csv,5937702
+computed_benchmark,computed,frozen reference predictions,reference_predictions/joint-metal.csv,7631689
+computed_benchmark,computed,frozen reference predictions,reference_predictions/joint-oxygen.csv,6578810
+co_reference_controls,measured,calibrated source spectra,datasets/controls/co_calibrated_source.csv,270992
+ni_activation_controls,measured,reported fixed input windows,datasets/controls/ni_fixed_inputs.json,107637
+measurement_controls,measured,reported control summary,reference_results/measurement_controls/co_grid.csv,1093
+measurement_controls,measured,reported control summary,reference_results/measurement_controls/co_primary.csv,1494
+measurement_controls,computed,reported control summary,reference_results/measurement_controls/computed.csv,3599
+measurement_controls,measured,reported control summary,reference_results/measurement_controls/fe.csv,2870
+measurement_controls,measured,reported control summary,reference_results/measurement_controls/fe_neutral.csv,975
+measurement_controls,measured,reported control summary,reference_results/measurement_controls/lco.csv,6165
+measurement_controls,measured,reported control summary,reference_results/measurement_controls/ni.csv,955

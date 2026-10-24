@@ -1,0 +1,47 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying manuscript when using SPT."
+type: software
+title: "Spectral Pattern Translator (SPT)"
+url: "https://github.com/zsy-suyang/SPT"
+repository-code: "https://github.com/zsy-suyang/SPT"
+authors:
+  - family-names: Zhong
+    given-names: Suyang
+  - family-names: Huang
+    given-names: Boying
+  - family-names: Xu
+    given-names: Pengwei
+  - family-names: Xu
+    given-names: Fanjie
+  - family-names: Zhao
+    given-names: Yuhao
+  - family-names: Cheng
+    given-names: Jun
+  - family-names: Tang
+    given-names: Fujie
+  - family-names: E
+    given-names: Weinan
+  - family-names: Tian
+    given-names: Zhong-Qun
+preferred-citation:
+  type: unpublished
+  title: "Adaptive Fourier lifting for electronic and geometric descriptor inference from XANES"
+  authors:
+    - family-names: Zhong
+      given-names: Suyang
+    - family-names: Huang
+      given-names: Boying
+    - family-names: Xu
+      given-names: Pengwei
+    - family-names: Xu
+      given-names: Fanjie
+    - family-names: Zhao
+      given-names: Yuhao
+    - family-names: Cheng
+      given-names: Jun
+    - family-names: Tang
+      given-names: Fujie
+    - family-names: E
+      given-names: Weinan
+    - family-names: Tian
+      given-names: Zhong-Qun

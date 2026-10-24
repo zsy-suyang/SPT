@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "spt-xanes"
+version = "0.1.0"
+description = "Adaptive Fourier lifting for electronic and geometric descriptor inference from XANES"
+readme = "README.md"
+requires-python = ">=3.10,<3.13"
+license = {file = "LICENSE"}
+dependencies = [
+  "torch>=2.0,<2.8", "numpy>=1.24,<2", "pandas>=1.5,<3",
+  "scipy>=1.10,<2", "scikit-learn>=1.3,<1.7", "PyYAML>=6,<7",
+  "einops>=0.6,<0.9", "torchmetrics>=1.0,<2", "tensorboardX>=2.6,<3",
+  "joblib>=1.3,<1.6", "tqdm>=4.65,<5"
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7,<9", "build>=1,<2"]
+trees = ["xgboost>=2,<3"]
+plots = ["matplotlib>=3.7,<4", "seaborn>=0.12,<0.14", "Pillow>=10"]
+
+[project.scripts]
+spt = "spt.cli:main"
+
+[project.urls]
+Repository = "https://github.com/zsy-suyang/SPT"
+Issues = "https://github.com/zsy-suyang/SPT/issues"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["spt", "spt.*"]
+namespaces = false
+
+[tool.setuptools.package-data]
+"spt.baselines.amformer" = ["LICENSE", "README.md"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"

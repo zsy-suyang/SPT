@@ -1,0 +1,720 @@
+{
+  "expert-metal-OS": {
+    "Precision": 0.9667187929153442,
+    "Recall": 0.9667506217956543,
+    "F1": 0.9664983153343201,
+    "Acc": 0.9667506217956543,
+    "AUC": 0.9952699542045593
+  },
+  "transform-fft-metal-OS": {
+    "parameter_count": 565921
+  },
+  "transform-stft-metal-OS": {
+    "parameter_count": 565921
+  },
+  "transform-dct-metal-OS": {
+    "parameter_count": 565921
+  },
+  "transform-haar-metal-OS": {
+    "parameter_count": 565921
+  },
+  "ablation-bare-metal-OS": {
+    "parameter_count": 612577
+  },
+  "ablation-graph_only-metal-OS": {
+    "parameter_count": 612577
+  },
+  "baseline-amformer-metal-OS": {
+    "parameter_count": 2168239
+  },
+  "baseline-fttransformer-metal-OS": {
+    "parameter_count": 31413
+  },
+  "baseline-direct_nn-metal-OS": {
+    "F1": 0.9648463726043701
+  },
+  "baseline-cnn1d-metal-OS": {
+    "F1": 0.9520310759544373
+  },
+  "baseline-rankaae-metal-OS": {
+    "F1": 0.9420512914657593
+  },
+  "baseline-decision_tree-metal-OS": {
+    "F1": 0.9419089893965007
+  },
+  "baseline-extra_trees-metal-OS": {
+    "F1": 0.9656052470602774
+  },
+  "baseline-random_forest-metal-OS": {
+    "F1": 0.9636929612884416
+  },
+  "baseline-xgboost-metal-OS": {
+    "F1": 0.9626354593479652
+  },
+  "expert-metal-CN": {
+    "Precision": 0.9786123037338257,
+    "Recall": 0.9785894155502319,
+    "F1": 0.9784387350082397,
+    "Acc": 0.9785894155502319,
+    "AUC": 0.9954975843429565
+  },
+  "transform-fft-metal-CN": {
+    "parameter_count": 565921
+  },
+  "transform-stft-metal-CN": {
+    "parameter_count": 565921
+  },
+  "transform-dct-metal-CN": {
+    "parameter_count": 565921
+  },
+  "transform-haar-metal-CN": {
+    "parameter_count": 565921
+  },
+  "ablation-bare-metal-CN": {
+    "parameter_count": 612577
+  },
+  "ablation-graph_only-metal-CN": {
+    "parameter_count": 612577
+  },
+  "baseline-amformer-metal-CN": {
+    "parameter_count": 2168239
+  },
+  "baseline-fttransformer-metal-CN": {
+    "parameter_count": 31413
+  },
+  "baseline-direct_nn-metal-CN": {
+    "F1": 0.969099223613739
+  },
+  "baseline-cnn1d-metal-CN": {
+    "F1": 0.9551626443862915
+  },
+  "baseline-rankaae-metal-CN": {
+    "F1": 0.9385111331939697
+  },
+  "baseline-decision_tree-metal-CN": {
+    "F1": 0.9542311973501155
+  },
+  "baseline-extra_trees-metal-CN": {
+    "F1": 0.9676049166478471
+  },
+  "baseline-random_forest-metal-CN": {
+    "F1": 0.9688559288353797
+  },
+  "baseline-xgboost-metal-CN": {
+    "F1": 0.9699216503845322
+  },
+  "expert-metal-OCN": {
+    "Precision": 0.9788922071456909,
+    "Recall": 0.9783375263214111,
+    "F1": 0.9785140752792358,
+    "Acc": 0.9783375263214111,
+    "AUC": 0.9948266744613647
+  },
+  "transform-fft-metal-OCN": {
+    "parameter_count": 565921
+  },
+  "transform-stft-metal-OCN": {
+    "parameter_count": 565921
+  },
+  "transform-dct-metal-OCN": {
+    "parameter_count": 565921
+  },
+  "transform-haar-metal-OCN": {
+    "parameter_count": 565921
+  },
+  "ablation-bare-metal-OCN": {
+    "parameter_count": 612577
+  },
+  "ablation-graph_only-metal-OCN": {
+    "parameter_count": 612577
+  },
+  "baseline-amformer-metal-OCN": {
+    "parameter_count": 2168239
+  },
+  "baseline-fttransformer-metal-OCN": {
+    "parameter_count": 31413
+  },
+  "baseline-direct_nn-metal-OCN": {
+    "F1": 0.9690890312194824
+  },
+  "baseline-cnn1d-metal-OCN": {
+    "F1": 0.9559870958328247
+  },
+  "baseline-rankaae-metal-OCN": {
+    "F1": 0.9402713179588318
+  },
+  "baseline-decision_tree-metal-OCN": {
+    "F1": 0.9547678366546972
+  },
+  "baseline-extra_trees-metal-OCN": {
+    "F1": 0.969648616726936
+  },
+  "baseline-random_forest-metal-OCN": {
+    "F1": 0.970104257336096
+  },
+  "baseline-xgboost-metal-OCN": {
+    "F1": 0.9725795020542033
+  },
+  "expert-metal-CN2": {
+    "Precision": 0.7553821802139282,
+    "Recall": 0.7714430689811707,
+    "F1": 0.7616093754768372,
+    "Acc": 0.7714430093765259,
+    "AUC": 0.7702838778495789
+  },
+  "transform-fft-metal-CN2": {
+    "parameter_count": 567091
+  },
+  "transform-stft-metal-CN2": {
+    "parameter_count": 567091
+  },
+  "transform-dct-metal-CN2": {
+    "parameter_count": 567091
+  },
+  "transform-haar-metal-CN2": {
+    "parameter_count": 567091
+  },
+  "ablation-bare-metal-CN2": {
+    "parameter_count": 613747
+  },
+  "ablation-graph_only-metal-CN2": {
+    "parameter_count": 613747
+  },
+  "baseline-amformer-metal-CN2": {
+    "parameter_count": 2168545
+  },
+  "baseline-fttransformer-metal-CN2": {
+    "parameter_count": 31719
+  },
+  "baseline-direct_nn-metal-CN2": {
+    "F1": 0.7418993711471558
+  },
+  "baseline-cnn1d-metal-CN2": {
+    "F1": 0.7162114977836609
+  },
+  "baseline-rankaae-metal-CN2": {
+    "F1": 0.6725362539291382
+  },
+  "baseline-decision_tree-metal-CN2": {
+    "F1": 0.7204041292084992
+  },
+  "baseline-extra_trees-metal-CN2": {
+    "F1": 0.7597598822084256
+  },
+  "baseline-random_forest-metal-CN2": {
+    "F1": 0.7574485861257082
+  },
+  "baseline-xgboost-metal-CN2": {
+    "F1": 0.7539368348555457
+  },
+  "expert-metal-PSGO": {
+    "Precision": 0.46893447637557983,
+    "Recall": 0.5068601369857788,
+    "F1": 0.4774835407733917,
+    "Acc": 0.5068601369857788,
+    "AUC": 0.18048806488513947
+  },
+  "transform-fft-metal-PSGO": {
+    "parameter_count": 570016
+  },
+  "transform-stft-metal-PSGO": {
+    "parameter_count": 570016
+  },
+  "transform-dct-metal-PSGO": {
+    "parameter_count": 570016
+  },
+  "transform-haar-metal-PSGO": {
+    "parameter_count": 570016
+  },
+  "ablation-bare-metal-PSGO": {
+    "parameter_count": 616672
+  },
+  "ablation-graph_only-metal-PSGO": {
+    "parameter_count": 616672
+  },
+  "baseline-amformer-metal-PSGO": {
+    "parameter_count": 2169310
+  },
+  "baseline-fttransformer-metal-PSGO": {
+    "parameter_count": 32484
+  },
+  "baseline-direct_nn-metal-PSGO": {
+    "F1": 0.41123273968696594
+  },
+  "baseline-cnn1d-metal-PSGO": {
+    "F1": 0.3842140734195709
+  },
+  "baseline-rankaae-metal-PSGO": {
+    "F1": 0.28731149435043335
+  },
+  "baseline-decision_tree-metal-PSGO": {
+    "F1": 0.3946717253225065
+  },
+  "baseline-extra_trees-metal-PSGO": {
+    "F1": 0.44794289180604707
+  },
+  "baseline-random_forest-metal-PSGO": {
+    "F1": 0.45990901117012284
+  },
+  "baseline-xgboost-metal-PSGO": {
+    "F1": 0.46772163874199035
+  },
+  "expert-metal-NNRS": {
+    "MSE": 0.0005255569121800363,
+    "MAE": 0.013679884374141693,
+    "RMSE": 0.022925028577446938,
+    "R2": 0.7470749616622925
+  },
+  "transform-fft-metal-NNRS": {
+    "parameter_count": 565661
+  },
+  "transform-stft-metal-NNRS": {
+    "parameter_count": 565661
+  },
+  "transform-dct-metal-NNRS": {
+    "parameter_count": 565661
+  },
+  "transform-haar-metal-NNRS": {
+    "parameter_count": 565661
+  },
+  "ablation-bare-metal-NNRS": {
+    "parameter_count": 612317
+  },
+  "ablation-graph_only-metal-NNRS": {
+    "parameter_count": 612317
+  },
+  "baseline-amformer-metal-NNRS": {
+    "parameter_count": 2168171
+  },
+  "baseline-fttransformer-metal-NNRS": {
+    "parameter_count": 31345
+  },
+  "baseline-direct_nn-metal-NNRS": {
+    "R2": 0.6991860866546631
+  },
+  "baseline-cnn1d-metal-NNRS": {
+    "R2": 0.44414687156677246
+  },
+  "baseline-rankaae-metal-NNRS": {
+    "R2": 0.5582872629165649
+  },
+  "baseline-decision_tree-metal-NNRS": {
+    "R2": 0.24673408222063875
+  },
+  "baseline-extra_trees-metal-NNRS": {
+    "R2": 0.69334042151044
+  },
+  "baseline-random_forest-metal-NNRS": {
+    "R2": 0.6418507689057948
+  },
+  "baseline-xgboost-metal-NNRS": {
+    "R2": 0.631743662815341
+  },
+  "expert-metal-MOOD": {
+    "MSE": 0.008104920387268066,
+    "MAE": 0.051975686103105545,
+    "RMSE": 0.0900273323059082,
+    "R2": 0.6313713192939758
+  },
+  "transform-fft-metal-MOOD": {
+    "parameter_count": 565661
+  },
+  "transform-stft-metal-MOOD": {
+    "parameter_count": 565661
+  },
+  "transform-dct-metal-MOOD": {
+    "parameter_count": 565661
+  },
+  "transform-haar-metal-MOOD": {
+    "parameter_count": 565661
+  },
+  "ablation-bare-metal-MOOD": {
+    "parameter_count": 612317
+  },
+  "ablation-graph_only-metal-MOOD": {
+    "parameter_count": 612317
+  },
+  "baseline-amformer-metal-MOOD": {
+    "parameter_count": 2168171
+  },
+  "baseline-fttransformer-metal-MOOD": {
+    "parameter_count": 31345
+  },
+  "baseline-direct_nn-metal-MOOD": {
+    "R2": 0.6124745607376099
+  },
+  "baseline-cnn1d-metal-MOOD": {
+    "R2": 0.5141135454177856
+  },
+  "baseline-rankaae-metal-MOOD": {
+    "R2": 0.5195091962814331
+  },
+  "baseline-decision_tree-metal-MOOD": {
+    "R2": 0.32024651305661755
+  },
+  "baseline-extra_trees-metal-MOOD": {
+    "R2": 0.6291082797309989
+  },
+  "baseline-random_forest-metal-MOOD": {
+    "R2": 0.6200533056186253
+  },
+  "baseline-xgboost-metal-MOOD": {
+    "R2": 0.6046212366689102
+  },
+  "expert-oxygen-CN": {
+    "Precision": 0.9329754710197449,
+    "Recall": 0.9330747127532959,
+    "F1": 0.9328369498252869,
+    "Acc": 0.9330747127532959,
+    "AUC": 0.9896042943000793
+  },
+  "transform-fft-oxygen-CN": {
+    "parameter_count": 565410
+  },
+  "transform-stft-oxygen-CN": {
+    "parameter_count": 565410
+  },
+  "transform-dct-oxygen-CN": {
+    "parameter_count": 565410
+  },
+  "transform-haar-oxygen-CN": {
+    "parameter_count": 565410
+  },
+  "ablation-bare-oxygen-CN": {
+    "parameter_count": 612066
+  },
+  "ablation-graph_only-oxygen-CN": {
+    "parameter_count": 612066
+  },
+  "baseline-amformer-oxygen-CN": {
+    "parameter_count": 2168160
+  },
+  "baseline-fttransformer-oxygen-CN": {
+    "parameter_count": 31334
+  },
+  "baseline-direct_nn-oxygen-CN": {
+    "F1": 0.9200842976570129
+  },
+  "baseline-cnn1d-oxygen-CN": {
+    "F1": 0.884498119354248
+  },
+  "baseline-rankaae-oxygen-CN": {
+    "F1": 0.851398229598999
+  },
+  "baseline-decision_tree-oxygen-CN": {
+    "F1": 0.8733030449806721
+  },
+  "baseline-extra_trees-oxygen-CN": {
+    "F1": 0.9055899384548122
+  },
+  "baseline-random_forest-oxygen-CN": {
+    "F1": 0.9169127418783082
+  },
+  "baseline-xgboost-oxygen-CN": {
+    "F1": 0.9224597306793422
+  },
+  "expert-oxygen-CN2": {
+    "Precision": 0.7712880373001099,
+    "Recall": 0.7802679538726807,
+    "F1": 0.7748993039131165,
+    "Acc": 0.7802679538726807,
+    "AUC": 0.568841278553009
+  },
+  "transform-fft-oxygen-CN2": {
+    "parameter_count": 566840
+  },
+  "transform-stft-oxygen-CN2": {
+    "parameter_count": 566840
+  },
+  "transform-dct-oxygen-CN2": {
+    "parameter_count": 566840
+  },
+  "transform-haar-oxygen-CN2": {
+    "parameter_count": 566840
+  },
+  "ablation-bare-oxygen-CN2": {
+    "parameter_count": 613496
+  },
+  "ablation-graph_only-oxygen-CN2": {
+    "parameter_count": 613496
+  },
+  "baseline-amformer-oxygen-CN2": {
+    "parameter_count": 2168534
+  },
+  "baseline-fttransformer-oxygen-CN2": {
+    "parameter_count": 31708
+  },
+  "baseline-direct_nn-oxygen-CN2": {
+    "F1": 0.735275387763977
+  },
+  "baseline-cnn1d-oxygen-CN2": {
+    "F1": 0.7042699456214905
+  },
+  "baseline-rankaae-oxygen-CN2": {
+    "F1": 0.642336905002594
+  },
+  "baseline-decision_tree-oxygen-CN2": {
+    "F1": 0.6974864266948098
+  },
+  "baseline-extra_trees-oxygen-CN2": {
+    "F1": 0.7339276619703144
+  },
+  "baseline-random_forest-oxygen-CN2": {
+    "F1": 0.7448790027636686
+  },
+  "baseline-xgboost-oxygen-CN2": {
+    "F1": 0.7483536024389924
+  },
+  "expert-oxygen-PSGO": {
+    "Precision": 0.4935646951198578,
+    "Recall": 0.5267720222473145,
+    "F1": 0.5024082064628601,
+    "Acc": 0.5267720818519592,
+    "AUC": 0.20198354125022888
+  },
+  "transform-fft-oxygen-PSGO": {
+    "parameter_count": 569050
+  },
+  "transform-stft-oxygen-PSGO": {
+    "parameter_count": 569050
+  },
+  "transform-dct-oxygen-PSGO": {
+    "parameter_count": 569050
+  },
+  "transform-haar-oxygen-PSGO": {
+    "parameter_count": 569050
+  },
+  "ablation-bare-oxygen-PSGO": {
+    "parameter_count": 615706
+  },
+  "ablation-graph_only-oxygen-PSGO": {
+    "parameter_count": 615706
+  },
+  "baseline-amformer-oxygen-PSGO": {
+    "parameter_count": 2169112
+  },
+  "baseline-fttransformer-oxygen-PSGO": {
+    "parameter_count": 32286
+  },
+  "baseline-direct_nn-oxygen-PSGO": {
+    "F1": 0.4606107473373413
+  },
+  "baseline-cnn1d-oxygen-PSGO": {
+    "F1": 0.42656952142715454
+  },
+  "baseline-rankaae-oxygen-PSGO": {
+    "F1": 0.3464900851249695
+  },
+  "baseline-decision_tree-oxygen-PSGO": {
+    "F1": 0.4145586843665573
+  },
+  "baseline-extra_trees-oxygen-PSGO": {
+    "F1": 0.4565925413746398
+  },
+  "baseline-random_forest-oxygen-PSGO": {
+    "F1": 0.4788204012656565
+  },
+  "baseline-xgboost-oxygen-PSGO": {
+    "F1": 0.49391711977020936
+  },
+  "expert-oxygen-NNRS": {
+    "MSE": 0.0010700925486162305,
+    "MAE": 0.01841960847377777,
+    "RMSE": 0.03271226957440376,
+    "R2": 0.8084951043128967
+  },
+  "transform-fft-oxygen-NNRS": {
+    "parameter_count": 565085
+  },
+  "transform-stft-oxygen-NNRS": {
+    "parameter_count": 565085
+  },
+  "transform-dct-oxygen-NNRS": {
+    "parameter_count": 565085
+  },
+  "transform-haar-oxygen-NNRS": {
+    "parameter_count": 565085
+  },
+  "ablation-bare-oxygen-NNRS": {
+    "parameter_count": 611741
+  },
+  "ablation-graph_only-oxygen-NNRS": {
+    "parameter_count": 611741
+  },
+  "baseline-amformer-oxygen-NNRS": {
+    "parameter_count": 2168075
+  },
+  "baseline-fttransformer-oxygen-NNRS": {
+    "parameter_count": 31249
+  },
+  "baseline-direct_nn-oxygen-NNRS": {
+    "R2": 0.7795044183731079
+  },
+  "baseline-cnn1d-oxygen-NNRS": {
+    "R2": 0.6691747903823853
+  },
+  "baseline-rankaae-oxygen-NNRS": {
+    "R2": 0.6937544345855713
+  },
+  "baseline-decision_tree-oxygen-NNRS": {
+    "R2": 0.5250439082580705
+  },
+  "baseline-extra_trees-oxygen-NNRS": {
+    "R2": 0.7924180290098856
+  },
+  "baseline-random_forest-oxygen-NNRS": {
+    "R2": 0.7818312451556707
+  },
+  "baseline-xgboost-oxygen-NNRS": {
+    "R2": 0.7650639960974234
+  },
+  "expert-oxygen-NNOSM": {
+    "MSE": 0.038800496608018875,
+    "MAE": 0.10812431573867798,
+    "RMSE": 0.19697842001914978,
+    "R2": 0.9199059009552002
+  },
+  "transform-fft-oxygen-NNOSM": {
+    "parameter_count": 565085
+  },
+  "transform-stft-oxygen-NNOSM": {
+    "parameter_count": 565085
+  },
+  "transform-dct-oxygen-NNOSM": {
+    "parameter_count": 565085
+  },
+  "transform-haar-oxygen-NNOSM": {
+    "parameter_count": 565085
+  },
+  "ablation-bare-oxygen-NNOSM": {
+    "parameter_count": 611741
+  },
+  "ablation-graph_only-oxygen-NNOSM": {
+    "parameter_count": 611741
+  },
+  "baseline-amformer-oxygen-NNOSM": {
+    "parameter_count": 2168075
+  },
+  "baseline-fttransformer-oxygen-NNOSM": {
+    "parameter_count": 31249
+  },
+  "baseline-direct_nn-oxygen-NNOSM": {
+    "R2": 0.9068790674209595
+  },
+  "baseline-cnn1d-oxygen-NNOSM": {
+    "R2": 0.758470356464386
+  },
+  "baseline-rankaae-oxygen-NNOSM": {
+    "R2": 0.8157325387001038
+  },
+  "baseline-decision_tree-oxygen-NNOSM": {
+    "R2": 0.727298004751864
+  },
+  "baseline-extra_trees-oxygen-NNOSM": {
+    "R2": 0.8788997369531293
+  },
+  "baseline-random_forest-oxygen-NNOSM": {
+    "R2": 0.8608955055056329
+  },
+  "baseline-xgboost-oxygen-NNOSM": {
+    "R2": 0.8553658416956751
+  },
+  "joint-metal": {
+    "checkpoint": "checkpoints/benchmark/spt_joint/non_oxygen/SPT_joint.pth",
+    "split_file": "data/splits/final/metal.json",
+    "split": "test",
+    "parameter_count": 878472,
+    "selection": {
+      "metric": "score",
+      "value": 0.7928788491657802,
+      "epoch": 97
+    },
+    "metrics": {
+      "loss": 0.4912134816404432,
+      "OS_acc": 0.9619647264480591,
+      "OS_auc": 0.9937736392021179,
+      "OS_pre": 0.9618375301361084,
+      "OS_rec": 0.9619647264480591,
+      "OS_f1": 0.9615185260772705,
+      "OS_n": 3970,
+      "CN_acc": 0.9778337478637695,
+      "CN_auc": 0.9721996188163757,
+      "CN_pre": 0.9772716164588928,
+      "CN_rec": 0.9778337478637695,
+      "CN_f1": 0.9775382876396179,
+      "CN_n": 3970,
+      "OCN_acc": 0.9778337478637695,
+      "OCN_auc": 0.9652835726737976,
+      "OCN_pre": 0.9771040081977844,
+      "OCN_rec": 0.9778337478637695,
+      "OCN_f1": 0.9774367213249207,
+      "OCN_n": 3970,
+      "CN2_acc": 0.7739657163619995,
+      "CN2_auc": 0.7802847027778625,
+      "CN2_pre": 0.7576631903648376,
+      "CN2_rec": 0.7739657163619995,
+      "CN2_f1": 0.7640798091888428,
+      "CN2_n": 3964,
+      "PSGO_acc": 0.5068601369857788,
+      "PSGO_auc": 0.18527022004127502,
+      "PSGO_pre": 0.45707207918167114,
+      "PSGO_rec": 0.5068601369857788,
+      "PSGO_f1": 0.47219496965408325,
+      "PSGO_n": 3790,
+      "NNRS_mse": 0.0005327410763129592,
+      "NNRS_rmse": 0.023081185296177864,
+      "NNRS_mae": 0.013844518922269344,
+      "NNRS_r2": 0.7436175346374512,
+      "NNRS_n": 3970,
+      "MOOD_mse": 0.008577743545174599,
+      "MOOD_rmse": 0.09261611104011536,
+      "MOOD_mae": 0.05268625169992447,
+      "MOOD_r2": 0.6098488569259644,
+      "MOOD_n": 3970,
+      "score": 0.7866049579211644
+    }
+  },
+  "joint-oxygen": {
+    "checkpoint": "checkpoints/benchmark/spt_joint/oxygen/SPT_joint.pth",
+    "split_file": "data/splits/final/oxygen.json",
+    "split": "test",
+    "parameter_count": 790846,
+    "selection": {
+      "metric": "score",
+      "value": 0.7951359868049621,
+      "epoch": 96
+    },
+    "metrics": {
+      "loss": 0.6625744000528798,
+      "CN_acc": 0.9299224019050598,
+      "CN_auc": 0.9870941042900085,
+      "CN_pre": 0.930498480796814,
+      "CN_rec": 0.9299224019050598,
+      "CN_f1": 0.9297717809677124,
+      "CN_n": 4124,
+      "CN2_acc": 0.786358118057251,
+      "CN2_auc": 0.5757405757904053,
+      "CN2_pre": 0.7757583260536194,
+      "CN2_rec": 0.7863580584526062,
+      "CN2_f1": 0.7797097563743591,
+      "CN2_n": 4105,
+      "PSGO_acc": 0.5283018946647644,
+      "PSGO_auc": 0.20321130752563477,
+      "PSGO_pre": 0.49512630701065063,
+      "PSGO_rec": 0.5283018946647644,
+      "PSGO_f1": 0.5045328140258789,
+      "PSGO_n": 3922,
+      "NNRS_mse": 0.0010712367948144674,
+      "NNRS_rmse": 0.032729752361774445,
+      "NNRS_mae": 0.019134599715471268,
+      "NNRS_r2": 0.8082903623580933,
+      "NNRS_n": 4124,
+      "NNOSM_mse": 0.042571086436510086,
+      "NNOSM_rmse": 0.2063276171684265,
+      "NNOSM_mae": 0.11575943976640701,
+      "NNOSM_r2": 0.9121227264404297,
+      "NNOSM_n": 4124,
+      "score": 0.7868854880332947
+    }
+  }
+}

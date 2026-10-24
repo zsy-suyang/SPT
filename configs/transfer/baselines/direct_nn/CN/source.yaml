@@ -1,0 +1,204 @@
+ckpt_strict: true
+exp_name: source_parent_excluded
+trainer: delta
+seed: 42
+optim: Adam
+sub_iter: 0
+time_delay: 0
+debug: false
+gamma: 0.1
+momentum: 0.9
+mix: false
+display_freq: 20
+use_amp: false
+use_amp_in_eval: false
+load_optim: false
+attn_dropout: 0.2
+ff_dropout: 0.05
+attn_drop: 0.2
+ffn_drop: 0.1
+has_ff: true
+has_residual: true
+cls_token_split: false
+dim: 96
+heads: 8
+num_layers: 6
+qk_relu: false
+gpu_id: 0
+model_name: amformer
+target_mode: mix
+cluster: true
+use_cls_token: true
+depth: 3
+prod_num_per_group:
+- 8
+- 8
+- 8
+sum_num_per_group:
+- 32
+- 32
+- 32
+num_special_tokens: 2
+use_sigmoid: false
+train_size: 1
+data_name: metal
+val_freq: 100
+validation_after: 0
+stepvalues:
+- 4000
+lr: 0.0001
+test_set: test
+CN:
+  idx: 1
+  num: 5
+  value:
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  label:
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
+  mode: Cls
+  cnts:
+    2: 104
+    3: 123
+    4: 2217
+    5: 466
+    6: 15968
+data_file: datasets/transfer/source/metal_parent_excluded.csv
+ckpt: null
+add_noise: None
+dataset_mode: test
+validation_set: val
+evaluate_during_training: true
+evaluate_test_after_training: true
+evaluate_after_training_split: val
+allow_lockbox_access: false
+calc_train_set: false
+save_dat: false
+aux: 8
+batch_size: 128
+epoch: 100
+weight_decay: 0.001
+warmup_steps: 740
+lr_adjust: cosine
+start_iter: 0
+max_iter: 0
+e_layers: 6
+top_k: 5
+num_kernels: 6
+architecture: direct_nn
+spectral_pair_tokens: true
+force_expert: fft_graph
+spectral_decomposition: complementary
+spectral_num_bands: 9
+stft_n_fft: 64
+lifting_contrast_rms_floor: 0.1
+branch_gate_init: 0.05
+graph_neighbors: 3
+graph_heads: 4
+drop_path: 0.1
+residual_dropout: 0.0
+graph_dropout: 0.0
+task: CN
+out: 5
+save_metric: acc
+selection_metric: f1
+f1_average: weighted
+test_size: 0.15
+val_size: 0.15
+dev_size: 0.0
+lockbox_size: 0.0
+split_strategy: group
+group_column: material_id
+split_seed: 42
+split_file: data/splits/transfer/source_metal.json
+min_class_samples: 20
+min_class_groups: 20
+save_folder: outputs/transfer-baselines/transfer-direct_nn-CN-source/training
+save_log: outputs/transfer-baselines/transfer-direct_nn-CN-source/logs
+save_final_checkpoint: false
+fail_if_run_exists: false
+multi_task: null
+stratify_task: CN
+categories:
+- 7
+ele_dict:
+  Co: 0
+  Fe: 1
+  Li: 2
+  Mn: 3
+  Ni: 4
+  P: 5
+  Ti: 6
+min_log_data: 3.9983986270348093
+max_log_data: 9.036342397855188
+exp_param: null
+groups:
+- 136
+- 136
+- 136
+max_cate: 1
+num_cate: 1
+num_cont: 512
+num_workers: 0
+token_descent: false
+use_prod: true
+compose_mode: parallel
+keep_dc: true
+lifting_steps: 1
+lifting_kernel: 5
+lifting_shrinkage: true
+input_preprocessing: none
+head_hidden:
+- 64
+head_dropout: 0.05
+intensity_norm: true
+cls_loss: ce
+focal_gamma: 1.0
+label_smoothing: 0.01
+spectral_gate_init: 1.0
+graph_gate_init: 0.15
+disjoint_branch_channels: false
+graph_channel_fraction: 0.5
+allocation_logit_init: 2.0
+graph_global_heads: 2
+graph_global_k: 8
+graph_spectral_context: 0.0
+mixup_alpha: 0.0
+mixup_steps: 0
+ema_decay: 0.999
+regression_target_std: 1.0
+eval_batch_size: 128
+regression_output: standardized
+readout_bins: 4
+head_use_category: true
+branch_fusion: residual
+drop_last: false
+test_results_dir: null
+save_optimizer_state: false
+xas_interleaved_input: true
+xas_input_mode: same_information
+baseline_input_information: intensity+energy+categorical_onehot
+baseline_implementation: input_matched_supervised_baseline
+xas_dropout: 0.15
+xas_mlp_hidden_dim: 256
+xas_mlp_bottleneck_dim: 128
+xas_regression_output: raw
+class_counts: &id001
+- 104
+- 123
+- 2217
+- 466
+- 15968
+source_training_statistics:
+  policy: filtered source TRAIN only; target parents excluded
+  task: CN
+  counts: *id001
+  n: 18878
+model_num_parameters: 167699

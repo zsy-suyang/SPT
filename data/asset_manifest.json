@@ -1,0 +1,3281 @@
+{
+  "schema_version": 1,
+  "assets": [
+    {
+      "path": "checkpoints/ablations/modules/bare/non_oxygen/SPT_CN.pth",
+      "bytes": 2604589
+    },
+    {
+      "path": "checkpoints/ablations/modules/bare/non_oxygen/SPT_CN2.pth",
+      "bytes": 2609261
+    },
+    {
+      "path": "checkpoints/ablations/modules/bare/non_oxygen/SPT_MOOD.pth",
+      "bytes": 2603565
+    },
+    {
+      "path": "checkpoints/ablations/modules/bare/non_oxygen/SPT_NNRS.pth",
+      "bytes": 2603565
+    },
+    {
+      "path": "checkpoints/ablations/modules/bare/non_oxygen/SPT_OCN.pth",
+      "bytes": 2604589
+    },
+    {
+      "path": "checkpoints/ablations/modules/bare/non_oxygen/SPT_OS.pth",
+      "bytes": 2604589
+    },
+    {
+      "path": "checkpoints/ablations/modules/bare/non_oxygen/SPT_SGN.pth",
+      "bytes": 2620973
+    },
+    {
+      "path": "checkpoints/ablations/modules/bare/oxygen/SPT_CN.pth",
+      "bytes": 2602541
+    },
+    {
+      "path": "checkpoints/ablations/modules/bare/oxygen/SPT_CN2.pth",
+      "bytes": 2608237
+    },
+    {
+      "path": "checkpoints/ablations/modules/bare/oxygen/SPT_NNOSM.pth",
+      "bytes": 2601261
+    },
+    {
+      "path": "checkpoints/ablations/modules/bare/oxygen/SPT_NNRS.pth",
+      "bytes": 2601261
+    },
+    {
+      "path": "checkpoints/ablations/modules/bare/oxygen/SPT_SGN.pth",
+      "bytes": 2617133
+    },
+    {
+      "path": "checkpoints/ablations/modules/graph_only/non_oxygen/SPT_CN.pth",
+      "bytes": 2604589
+    },
+    {
+      "path": "checkpoints/ablations/modules/graph_only/non_oxygen/SPT_CN2.pth",
+      "bytes": 2609261
+    },
+    {
+      "path": "checkpoints/ablations/modules/graph_only/non_oxygen/SPT_MOOD.pth",
+      "bytes": 2603565
+    },
+    {
+      "path": "checkpoints/ablations/modules/graph_only/non_oxygen/SPT_NNRS.pth",
+      "bytes": 2603565
+    },
+    {
+      "path": "checkpoints/ablations/modules/graph_only/non_oxygen/SPT_OCN.pth",
+      "bytes": 2604589
+    },
+    {
+      "path": "checkpoints/ablations/modules/graph_only/non_oxygen/SPT_OS.pth",
+      "bytes": 2604589
+    },
+    {
+      "path": "checkpoints/ablations/modules/graph_only/non_oxygen/SPT_SGN.pth",
+      "bytes": 2620973
+    },
+    {
+      "path": "checkpoints/ablations/modules/graph_only/oxygen/SPT_CN.pth",
+      "bytes": 2602541
+    },
+    {
+      "path": "checkpoints/ablations/modules/graph_only/oxygen/SPT_CN2.pth",
+      "bytes": 2608237
+    },
+    {
+      "path": "checkpoints/ablations/modules/graph_only/oxygen/SPT_NNOSM.pth",
+      "bytes": 2601261
+    },
+    {
+      "path": "checkpoints/ablations/modules/graph_only/oxygen/SPT_NNRS.pth",
+      "bytes": 2601261
+    },
+    {
+      "path": "checkpoints/ablations/modules/graph_only/oxygen/SPT_SGN.pth",
+      "bytes": 2617133
+    },
+    {
+      "path": "checkpoints/ablations/transform/dct/non_oxygen/SPT_CN.pth",
+      "bytes": 3952945
+    },
+    {
+      "path": "checkpoints/ablations/transform/dct/non_oxygen/SPT_CN2.pth",
+      "bytes": 3957617
+    },
+    {
+      "path": "checkpoints/ablations/transform/dct/non_oxygen/SPT_MOOD.pth",
+      "bytes": 3951921
+    },
+    {
+      "path": "checkpoints/ablations/transform/dct/non_oxygen/SPT_NNRS.pth",
+      "bytes": 3951921
+    },
+    {
+      "path": "checkpoints/ablations/transform/dct/non_oxygen/SPT_OCN.pth",
+      "bytes": 3952945
+    },
+    {
+      "path": "checkpoints/ablations/transform/dct/non_oxygen/SPT_OS.pth",
+      "bytes": 3952945
+    },
+    {
+      "path": "checkpoints/ablations/transform/dct/non_oxygen/SPT_SGN.pth",
+      "bytes": 3969329
+    },
+    {
+      "path": "checkpoints/ablations/transform/dct/oxygen/SPT_CN.pth",
+      "bytes": 3950897
+    },
+    {
+      "path": "checkpoints/ablations/transform/dct/oxygen/SPT_CN2.pth",
+      "bytes": 3956593
+    },
+    {
+      "path": "checkpoints/ablations/transform/dct/oxygen/SPT_NNOSM.pth",
+      "bytes": 3949617
+    },
+    {
+      "path": "checkpoints/ablations/transform/dct/oxygen/SPT_NNRS.pth",
+      "bytes": 3949617
+    },
+    {
+      "path": "checkpoints/ablations/transform/dct/oxygen/SPT_SGN.pth",
+      "bytes": 3965489
+    },
+    {
+      "path": "checkpoints/ablations/transform/fft/non_oxygen/SPT_CN.pth",
+      "bytes": 2350325
+    },
+    {
+      "path": "checkpoints/ablations/transform/fft/non_oxygen/SPT_CN2.pth",
+      "bytes": 2354997
+    },
+    {
+      "path": "checkpoints/ablations/transform/fft/non_oxygen/SPT_MOOD.pth",
+      "bytes": 2349301
+    },
+    {
+      "path": "checkpoints/ablations/transform/fft/non_oxygen/SPT_NNRS.pth",
+      "bytes": 2349301
+    },
+    {
+      "path": "checkpoints/ablations/transform/fft/non_oxygen/SPT_OCN.pth",
+      "bytes": 2350325
+    },
+    {
+      "path": "checkpoints/ablations/transform/fft/non_oxygen/SPT_OS.pth",
+      "bytes": 2350325
+    },
+    {
+      "path": "checkpoints/ablations/transform/fft/non_oxygen/SPT_SGN.pth",
+      "bytes": 2366709
+    },
+    {
+      "path": "checkpoints/ablations/transform/fft/oxygen/SPT_CN.pth",
+      "bytes": 2348277
+    },
+    {
+      "path": "checkpoints/ablations/transform/fft/oxygen/SPT_CN2.pth",
+      "bytes": 2353973
+    },
+    {
+      "path": "checkpoints/ablations/transform/fft/oxygen/SPT_NNOSM.pth",
+      "bytes": 2346997
+    },
+    {
+      "path": "checkpoints/ablations/transform/fft/oxygen/SPT_NNRS.pth",
+      "bytes": 2346997
+    },
+    {
+      "path": "checkpoints/ablations/transform/fft/oxygen/SPT_SGN.pth",
+      "bytes": 2362869
+    },
+    {
+      "path": "checkpoints/ablations/transform/haar/non_oxygen/SPT_CN.pth",
+      "bytes": 2378037
+    },
+    {
+      "path": "checkpoints/ablations/transform/haar/non_oxygen/SPT_CN2.pth",
+      "bytes": 2382709
+    },
+    {
+      "path": "checkpoints/ablations/transform/haar/non_oxygen/SPT_MOOD.pth",
+      "bytes": 2377013
+    },
+    {
+      "path": "checkpoints/ablations/transform/haar/non_oxygen/SPT_NNRS.pth",
+      "bytes": 2377013
+    },
+    {
+      "path": "checkpoints/ablations/transform/haar/non_oxygen/SPT_OCN.pth",
+      "bytes": 2378037
+    },
+    {
+      "path": "checkpoints/ablations/transform/haar/non_oxygen/SPT_OS.pth",
+      "bytes": 2378037
+    },
+    {
+      "path": "checkpoints/ablations/transform/haar/non_oxygen/SPT_SGN.pth",
+      "bytes": 2394421
+    },
+    {
+      "path": "checkpoints/ablations/transform/haar/oxygen/SPT_CN.pth",
+      "bytes": 2375989
+    },
+    {
+      "path": "checkpoints/ablations/transform/haar/oxygen/SPT_CN2.pth",
+      "bytes": 2381685
+    },
+    {
+      "path": "checkpoints/ablations/transform/haar/oxygen/SPT_NNOSM.pth",
+      "bytes": 2374709
+    },
+    {
+      "path": "checkpoints/ablations/transform/haar/oxygen/SPT_NNRS.pth",
+      "bytes": 2374709
+    },
+    {
+      "path": "checkpoints/ablations/transform/haar/oxygen/SPT_SGN.pth",
+      "bytes": 2390581
+    },
+    {
+      "path": "checkpoints/ablations/transform/stft/non_oxygen/SPT_CN.pth",
+      "bytes": 2333169
+    },
+    {
+      "path": "checkpoints/ablations/transform/stft/non_oxygen/SPT_CN2.pth",
+      "bytes": 2337841
+    },
+    {
+      "path": "checkpoints/ablations/transform/stft/non_oxygen/SPT_MOOD.pth",
+      "bytes": 2332145
+    },
+    {
+      "path": "checkpoints/ablations/transform/stft/non_oxygen/SPT_NNRS.pth",
+      "bytes": 2332145
+    },
+    {
+      "path": "checkpoints/ablations/transform/stft/non_oxygen/SPT_OCN.pth",
+      "bytes": 2333169
+    },
+    {
+      "path": "checkpoints/ablations/transform/stft/non_oxygen/SPT_OS.pth",
+      "bytes": 2333169
+    },
+    {
+      "path": "checkpoints/ablations/transform/stft/non_oxygen/SPT_SGN.pth",
+      "bytes": 2349553
+    },
+    {
+      "path": "checkpoints/ablations/transform/stft/oxygen/SPT_CN.pth",
+      "bytes": 2331121
+    },
+    {
+      "path": "checkpoints/ablations/transform/stft/oxygen/SPT_CN2.pth",
+      "bytes": 2336817
+    },
+    {
+      "path": "checkpoints/ablations/transform/stft/oxygen/SPT_NNOSM.pth",
+      "bytes": 2329841
+    },
+    {
+      "path": "checkpoints/ablations/transform/stft/oxygen/SPT_NNRS.pth",
+      "bytes": 2329841
+    },
+    {
+      "path": "checkpoints/ablations/transform/stft/oxygen/SPT_SGN.pth",
+      "bytes": 2345713
+    },
+    {
+      "path": "checkpoints/applications/co_lisa_compounds/SPT_co_lisa_compounds_CN.pth",
+      "bytes": 2604589
+    },
+    {
+      "path": "checkpoints/applications/co_lisa_compounds/SPT_co_lisa_compounds_CN2.pth",
+      "bytes": 2609261
+    },
+    {
+      "path": "checkpoints/applications/co_lisa_compounds/SPT_co_lisa_compounds_MOOD.pth",
+      "bytes": 2603565
+    },
+    {
+      "path": "checkpoints/applications/co_lisa_compounds/SPT_co_lisa_compounds_NNRS.pth",
+      "bytes": 2603565
+    },
+    {
+      "path": "checkpoints/applications/co_lisa_compounds/SPT_co_lisa_compounds_OCN.pth",
+      "bytes": 2604589
+    },
+    {
+      "path": "checkpoints/applications/co_lisa_compounds/SPT_co_lisa_compounds_OS.pth",
+      "bytes": 2604589
+    },
+    {
+      "path": "checkpoints/applications/co_lisa_compounds/SPT_co_lisa_compounds_SGN.pth",
+      "bytes": 2620973
+    },
+    {
+      "path": "checkpoints/applications/fe_charging/SPT_fe_charging_CN.pth",
+      "bytes": 2604589
+    },
+    {
+      "path": "checkpoints/applications/fe_charging/SPT_fe_charging_CN2.pth",
+      "bytes": 2609261
+    },
+    {
+      "path": "checkpoints/applications/fe_charging/SPT_fe_charging_MOOD.pth",
+      "bytes": 2603565
+    },
+    {
+      "path": "checkpoints/applications/fe_charging/SPT_fe_charging_NNRS.pth",
+      "bytes": 2603565
+    },
+    {
+      "path": "checkpoints/applications/fe_charging/SPT_fe_charging_OCN.pth",
+      "bytes": 2604589
+    },
+    {
+      "path": "checkpoints/applications/fe_charging/SPT_fe_charging_OS.pth",
+      "bytes": 2604589
+    },
+    {
+      "path": "checkpoints/applications/fe_charging/SPT_fe_charging_SGN.pth",
+      "bytes": 2620973
+    },
+    {
+      "path": "checkpoints/applications/lco_computed_co_sites/SPT_lco_computed_co_sites_CN.pth",
+      "bytes": 2604589
+    },
+    {
+      "path": "checkpoints/applications/lco_computed_co_sites/SPT_lco_computed_co_sites_CN2.pth",
+      "bytes": 2609261
+    },
+    {
+      "path": "checkpoints/applications/lco_computed_co_sites/SPT_lco_computed_co_sites_MOOD.pth",
+      "bytes": 2603565
+    },
+    {
+      "path": "checkpoints/applications/lco_computed_co_sites/SPT_lco_computed_co_sites_NNRS.pth",
+      "bytes": 2603565
+    },
+    {
+      "path": "checkpoints/applications/lco_computed_co_sites/SPT_lco_computed_co_sites_OCN.pth",
+      "bytes": 2604589
+    },
+    {
+      "path": "checkpoints/applications/lco_computed_co_sites/SPT_lco_computed_co_sites_OS.pth",
+      "bytes": 2604589
+    },
+    {
+      "path": "checkpoints/applications/lco_computed_co_sites/SPT_lco_computed_co_sites_SGN.pth",
+      "bytes": 2620973
+    },
+    {
+      "path": "checkpoints/applications/lco_measured_charging/SPT_lco_measured_charging_OS.pth",
+      "bytes": 2604589
+    },
+    {
+      "path": "checkpoints/applications/ni_fe_activation/SPT_ni_fe_activation_CN.pth",
+      "bytes": 2604589
+    },
+    {
+      "path": "checkpoints/applications/ni_fe_activation/SPT_ni_fe_activation_MOOD.pth",
+      "bytes": 2603565
+    },
+    {
+      "path": "checkpoints/applications/ni_fe_activation/SPT_ni_fe_activation_NNRS.pth",
+      "bytes": 2603565
+    },
+    {
+      "path": "checkpoints/applications/ni_fe_activation/SPT_ni_fe_activation_OCN.pth",
+      "bytes": 2604589
+    },
+    {
+      "path": "checkpoints/applications/ni_fe_activation/SPT_ni_fe_activation_OS.pth",
+      "bytes": 2604589
+    },
+    {
+      "path": "checkpoints/applications/ni_first_sodiation/SPT_ni_first_sodiation_CN.pth",
+      "bytes": 2604589
+    },
+    {
+      "path": "checkpoints/applications/ni_first_sodiation/SPT_ni_first_sodiation_MOOD.pth",
+      "bytes": 2603565
+    },
+    {
+      "path": "checkpoints/applications/ni_first_sodiation/SPT_ni_first_sodiation_NNRS.pth",
+      "bytes": 2603565
+    },
+    {
+      "path": "checkpoints/applications/ni_first_sodiation/SPT_ni_first_sodiation_OCN.pth",
+      "bytes": 2604589
+    },
+    {
+      "path": "checkpoints/applications/ni_first_sodiation/SPT_ni_first_sodiation_OS.pth",
+      "bytes": 2604589
+    },
+    {
+      "path": "checkpoints/applications/ti_nist_standards/SPT_ti_nist_standards_CN.pth",
+      "bytes": 2604589
+    },
+    {
+      "path": "checkpoints/applications/ti_nist_standards/SPT_ti_nist_standards_OS.pth",
+      "bytes": 2604589
+    },
+    {
+      "path": "checkpoints/benchmark/amformer/non_oxygen/amformer_CN.pth",
+      "bytes": 8696093
+    },
+    {
+      "path": "checkpoints/benchmark/amformer/non_oxygen/amformer_CN2.pth",
+      "bytes": 8697309
+    },
+    {
+      "path": "checkpoints/benchmark/amformer/non_oxygen/amformer_MOOD.pth",
+      "bytes": 8695837
+    },
+    {
+      "path": "checkpoints/benchmark/amformer/non_oxygen/amformer_NNRS.pth",
+      "bytes": 8695837
+    },
+    {
+      "path": "checkpoints/benchmark/amformer/non_oxygen/amformer_OCN.pth",
+      "bytes": 8696093
+    },
+    {
+      "path": "checkpoints/benchmark/amformer/non_oxygen/amformer_OS.pth",
+      "bytes": 8696093
+    },
+    {
+      "path": "checkpoints/benchmark/amformer/non_oxygen/amformer_SGN.pth",
+      "bytes": 8700381
+    },
+    {
+      "path": "checkpoints/benchmark/amformer/oxygen/amformer_CN.pth",
+      "bytes": 8695773
+    },
+    {
+      "path": "checkpoints/benchmark/amformer/oxygen/amformer_CN2.pth",
+      "bytes": 8697309
+    },
+    {
+      "path": "checkpoints/benchmark/amformer/oxygen/amformer_NNOSM.pth",
+      "bytes": 8695453
+    },
+    {
+      "path": "checkpoints/benchmark/amformer/oxygen/amformer_NNRS.pth",
+      "bytes": 8695453
+    },
+    {
+      "path": "checkpoints/benchmark/amformer/oxygen/amformer_SGN.pth",
+      "bytes": 8699613
+    },
+    {
+      "path": "checkpoints/benchmark/cnn1d/non_oxygen/cnn1d_CN.pth",
+      "bytes": 75723
+    },
+    {
+      "path": "checkpoints/benchmark/cnn1d/non_oxygen/cnn1d_CN2.pth",
+      "bytes": 97035
+    },
+    {
+      "path": "checkpoints/benchmark/cnn1d/non_oxygen/cnn1d_MOOD.pth",
+      "bytes": 70987
+    },
+    {
+      "path": "checkpoints/benchmark/cnn1d/non_oxygen/cnn1d_NNRS.pth",
+      "bytes": 70987
+    },
+    {
+      "path": "checkpoints/benchmark/cnn1d/non_oxygen/cnn1d_OCN.pth",
+      "bytes": 75723
+    },
+    {
+      "path": "checkpoints/benchmark/cnn1d/non_oxygen/cnn1d_OS.pth",
+      "bytes": 75723
+    },
+    {
+      "path": "checkpoints/benchmark/cnn1d/non_oxygen/cnn1d_SGN.pth",
+      "bytes": 150283
+    },
+    {
+      "path": "checkpoints/benchmark/cnn1d/oxygen/cnn1d_CN.pth",
+      "bytes": 76747
+    },
+    {
+      "path": "checkpoints/benchmark/cnn1d/oxygen/cnn1d_CN2.pth",
+      "bytes": 102219
+    },
+    {
+      "path": "checkpoints/benchmark/cnn1d/oxygen/cnn1d_NNOSM.pth",
+      "bytes": 70987
+    },
+    {
+      "path": "checkpoints/benchmark/cnn1d/oxygen/cnn1d_NNRS.pth",
+      "bytes": 70987
+    },
+    {
+      "path": "checkpoints/benchmark/cnn1d/oxygen/cnn1d_SGN.pth",
+      "bytes": 141771
+    },
+    {
+      "path": "checkpoints/benchmark/decision_tree/non_oxygen/decision_tree_CN.joblib",
+      "bytes": 84449
+    },
+    {
+      "path": "checkpoints/benchmark/decision_tree/non_oxygen/decision_tree_CN2.joblib",
+      "bytes": 1179745
+    },
+    {
+      "path": "checkpoints/benchmark/decision_tree/non_oxygen/decision_tree_MOOD.joblib",
+      "bytes": 2698385
+    },
+    {
+      "path": "checkpoints/benchmark/decision_tree/non_oxygen/decision_tree_NNRS.joblib",
+      "bytes": 2716241
+    },
+    {
+      "path": "checkpoints/benchmark/decision_tree/non_oxygen/decision_tree_OCN.joblib",
+      "bytes": 83825
+    },
+    {
+      "path": "checkpoints/benchmark/decision_tree/non_oxygen/decision_tree_OS.joblib",
+      "bytes": 107745
+    },
+    {
+      "path": "checkpoints/benchmark/decision_tree/non_oxygen/decision_tree_SGN.joblib",
+      "bytes": 1927361
+    },
+    {
+      "path": "checkpoints/benchmark/decision_tree/oxygen/decision_tree_CN.joblib",
+      "bytes": 227481
+    },
+    {
+      "path": "checkpoints/benchmark/decision_tree/oxygen/decision_tree_CN2.joblib",
+      "bytes": 1112849
+    },
+    {
+      "path": "checkpoints/benchmark/decision_tree/oxygen/decision_tree_NNOSM.joblib",
+      "bytes": 666545
+    },
+    {
+      "path": "checkpoints/benchmark/decision_tree/oxygen/decision_tree_NNRS.joblib",
+      "bytes": 2823233
+    },
+    {
+      "path": "checkpoints/benchmark/decision_tree/oxygen/decision_tree_SGN.joblib",
+      "bytes": 1746305
+    },
+    {
+      "path": "checkpoints/benchmark/direct_nn/non_oxygen/direct_nn_CN.pth",
+      "bytes": 308025
+    },
+    {
+      "path": "checkpoints/benchmark/direct_nn/non_oxygen/direct_nn_CN2.pth",
+      "bytes": 312697
+    },
+    {
+      "path": "checkpoints/benchmark/direct_nn/non_oxygen/direct_nn_MOOD.pth",
+      "bytes": 307001
+    },
+    {
+      "path": "checkpoints/benchmark/direct_nn/non_oxygen/direct_nn_NNRS.pth",
+      "bytes": 307001
+    },
+    {
+      "path": "checkpoints/benchmark/direct_nn/non_oxygen/direct_nn_OCN.pth",
+      "bytes": 308025
+    },
+    {
+      "path": "checkpoints/benchmark/direct_nn/non_oxygen/direct_nn_OS.pth",
+      "bytes": 308025
+    },
+    {
+      "path": "checkpoints/benchmark/direct_nn/non_oxygen/direct_nn_SGN.pth",
+      "bytes": 324409
+    },
+    {
+      "path": "checkpoints/benchmark/direct_nn/oxygen/direct_nn_CN.pth",
+      "bytes": 305209
+    },
+    {
+      "path": "checkpoints/benchmark/direct_nn/oxygen/direct_nn_CN2.pth",
+      "bytes": 310969
+    },
+    {
+      "path": "checkpoints/benchmark/direct_nn/oxygen/direct_nn_NNOSM.pth",
+      "bytes": 303929
+    },
+    {
+      "path": "checkpoints/benchmark/direct_nn/oxygen/direct_nn_NNRS.pth",
+      "bytes": 303929
+    },
+    {
+      "path": "checkpoints/benchmark/direct_nn/oxygen/direct_nn_SGN.pth",
+      "bytes": 319801
+    },
+    {
+      "path": "checkpoints/benchmark/extra_trees/non_oxygen/extra_trees_CN.joblib",
+      "bytes": 16325697
+    },
+    {
+      "path": "checkpoints/benchmark/extra_trees/non_oxygen/extra_trees_CN2.joblib",
+      "bytes": 185084673
+    },
+    {
+      "path": "checkpoints/benchmark/extra_trees/non_oxygen/extra_trees_MOOD.joblib",
+      "bytes": 270133057
+    },
+    {
+      "path": "checkpoints/benchmark/extra_trees/non_oxygen/extra_trees_NNRS.joblib",
+      "bytes": 271678753
+    },
+    {
+      "path": "checkpoints/benchmark/extra_trees/non_oxygen/extra_trees_OCN.joblib",
+      "bytes": 16339425
+    },
+    {
+      "path": "checkpoints/benchmark/extra_trees/non_oxygen/extra_trees_OS.joblib",
+      "bytes": 23270817
+    },
+    {
+      "path": "checkpoints/benchmark/extra_trees/non_oxygen/extra_trees_SGN.joblib",
+      "bytes": 320419873
+    },
+    {
+      "path": "checkpoints/benchmark/extra_trees/oxygen/extra_trees_CN.joblib",
+      "bytes": 51157897
+    },
+    {
+      "path": "checkpoints/benchmark/extra_trees/oxygen/extra_trees_CN2.joblib",
+      "bytes": 194030769
+    },
+    {
+      "path": "checkpoints/benchmark/extra_trees/oxygen/extra_trees_NNOSM.joblib",
+      "bytes": 82748737
+    },
+    {
+      "path": "checkpoints/benchmark/extra_trees/oxygen/extra_trees_NNRS.joblib",
+      "bytes": 282307537
+    },
+    {
+      "path": "checkpoints/benchmark/extra_trees/oxygen/extra_trees_SGN.joblib",
+      "bytes": 310433825
+    },
+    {
+      "path": "checkpoints/benchmark/fttransformer/non_oxygen/fttransformer_CN.pth",
+      "bytes": 136741
+    },
+    {
+      "path": "checkpoints/benchmark/fttransformer/non_oxygen/fttransformer_CN2.pth",
+      "bytes": 137957
+    },
+    {
+      "path": "checkpoints/benchmark/fttransformer/non_oxygen/fttransformer_MOOD.pth",
+      "bytes": 136485
+    },
+    {
+      "path": "checkpoints/benchmark/fttransformer/non_oxygen/fttransformer_NNRS.pth",
+      "bytes": 136485
+    },
+    {
+      "path": "checkpoints/benchmark/fttransformer/non_oxygen/fttransformer_OCN.pth",
+      "bytes": 136741
+    },
+    {
+      "path": "checkpoints/benchmark/fttransformer/non_oxygen/fttransformer_OS.pth",
+      "bytes": 136741
+    },
+    {
+      "path": "checkpoints/benchmark/fttransformer/non_oxygen/fttransformer_SGN.pth",
+      "bytes": 141029
+    },
+    {
+      "path": "checkpoints/benchmark/fttransformer/oxygen/fttransformer_CN.pth",
+      "bytes": 136421
+    },
+    {
+      "path": "checkpoints/benchmark/fttransformer/oxygen/fttransformer_CN2.pth",
+      "bytes": 137957
+    },
+    {
+      "path": "checkpoints/benchmark/fttransformer/oxygen/fttransformer_NNOSM.pth",
+      "bytes": 136101
+    },
+    {
+      "path": "checkpoints/benchmark/fttransformer/oxygen/fttransformer_NNRS.pth",
+      "bytes": 136101
+    },
+    {
+      "path": "checkpoints/benchmark/fttransformer/oxygen/fttransformer_SGN.pth",
+      "bytes": 140261
+    },
+    {
+      "path": "checkpoints/benchmark/random_forest/non_oxygen/random_forest_CN.joblib",
+      "bytes": 7664161
+    },
+    {
+      "path": "checkpoints/benchmark/random_forest/non_oxygen/random_forest_CN2.joblib",
+      "bytes": 94705521
+    },
+    {
+      "path": "checkpoints/benchmark/random_forest/non_oxygen/random_forest_MOOD.joblib",
+      "bytes": 171028225
+    },
+    {
+      "path": "checkpoints/benchmark/random_forest/non_oxygen/random_forest_NNRS.joblib",
+      "bytes": 171739009
+    },
+    {
+      "path": "checkpoints/benchmark/random_forest/non_oxygen/random_forest_OCN.joblib",
+      "bytes": 7633793
+    },
+    {
+      "path": "checkpoints/benchmark/random_forest/non_oxygen/random_forest_OS.joblib",
+      "bytes": 9814257
+    },
+    {
+      "path": "checkpoints/benchmark/random_forest/non_oxygen/random_forest_SGN.joblib",
+      "bytes": 159817313
+    },
+    {
+      "path": "checkpoints/benchmark/random_forest/oxygen/random_forest_CN.joblib",
+      "bytes": 21944489
+    },
+    {
+      "path": "checkpoints/benchmark/random_forest/oxygen/random_forest_CN2.joblib",
+      "bytes": 96067169
+    },
+    {
+      "path": "checkpoints/benchmark/random_forest/oxygen/random_forest_NNOSM.joblib",
+      "bytes": 45025201
+    },
+    {
+      "path": "checkpoints/benchmark/random_forest/oxygen/random_forest_NNRS.joblib",
+      "bytes": 178453009
+    },
+    {
+      "path": "checkpoints/benchmark/random_forest/oxygen/random_forest_SGN.joblib",
+      "bytes": 150277281
+    },
+    {
+      "path": "checkpoints/benchmark/rankaae/non_oxygen/rankaae_CN.pth",
+      "bytes": 128773
+    },
+    {
+      "path": "checkpoints/benchmark/rankaae/non_oxygen/rankaae_CN2.pth",
+      "bytes": 150085
+    },
+    {
+      "path": "checkpoints/benchmark/rankaae/non_oxygen/rankaae_MOOD.pth",
+      "bytes": 124101
+    },
+    {
+      "path": "checkpoints/benchmark/rankaae/non_oxygen/rankaae_NNRS.pth",
+      "bytes": 124101
+    },
+    {
+      "path": "checkpoints/benchmark/rankaae/non_oxygen/rankaae_OCN.pth",
+      "bytes": 128773
+    },
+    {
+      "path": "checkpoints/benchmark/rankaae/non_oxygen/rankaae_OS.pth",
+      "bytes": 128773
+    },
+    {
+      "path": "checkpoints/benchmark/rankaae/non_oxygen/rankaae_SGN.pth",
+      "bytes": 203461
+    },
+    {
+      "path": "checkpoints/benchmark/rankaae/oxygen/rankaae_CN.pth",
+      "bytes": 129797
+    },
+    {
+      "path": "checkpoints/benchmark/rankaae/oxygen/rankaae_CN2.pth",
+      "bytes": 155397
+    },
+    {
+      "path": "checkpoints/benchmark/rankaae/oxygen/rankaae_NNOSM.pth",
+      "bytes": 124101
+    },
+    {
+      "path": "checkpoints/benchmark/rankaae/oxygen/rankaae_NNRS.pth",
+      "bytes": 124101
+    },
+    {
+      "path": "checkpoints/benchmark/rankaae/oxygen/rankaae_SGN.pth",
+      "bytes": 194885
+    },
+    {
+      "path": "checkpoints/benchmark/spt_expert/non_oxygen/SPT_CN.pth",
+      "bytes": 2604589
+    },
+    {
+      "path": "checkpoints/benchmark/spt_expert/non_oxygen/SPT_CN2.pth",
+      "bytes": 2609261
+    },
+    {
+      "path": "checkpoints/benchmark/spt_expert/non_oxygen/SPT_MOOD.pth",
+      "bytes": 2603565
+    },
+    {
+      "path": "checkpoints/benchmark/spt_expert/non_oxygen/SPT_NNRS.pth",
+      "bytes": 2603565
+    },
+    {
+      "path": "checkpoints/benchmark/spt_expert/non_oxygen/SPT_OCN.pth",
+      "bytes": 2604589
+    },
+    {
+      "path": "checkpoints/benchmark/spt_expert/non_oxygen/SPT_OS.pth",
+      "bytes": 2604589
+    },
+    {
+      "path": "checkpoints/benchmark/spt_expert/non_oxygen/SPT_SGN.pth",
+      "bytes": 2620973
+    },
+    {
+      "path": "checkpoints/benchmark/spt_expert/oxygen/SPT_CN.pth",
+      "bytes": 2602541
+    },
+    {
+      "path": "checkpoints/benchmark/spt_expert/oxygen/SPT_CN2.pth",
+      "bytes": 2608237
+    },
+    {
+      "path": "checkpoints/benchmark/spt_expert/oxygen/SPT_NNOSM.pth",
+      "bytes": 2601261
+    },
+    {
+      "path": "checkpoints/benchmark/spt_expert/oxygen/SPT_NNRS.pth",
+      "bytes": 2601261
+    },
+    {
+      "path": "checkpoints/benchmark/spt_expert/oxygen/SPT_SGN.pth",
+      "bytes": 2617133
+    },
+    {
+      "path": "checkpoints/benchmark/spt_joint/non_oxygen/SPT_joint.pth",
+      "bytes": 3680749
+    },
+    {
+      "path": "checkpoints/benchmark/spt_joint/oxygen/SPT_joint.pth",
+      "bytes": 3326417
+    },
+    {
+      "path": "checkpoints/benchmark/xgboost/non_oxygen/xgboost_CN.joblib",
+      "bytes": 926571
+    },
+    {
+      "path": "checkpoints/benchmark/xgboost/non_oxygen/xgboost_CN2.joblib",
+      "bytes": 4117341
+    },
+    {
+      "path": "checkpoints/benchmark/xgboost/non_oxygen/xgboost_MOOD.joblib",
+      "bytes": 419388
+    },
+    {
+      "path": "checkpoints/benchmark/xgboost/non_oxygen/xgboost_NNRS.joblib",
+      "bytes": 440275
+    },
+    {
+      "path": "checkpoints/benchmark/xgboost/non_oxygen/xgboost_OCN.joblib",
+      "bytes": 923504
+    },
+    {
+      "path": "checkpoints/benchmark/xgboost/non_oxygen/xgboost_OS.joblib",
+      "bytes": 948689
+    },
+    {
+      "path": "checkpoints/benchmark/xgboost/non_oxygen/xgboost_SGN.joblib",
+      "bytes": 3863986
+    },
+    {
+      "path": "checkpoints/benchmark/xgboost/oxygen/xgboost_CN.joblib",
+      "bytes": 1621767
+    },
+    {
+      "path": "checkpoints/benchmark/xgboost/oxygen/xgboost_CN2.joblib",
+      "bytes": 4157720
+    },
+    {
+      "path": "checkpoints/benchmark/xgboost/oxygen/xgboost_NNOSM.joblib",
+      "bytes": 445456
+    },
+    {
+      "path": "checkpoints/benchmark/xgboost/oxygen/xgboost_NNRS.joblib",
+      "bytes": 444024
+    },
+    {
+      "path": "checkpoints/benchmark/xgboost/oxygen/xgboost_SGN.joblib",
+      "bytes": 3987410
+    },
+    {
+      "path": "checkpoints/interpretability/bands/spt/non_oxygen/spt_CN.pth",
+      "bytes": 2604589
+    },
+    {
+      "path": "checkpoints/interpretability/bands/spt/non_oxygen/spt_CN2.pth",
+      "bytes": 2609261
+    },
+    {
+      "path": "checkpoints/interpretability/bands/spt/non_oxygen/spt_MOOD.pth",
+      "bytes": 2603565
+    },
+    {
+      "path": "checkpoints/interpretability/bands/spt/non_oxygen/spt_NNRS.pth",
+      "bytes": 2603565
+    },
+    {
+      "path": "checkpoints/interpretability/bands/spt/non_oxygen/spt_OCN.pth",
+      "bytes": 2604589
+    },
+    {
+      "path": "checkpoints/interpretability/bands/spt/non_oxygen/spt_OS.pth",
+      "bytes": 2604589
+    },
+    {
+      "path": "checkpoints/interpretability/bands/spt/non_oxygen/spt_SGN.pth",
+      "bytes": 2620973
+    },
+    {
+      "path": "checkpoints/interpretability/bands/spt/oxygen/spt_CN.pth",
+      "bytes": 2602541
+    },
+    {
+      "path": "checkpoints/interpretability/bands/spt/oxygen/spt_CN2.pth",
+      "bytes": 2608237
+    },
+    {
+      "path": "checkpoints/interpretability/bands/spt/oxygen/spt_NNOSM.pth",
+      "bytes": 2601261
+    },
+    {
+      "path": "checkpoints/interpretability/bands/spt/oxygen/spt_NNRS.pth",
+      "bytes": 2601261
+    },
+    {
+      "path": "checkpoints/interpretability/bands/spt/oxygen/spt_SGN.pth",
+      "bytes": 2617133
+    },
+    {
+      "path": "checkpoints/interpretability/energy_windows/spt/non_oxygen/spt_CN.pth",
+      "bytes": 2604589
+    },
+    {
+      "path": "checkpoints/interpretability/energy_windows/spt/non_oxygen/spt_CN2.pth",
+      "bytes": 2609261
+    },
+    {
+      "path": "checkpoints/interpretability/energy_windows/spt/non_oxygen/spt_OS.pth",
+      "bytes": 2604589
+    },
+    {
+      "path": "checkpoints/interpretability/energy_windows/spt/oxygen/spt_CN.pth",
+      "bytes": 2602541
+    },
+    {
+      "path": "checkpoints/interpretability/energy_windows/spt/oxygen/spt_CN2.pth",
+      "bytes": 2608237
+    },
+    {
+      "path": "checkpoints/robustness/gaussian/amformer/non_oxygen/amformer_CN.pth",
+      "bytes": 8696093
+    },
+    {
+      "path": "checkpoints/robustness/gaussian/amformer/non_oxygen/amformer_CN2.pth",
+      "bytes": 8697309
+    },
+    {
+      "path": "checkpoints/robustness/gaussian/amformer/non_oxygen/amformer_MOOD.pth",
+      "bytes": 8695837
+    },
+    {
+      "path": "checkpoints/robustness/gaussian/amformer/non_oxygen/amformer_NNRS.pth",
+      "bytes": 8695837
+    },
+    {
+      "path": "checkpoints/robustness/gaussian/amformer/non_oxygen/amformer_OCN.pth",
+      "bytes": 8696093
+    },
+    {
+      "path": "checkpoints/robustness/gaussian/amformer/non_oxygen/amformer_OS.pth",
+      "bytes": 8696093
+    },
+    {
+      "path": "checkpoints/robustness/gaussian/amformer/non_oxygen/amformer_SGN.pth",
+      "bytes": 8700381
+    },
+    {
+      "path": "checkpoints/robustness/gaussian/amformer/oxygen/amformer_CN.pth",
+      "bytes": 8695773
+    },
+    {
+      "path": "checkpoints/robustness/gaussian/amformer/oxygen/amformer_CN2.pth",
+      "bytes": 8697309
+    },
+    {
+      "path": "checkpoints/robustness/gaussian/amformer/oxygen/amformer_NNOSM.pth",
+      "bytes": 8695453
+    },
+    {
+      "path": "checkpoints/robustness/gaussian/amformer/oxygen/amformer_NNRS.pth",
+      "bytes": 8695453
+    },
+    {
+      "path": "checkpoints/robustness/gaussian/amformer/oxygen/amformer_SGN.pth",
+      "bytes": 8699613
+    },
+    {
+      "path": "checkpoints/robustness/gaussian/direct_nn/non_oxygen/direct_nn_CN.pth",
+      "bytes": 308025
+    },
+    {
+      "path": "checkpoints/robustness/gaussian/direct_nn/non_oxygen/direct_nn_CN2.pth",
+      "bytes": 312697
+    },
+    {
+      "path": "checkpoints/robustness/gaussian/direct_nn/non_oxygen/direct_nn_MOOD.pth",
+      "bytes": 307001
+    },
+    {
+      "path": "checkpoints/robustness/gaussian/direct_nn/non_oxygen/direct_nn_NNRS.pth",
+      "bytes": 307001
+    },
+    {
+      "path": "checkpoints/robustness/gaussian/direct_nn/non_oxygen/direct_nn_OCN.pth",
+      "bytes": 308025
+    },
+    {
+      "path": "checkpoints/robustness/gaussian/direct_nn/non_oxygen/direct_nn_OS.pth",
+      "bytes": 308025
+    },
+    {
+      "path": "checkpoints/robustness/gaussian/direct_nn/non_oxygen/direct_nn_SGN.pth",
+      "bytes": 324409
+    },
+    {
+      "path": "checkpoints/robustness/gaussian/direct_nn/oxygen/direct_nn_CN.pth",
+      "bytes": 305209
+    },
+    {
+      "path": "checkpoints/robustness/gaussian/direct_nn/oxygen/direct_nn_CN2.pth",
+      "bytes": 310969
+    },
+    {
+      "path": "checkpoints/robustness/gaussian/direct_nn/oxygen/direct_nn_NNOSM.pth",
+      "bytes": 303929
+    },
+    {
+      "path": "checkpoints/robustness/gaussian/direct_nn/oxygen/direct_nn_NNRS.pth",
+      "bytes": 303929
+    },
+    {
+      "path": "checkpoints/robustness/gaussian/direct_nn/oxygen/direct_nn_SGN.pth",
+      "bytes": 319801
+    },
+    {
+      "path": "checkpoints/robustness/gaussian/random_forest/non_oxygen/random_forest_CN.joblib",
+      "bytes": 7664161
+    },
+    {
+      "path": "checkpoints/robustness/gaussian/random_forest/non_oxygen/random_forest_CN2.joblib",
+      "bytes": 94705521
+    },
+    {
+      "path": "checkpoints/robustness/gaussian/random_forest/non_oxygen/random_forest_MOOD.joblib",
+      "bytes": 171028225
+    },
+    {
+      "path": "checkpoints/robustness/gaussian/random_forest/non_oxygen/random_forest_NNRS.joblib",
+      "bytes": 171739009
+    },
+    {
+      "path": "checkpoints/robustness/gaussian/random_forest/non_oxygen/random_forest_OCN.joblib",
+      "bytes": 7633793
+    },
+    {
+      "path": "checkpoints/robustness/gaussian/random_forest/non_oxygen/random_forest_OS.joblib",
+      "bytes": 9814257
+    },
+    {
+      "path": "checkpoints/robustness/gaussian/random_forest/non_oxygen/random_forest_SGN.joblib",
+      "bytes": 159817313
+    },
+    {
+      "path": "checkpoints/robustness/gaussian/random_forest/oxygen/random_forest_CN.joblib",
+      "bytes": 21944489
+    },
+    {
+      "path": "checkpoints/robustness/gaussian/random_forest/oxygen/random_forest_CN2.joblib",
+      "bytes": 96067169
+    },
+    {
+      "path": "checkpoints/robustness/gaussian/random_forest/oxygen/random_forest_NNOSM.joblib",
+      "bytes": 45025201
+    },
+    {
+      "path": "checkpoints/robustness/gaussian/random_forest/oxygen/random_forest_NNRS.joblib",
+      "bytes": 178453009
+    },
+    {
+      "path": "checkpoints/robustness/gaussian/random_forest/oxygen/random_forest_SGN.joblib",
+      "bytes": 150277281
+    },
+    {
+      "path": "checkpoints/robustness/gaussian/spt/non_oxygen/spt_CN.pth",
+      "bytes": 2604589
+    },
+    {
+      "path": "checkpoints/robustness/gaussian/spt/non_oxygen/spt_CN2.pth",
+      "bytes": 2609261
+    },
+    {
+      "path": "checkpoints/robustness/gaussian/spt/non_oxygen/spt_MOOD.pth",
+      "bytes": 2603565
+    },
+    {
+      "path": "checkpoints/robustness/gaussian/spt/non_oxygen/spt_NNRS.pth",
+      "bytes": 2603565
+    },
+    {
+      "path": "checkpoints/robustness/gaussian/spt/non_oxygen/spt_OCN.pth",
+      "bytes": 2604589
+    },
+    {
+      "path": "checkpoints/robustness/gaussian/spt/non_oxygen/spt_OS.pth",
+      "bytes": 2604589
+    },
+    {
+      "path": "checkpoints/robustness/gaussian/spt/non_oxygen/spt_SGN.pth",
+      "bytes": 2620973
+    },
+    {
+      "path": "checkpoints/robustness/gaussian/spt/oxygen/spt_CN.pth",
+      "bytes": 2602541
+    },
+    {
+      "path": "checkpoints/robustness/gaussian/spt/oxygen/spt_CN2.pth",
+      "bytes": 2608237
+    },
+    {
+      "path": "checkpoints/robustness/gaussian/spt/oxygen/spt_NNOSM.pth",
+      "bytes": 2601261
+    },
+    {
+      "path": "checkpoints/robustness/gaussian/spt/oxygen/spt_NNRS.pth",
+      "bytes": 2601261
+    },
+    {
+      "path": "checkpoints/robustness/gaussian/spt/oxygen/spt_SGN.pth",
+      "bytes": 2617133
+    },
+    {
+      "path": "checkpoints/runtime/spt/non_oxygen/spt_CN.pth",
+      "bytes": 2604589
+    },
+    {
+      "path": "checkpoints/runtime/spt/non_oxygen/spt_CN2.pth",
+      "bytes": 2609261
+    },
+    {
+      "path": "checkpoints/runtime/spt/non_oxygen/spt_MOOD.pth",
+      "bytes": 2603565
+    },
+    {
+      "path": "checkpoints/runtime/spt/non_oxygen/spt_NNRS.pth",
+      "bytes": 2603565
+    },
+    {
+      "path": "checkpoints/runtime/spt/non_oxygen/spt_OCN.pth",
+      "bytes": 2604589
+    },
+    {
+      "path": "checkpoints/runtime/spt/non_oxygen/spt_OS.pth",
+      "bytes": 2604589
+    },
+    {
+      "path": "checkpoints/runtime/spt/non_oxygen/spt_SGN.pth",
+      "bytes": 2620973
+    },
+    {
+      "path": "checkpoints/runtime/spt/non_oxygen/spt_all.pth",
+      "bytes": 3680749
+    },
+    {
+      "path": "checkpoints/runtime/spt/oxygen/spt_CN.pth",
+      "bytes": 2602541
+    },
+    {
+      "path": "checkpoints/runtime/spt/oxygen/spt_CN2.pth",
+      "bytes": 2608237
+    },
+    {
+      "path": "checkpoints/runtime/spt/oxygen/spt_NNOSM.pth",
+      "bytes": 2601261
+    },
+    {
+      "path": "checkpoints/runtime/spt/oxygen/spt_NNRS.pth",
+      "bytes": 2601261
+    },
+    {
+      "path": "checkpoints/runtime/spt/oxygen/spt_SGN.pth",
+      "bytes": 2617133
+    },
+    {
+      "path": "checkpoints/runtime/spt/oxygen/spt_all.pth",
+      "bytes": 3326417
+    },
+    {
+      "path": "checkpoints/transfer/CN/scratch_10.pth",
+      "bytes": 2609941
+    },
+    {
+      "path": "checkpoints/transfer/CN/scratch_25.pth",
+      "bytes": 2609941
+    },
+    {
+      "path": "checkpoints/transfer/CN/scratch_50.pth",
+      "bytes": 2609941
+    },
+    {
+      "path": "checkpoints/transfer/CN/source.pth",
+      "bytes": 2604589
+    },
+    {
+      "path": "checkpoints/transfer/CN/tl_10.pth",
+      "bytes": 2609941
+    },
+    {
+      "path": "checkpoints/transfer/CN/tl_10_initializer.pth",
+      "bytes": 2619387
+    },
+    {
+      "path": "checkpoints/transfer/CN/tl_10_source.pth",
+      "bytes": 2604589
+    },
+    {
+      "path": "checkpoints/transfer/CN/tl_25.pth",
+      "bytes": 2609941
+    },
+    {
+      "path": "checkpoints/transfer/CN/tl_25_initializer.pth",
+      "bytes": 2619387
+    },
+    {
+      "path": "checkpoints/transfer/CN/tl_25_source.pth",
+      "bytes": 2604589
+    },
+    {
+      "path": "checkpoints/transfer/CN/tl_50.pth",
+      "bytes": 2609941
+    },
+    {
+      "path": "checkpoints/transfer/CN/tl_50_initializer.pth",
+      "bytes": 2619387
+    },
+    {
+      "path": "checkpoints/transfer/CN/tl_50_source.pth",
+      "bytes": 2604589
+    },
+    {
+      "path": "checkpoints/transfer/OCN/scratch_10.pth",
+      "bytes": 2609941
+    },
+    {
+      "path": "checkpoints/transfer/OCN/scratch_25.pth",
+      "bytes": 2609941
+    },
+    {
+      "path": "checkpoints/transfer/OCN/scratch_50.pth",
+      "bytes": 2609941
+    },
+    {
+      "path": "checkpoints/transfer/OCN/source.pth",
+      "bytes": 2604589
+    },
+    {
+      "path": "checkpoints/transfer/OCN/tl_10.pth",
+      "bytes": 2609941
+    },
+    {
+      "path": "checkpoints/transfer/OCN/tl_10_initializer.pth",
+      "bytes": 2619387
+    },
+    {
+      "path": "checkpoints/transfer/OCN/tl_10_source.pth",
+      "bytes": 2604589
+    },
+    {
+      "path": "checkpoints/transfer/OCN/tl_25.pth",
+      "bytes": 2609941
+    },
+    {
+      "path": "checkpoints/transfer/OCN/tl_25_initializer.pth",
+      "bytes": 2619387
+    },
+    {
+      "path": "checkpoints/transfer/OCN/tl_25_source.pth",
+      "bytes": 2604589
+    },
+    {
+      "path": "checkpoints/transfer/OCN/tl_50.pth",
+      "bytes": 2609941
+    },
+    {
+      "path": "checkpoints/transfer/OCN/tl_50_initializer.pth",
+      "bytes": 2619387
+    },
+    {
+      "path": "checkpoints/transfer/OCN/tl_50_source.pth",
+      "bytes": 2604589
+    },
+    {
+      "path": "checkpoints/transfer/OS/scratch_10.pth",
+      "bytes": 2609941
+    },
+    {
+      "path": "checkpoints/transfer/OS/scratch_25.pth",
+      "bytes": 2609941
+    },
+    {
+      "path": "checkpoints/transfer/OS/scratch_50.pth",
+      "bytes": 2609941
+    },
+    {
+      "path": "checkpoints/transfer/OS/source.pth",
+      "bytes": 2604589
+    },
+    {
+      "path": "checkpoints/transfer/OS/tl_10.pth",
+      "bytes": 2609941
+    },
+    {
+      "path": "checkpoints/transfer/OS/tl_10_initializer.pth",
+      "bytes": 2619387
+    },
+    {
+      "path": "checkpoints/transfer/OS/tl_10_source.pth",
+      "bytes": 2604589
+    },
+    {
+      "path": "checkpoints/transfer/OS/tl_25.pth",
+      "bytes": 2609941
+    },
+    {
+      "path": "checkpoints/transfer/OS/tl_25_initializer.pth",
+      "bytes": 2619387
+    },
+    {
+      "path": "checkpoints/transfer/OS/tl_25_source.pth",
+      "bytes": 2604589
+    },
+    {
+      "path": "checkpoints/transfer/OS/tl_50.pth",
+      "bytes": 2609941
+    },
+    {
+      "path": "checkpoints/transfer/OS/tl_50_initializer.pth",
+      "bytes": 2619387
+    },
+    {
+      "path": "checkpoints/transfer/OS/tl_50_source.pth",
+      "bytes": 2604589
+    },
+    {
+      "path": "checkpoints/transfer/baselines/amformer/CN/scratch-10.pth",
+      "bytes": 8695523
+    },
+    {
+      "path": "checkpoints/transfer/baselines/amformer/CN/scratch-25.pth",
+      "bytes": 8695523
+    },
+    {
+      "path": "checkpoints/transfer/baselines/amformer/CN/scratch-50.pth",
+      "bytes": 8695523
+    },
+    {
+      "path": "checkpoints/transfer/baselines/amformer/CN/source.pth",
+      "bytes": 8693213
+    },
+    {
+      "path": "checkpoints/transfer/baselines/amformer/CN/tl-10.pth",
+      "bytes": 8695523
+    },
+    {
+      "path": "checkpoints/transfer/baselines/amformer/CN/tl-25.pth",
+      "bytes": 8695523
+    },
+    {
+      "path": "checkpoints/transfer/baselines/amformer/CN/tl-50.pth",
+      "bytes": 8695523
+    },
+    {
+      "path": "checkpoints/transfer/baselines/amformer/OCN/scratch-10.pth",
+      "bytes": 8695523
+    },
+    {
+      "path": "checkpoints/transfer/baselines/amformer/OCN/scratch-25.pth",
+      "bytes": 8695523
+    },
+    {
+      "path": "checkpoints/transfer/baselines/amformer/OCN/scratch-50.pth",
+      "bytes": 8695523
+    },
+    {
+      "path": "checkpoints/transfer/baselines/amformer/OCN/source.pth",
+      "bytes": 8693213
+    },
+    {
+      "path": "checkpoints/transfer/baselines/amformer/OCN/tl-10.pth",
+      "bytes": 8695523
+    },
+    {
+      "path": "checkpoints/transfer/baselines/amformer/OCN/tl-25.pth",
+      "bytes": 8695523
+    },
+    {
+      "path": "checkpoints/transfer/baselines/amformer/OCN/tl-50.pth",
+      "bytes": 8695523
+    },
+    {
+      "path": "checkpoints/transfer/baselines/amformer/OS/scratch-10.pth",
+      "bytes": 8695523
+    },
+    {
+      "path": "checkpoints/transfer/baselines/amformer/OS/scratch-25.pth",
+      "bytes": 8695523
+    },
+    {
+      "path": "checkpoints/transfer/baselines/amformer/OS/scratch-50.pth",
+      "bytes": 8695523
+    },
+    {
+      "path": "checkpoints/transfer/baselines/amformer/OS/source.pth",
+      "bytes": 8693213
+    },
+    {
+      "path": "checkpoints/transfer/baselines/amformer/OS/tl-10.pth",
+      "bytes": 8695523
+    },
+    {
+      "path": "checkpoints/transfer/baselines/amformer/OS/tl-25.pth",
+      "bytes": 8695523
+    },
+    {
+      "path": "checkpoints/transfer/baselines/amformer/OS/tl-50.pth",
+      "bytes": 8695523
+    },
+    {
+      "path": "checkpoints/transfer/baselines/direct_nn/CN/adaptation-source.pth",
+      "bytes": 673849
+    },
+    {
+      "path": "checkpoints/transfer/baselines/direct_nn/CN/scratch-10.pth",
+      "bytes": 673853
+    },
+    {
+      "path": "checkpoints/transfer/baselines/direct_nn/CN/scratch-25.pth",
+      "bytes": 673853
+    },
+    {
+      "path": "checkpoints/transfer/baselines/direct_nn/CN/scratch-50.pth",
+      "bytes": 673853
+    },
+    {
+      "path": "checkpoints/transfer/baselines/direct_nn/CN/source.pth",
+      "bytes": 673849
+    },
+    {
+      "path": "checkpoints/transfer/baselines/direct_nn/CN/tl-10.pth",
+      "bytes": 673853
+    },
+    {
+      "path": "checkpoints/transfer/baselines/direct_nn/CN/tl-25.pth",
+      "bytes": 673853
+    },
+    {
+      "path": "checkpoints/transfer/baselines/direct_nn/CN/tl-50.pth",
+      "bytes": 673853
+    },
+    {
+      "path": "checkpoints/transfer/baselines/direct_nn/OCN/adaptation-source.pth",
+      "bytes": 673849
+    },
+    {
+      "path": "checkpoints/transfer/baselines/direct_nn/OCN/scratch-10.pth",
+      "bytes": 673853
+    },
+    {
+      "path": "checkpoints/transfer/baselines/direct_nn/OCN/scratch-25.pth",
+      "bytes": 673853
+    },
+    {
+      "path": "checkpoints/transfer/baselines/direct_nn/OCN/scratch-50.pth",
+      "bytes": 673853
+    },
+    {
+      "path": "checkpoints/transfer/baselines/direct_nn/OCN/source.pth",
+      "bytes": 673849
+    },
+    {
+      "path": "checkpoints/transfer/baselines/direct_nn/OCN/tl-10.pth",
+      "bytes": 673853
+    },
+    {
+      "path": "checkpoints/transfer/baselines/direct_nn/OCN/tl-25.pth",
+      "bytes": 673853
+    },
+    {
+      "path": "checkpoints/transfer/baselines/direct_nn/OCN/tl-50.pth",
+      "bytes": 673853
+    },
+    {
+      "path": "checkpoints/transfer/baselines/direct_nn/OS/adaptation-source.pth",
+      "bytes": 673849
+    },
+    {
+      "path": "checkpoints/transfer/baselines/direct_nn/OS/scratch-10.pth",
+      "bytes": 673853
+    },
+    {
+      "path": "checkpoints/transfer/baselines/direct_nn/OS/scratch-25.pth",
+      "bytes": 673853
+    },
+    {
+      "path": "checkpoints/transfer/baselines/direct_nn/OS/scratch-50.pth",
+      "bytes": 673853
+    },
+    {
+      "path": "checkpoints/transfer/baselines/direct_nn/OS/source.pth",
+      "bytes": 673849
+    },
+    {
+      "path": "checkpoints/transfer/baselines/direct_nn/OS/tl-10.pth",
+      "bytes": 673853
+    },
+    {
+      "path": "checkpoints/transfer/baselines/direct_nn/OS/tl-25.pth",
+      "bytes": 673853
+    },
+    {
+      "path": "checkpoints/transfer/baselines/direct_nn/OS/tl-50.pth",
+      "bytes": 673853
+    },
+    {
+      "path": "checkpoints/transfer/baselines/random_forest/CN/source.joblib",
+      "bytes": 7700614
+    },
+    {
+      "path": "checkpoints/transfer/baselines/random_forest/CN/target_only-10.joblib",
+      "bytes": 231486
+    },
+    {
+      "path": "checkpoints/transfer/baselines/random_forest/CN/target_only-25.joblib",
+      "bytes": 452376
+    },
+    {
+      "path": "checkpoints/transfer/baselines/random_forest/CN/target_only-50.joblib",
+      "bytes": 774908
+    },
+    {
+      "path": "checkpoints/transfer/baselines/random_forest/OCN/source.joblib",
+      "bytes": 7666296
+    },
+    {
+      "path": "checkpoints/transfer/baselines/random_forest/OCN/target_only-10.joblib",
+      "bytes": 231493
+    },
+    {
+      "path": "checkpoints/transfer/baselines/random_forest/OCN/target_only-25.joblib",
+      "bytes": 451967
+    },
+    {
+      "path": "checkpoints/transfer/baselines/random_forest/OCN/target_only-50.joblib",
+      "bytes": 772835
+    },
+    {
+      "path": "checkpoints/transfer/baselines/random_forest/OS/source.joblib",
+      "bytes": 9782278
+    },
+    {
+      "path": "checkpoints/transfer/baselines/random_forest/OS/target_only-10.joblib",
+      "bytes": 143391
+    },
+    {
+      "path": "checkpoints/transfer/baselines/random_forest/OS/target_only-25.joblib",
+      "bytes": 204841
+    },
+    {
+      "path": "checkpoints/transfer/baselines/random_forest/OS/target_only-50.joblib",
+      "bytes": 308861
+    },
+    {
+      "path": "checkpoints/uncertainty/spt/non_oxygen/spt_CN.pth",
+      "bytes": 2604589
+    },
+    {
+      "path": "checkpoints/uncertainty/spt/non_oxygen/spt_CN2.pth",
+      "bytes": 2609261
+    },
+    {
+      "path": "checkpoints/uncertainty/spt/non_oxygen/spt_MOOD.pth",
+      "bytes": 2603565
+    },
+    {
+      "path": "checkpoints/uncertainty/spt/non_oxygen/spt_NNRS.pth",
+      "bytes": 2603565
+    },
+    {
+      "path": "checkpoints/uncertainty/spt/non_oxygen/spt_OCN.pth",
+      "bytes": 2604589
+    },
+    {
+      "path": "checkpoints/uncertainty/spt/non_oxygen/spt_OS.pth",
+      "bytes": 2604589
+    },
+    {
+      "path": "checkpoints/uncertainty/spt/non_oxygen/spt_SGN.pth",
+      "bytes": 2620973
+    },
+    {
+      "path": "checkpoints/uncertainty/spt/oxygen/spt_CN.pth",
+      "bytes": 2602541
+    },
+    {
+      "path": "checkpoints/uncertainty/spt/oxygen/spt_CN2.pth",
+      "bytes": 2608237
+    },
+    {
+      "path": "checkpoints/uncertainty/spt/oxygen/spt_NNOSM.pth",
+      "bytes": 2601261
+    },
+    {
+      "path": "checkpoints/uncertainty/spt/oxygen/spt_NNRS.pth",
+      "bytes": 2601261
+    },
+    {
+      "path": "checkpoints/uncertainty/spt/oxygen/spt_SGN.pth",
+      "bytes": 2617133
+    },
+    {
+      "path": "data/splits/final/metal.json",
+      "bytes": 84281
+    },
+    {
+      "path": "data/splits/final/oxygen.json",
+      "bytes": 82225
+    },
+    {
+      "path": "data/splits/transfer/manifest.json",
+      "bytes": 39075
+    },
+    {
+      "path": "data/splits/transfer/source_metal.json",
+      "bytes": 84281
+    },
+    {
+      "path": "datasets/applications/co_lisa_compounds/prepared.csv",
+      "bytes": 133289
+    },
+    {
+      "path": "datasets/applications/co_lisa_compounds/provenance.json",
+      "bytes": 1794
+    },
+    {
+      "path": "datasets/applications/co_lisa_compounds/raw/Co2O3_111_80K.xdi",
+      "bytes": 29261
+    },
+    {
+      "path": "datasets/applications/co_lisa_compounds/raw/Co3O4_111_80K.xdi",
+      "bytes": 29264
+    },
+    {
+      "path": "datasets/applications/co_lisa_compounds/raw/CoAl2O4_111_80K.xdi",
+      "bytes": 29267
+    },
+    {
+      "path": "datasets/applications/co_lisa_compounds/raw/CoFe2O4_Co_111_80K.xdi",
+      "bytes": 29263
+    },
+    {
+      "path": "datasets/applications/co_lisa_compounds/raw/CoO_111_80K.xdi",
+      "bytes": 29258
+    },
+    {
+      "path": "datasets/applications/co_lisa_compounds/raw/LiCoO2_80K_111.xdi",
+      "bytes": 29270
+    },
+    {
+      "path": "datasets/applications/co_lisa_compounds/raw/NiCo2O4_Co_80K_111.xdi",
+      "bytes": 20380
+    },
+    {
+      "path": "datasets/applications/co_lisa_compounds/raw/ZnCo2O4_Co_80K_111.xdi",
+      "bytes": 29263
+    },
+    {
+      "path": "datasets/applications/co_lisa_compounds/reference_predictions.csv",
+      "bytes": 27093
+    },
+    {
+      "path": "datasets/applications/co_lisa_compounds/source_context/calibration_audit.csv",
+      "bytes": 3624
+    },
+    {
+      "path": "datasets/applications/fe_charging/prepared.csv",
+      "bytes": 683839
+    },
+    {
+      "path": "datasets/applications/fe_charging/provenance.json",
+      "bytes": 1418
+    },
+    {
+      "path": "datasets/applications/fe_charging/raw/LFP-potential-time_curve.txt",
+      "bytes": 5492064
+    },
+    {
+      "path": "datasets/applications/fe_charging/raw/LFP-spectra-assignment.xlsx",
+      "bytes": 9607
+    },
+    {
+      "path": "datasets/applications/fe_charging/raw/LFP_3xBin_01-65.dat",
+      "bytes": 739439
+    },
+    {
+      "path": "datasets/applications/fe_charging/reference_predictions.csv",
+      "bytes": 126369
+    },
+    {
+      "path": "datasets/applications/fe_charging/source_context/model_input_arrays.csv",
+      "bytes": 359276
+    },
+    {
+      "path": "datasets/applications/lco_computed_co_sites/prepared.csv",
+      "bytes": 512118
+    },
+    {
+      "path": "datasets/applications/lco_computed_co_sites/provenance.json",
+      "bytes": 2089
+    },
+    {
+      "path": "datasets/applications/lco_computed_co_sites/raw/computed_Li_Co_O_all_26_sites.csv",
+      "bytes": 179524
+    },
+    {
+      "path": "datasets/applications/lco_computed_co_sites/reference_predictions.csv",
+      "bytes": 5240
+    },
+    {
+      "path": "datasets/applications/lco_computed_co_sites/source_context/source_groups.csv",
+      "bytes": 420
+    },
+    {
+      "path": "datasets/applications/lco_measured_charging/prepared.csv",
+      "bytes": 172555
+    },
+    {
+      "path": "datasets/applications/lco_measured_charging/provenance.json",
+      "bytes": 1994
+    },
+    {
+      "path": "datasets/applications/lco_measured_charging/raw/LiCoO2_reference.xdi",
+      "bytes": 29270
+    },
+    {
+      "path": "datasets/applications/lco_measured_charging/reference_predictions.csv",
+      "bytes": 2954
+    },
+    {
+      "path": "datasets/applications/lco_measured_charging/source_context/processed_LISA_Co_reference_collection.csv",
+      "bytes": 39917
+    },
+    {
+      "path": "datasets/applications/lco_measured_charging/source_context/supplied_processed_spectra.csv",
+      "bytes": 103970
+    },
+    {
+      "path": "datasets/applications/ni_fe_activation/prepared.csv",
+      "bytes": 142096
+    },
+    {
+      "path": "datasets/applications/ni_fe_activation/provenance.json",
+      "bytes": 1841
+    },
+    {
+      "path": "datasets/applications/ni_fe_activation/raw/published_Figure2b.csv",
+      "bytes": 20395
+    },
+    {
+      "path": "datasets/applications/ni_fe_activation/raw/published_Figure2c_EXAFS.csv",
+      "bytes": 26112
+    },
+    {
+      "path": "datasets/applications/ni_fe_activation/raw/published_Source_Data.xlsx",
+      "bytes": 65467
+    },
+    {
+      "path": "datasets/applications/ni_fe_activation/reference_predictions.csv",
+      "bytes": 814
+    },
+    {
+      "path": "datasets/applications/ni_fe_activation/reference_predictions_long.csv",
+      "bytes": 4965
+    },
+    {
+      "path": "datasets/applications/ni_fe_activation/reference_predictions_long.metadata.json",
+      "bytes": 1840
+    },
+    {
+      "path": "datasets/applications/ni_fe_activation/source_context/scientific_input_controls.json",
+      "bytes": 418531
+    },
+    {
+      "path": "datasets/applications/ni_first_sodiation/prepared.csv",
+      "bytes": 130459
+    },
+    {
+      "path": "datasets/applications/ni_first_sodiation/provenance.json",
+      "bytes": 1207
+    },
+    {
+      "path": "datasets/applications/ni_first_sodiation/raw/Ni_Kedge_source.opju",
+      "bytes": 631224
+    },
+    {
+      "path": "datasets/applications/ni_first_sodiation/reference_predictions.csv",
+      "bytes": 8982
+    },
+    {
+      "path": "datasets/applications/ni_first_sodiation/source_context/supplied_processed_spectra.csv",
+      "bytes": 56836
+    },
+    {
+      "path": "datasets/applications/ti_nist_standards/prepared.csv",
+      "bytes": 158546
+    },
+    {
+      "path": "datasets/applications/ti_nist_standards/provenance.json",
+      "bytes": 2050
+    },
+    {
+      "path": "datasets/applications/ti_nist_standards/raw/Ti-K-Anatase.xdi",
+      "bytes": 30420
+    },
+    {
+      "path": "datasets/applications/ti_nist_standards/raw/Ti-K-BaTiO3.xdi",
+      "bytes": 30403
+    },
+    {
+      "path": "datasets/applications/ti_nist_standards/raw/Ti-K-Brookite.xdi",
+      "bytes": 30455
+    },
+    {
+      "path": "datasets/applications/ti_nist_standards/raw/Ti-K-CaTiO3.xdi",
+      "bytes": 30460
+    },
+    {
+      "path": "datasets/applications/ti_nist_standards/raw/Ti-K-FeTiO3.xdi",
+      "bytes": 30432
+    },
+    {
+      "path": "datasets/applications/ti_nist_standards/raw/Ti-K-NiTiO3.xdi",
+      "bytes": 30440
+    },
+    {
+      "path": "datasets/applications/ti_nist_standards/raw/Ti-K-Rutile.xdi",
+      "bytes": 30406
+    },
+    {
+      "path": "datasets/applications/ti_nist_standards/raw/Ti-K-SrTiO3.xdi",
+      "bytes": 30449
+    },
+    {
+      "path": "datasets/applications/ti_nist_standards/raw/Ti-K-Ti2O3.xdi",
+      "bytes": 30402
+    },
+    {
+      "path": "datasets/applications/ti_nist_standards/reference_predictions.csv",
+      "bytes": 5725
+    },
+    {
+      "path": "datasets/applications/ti_nist_standards/source_context/NIST_LICENSE",
+      "bytes": 2283
+    },
+    {
+      "path": "datasets/applications/ti_nist_standards/source_context/fixed_Ti_grid.csv",
+      "bytes": 5031
+    },
+    {
+      "path": "datasets/applications/ti_nist_standards/source_context/standards_catalog.json",
+      "bytes": 81298
+    },
+    {
+      "path": "datasets/computed/metal.csv",
+      "bytes": 151076522
+    },
+    {
+      "path": "datasets/computed/oxygen.csv",
+      "bytes": 186513611
+    },
+    {
+      "path": "datasets/controls/co_calibrated_source.csv",
+      "bytes": 270992
+    },
+    {
+      "path": "datasets/controls/ni_fixed_inputs.json",
+      "bytes": 107637
+    },
+    {
+      "path": "datasets/transfer/source/metal_parent_excluded.csv",
+      "bytes": 151041024
+    },
+    {
+      "path": "datasets/transfer/target/CN.csv",
+      "bytes": 2669645
+    },
+    {
+      "path": "datasets/transfer/target/OCN.csv",
+      "bytes": 2669645
+    },
+    {
+      "path": "datasets/transfer/target/OS.csv",
+      "bytes": 2669645
+    },
+    {
+      "path": "datasets/transfer/train/CN/scratch_10.csv",
+      "bytes": 196911
+    },
+    {
+      "path": "datasets/transfer/train/CN/scratch_25.csv",
+      "bytes": 482591
+    },
+    {
+      "path": "datasets/transfer/train/CN/scratch_50.csv",
+      "bytes": 951896
+    },
+    {
+      "path": "datasets/transfer/train/CN/tl_10.csv",
+      "bytes": 196911
+    },
+    {
+      "path": "datasets/transfer/train/CN/tl_25.csv",
+      "bytes": 482591
+    },
+    {
+      "path": "datasets/transfer/train/CN/tl_50.csv",
+      "bytes": 951896
+    },
+    {
+      "path": "datasets/transfer/train/OCN/scratch_10.csv",
+      "bytes": 196911
+    },
+    {
+      "path": "datasets/transfer/train/OCN/scratch_25.csv",
+      "bytes": 482591
+    },
+    {
+      "path": "datasets/transfer/train/OCN/scratch_50.csv",
+      "bytes": 951896
+    },
+    {
+      "path": "datasets/transfer/train/OCN/tl_10.csv",
+      "bytes": 196911
+    },
+    {
+      "path": "datasets/transfer/train/OCN/tl_25.csv",
+      "bytes": 482591
+    },
+    {
+      "path": "datasets/transfer/train/OCN/tl_50.csv",
+      "bytes": 951896
+    },
+    {
+      "path": "datasets/transfer/train/OS/scratch_10.csv",
+      "bytes": 196911
+    },
+    {
+      "path": "datasets/transfer/train/OS/scratch_25.csv",
+      "bytes": 482591
+    },
+    {
+      "path": "datasets/transfer/train/OS/scratch_50.csv",
+      "bytes": 951896
+    },
+    {
+      "path": "datasets/transfer/train/OS/tl_10.csv",
+      "bytes": 196911
+    },
+    {
+      "path": "datasets/transfer/train/OS/tl_25.csv",
+      "bytes": 482591
+    },
+    {
+      "path": "datasets/transfer/train/OS/tl_50.csv",
+      "bytes": 951896
+    },
+    {
+      "path": "reference_predictions/ablation-bare-metal-CN.csv",
+      "bytes": 324908
+    },
+    {
+      "path": "reference_predictions/ablation-bare-metal-CN2.csv",
+      "bytes": 1240911
+    },
+    {
+      "path": "reference_predictions/ablation-bare-metal-MOOD.csv",
+      "bytes": 99461
+    },
+    {
+      "path": "reference_predictions/ablation-bare-metal-NNRS.csv",
+      "bytes": 113196
+    },
+    {
+      "path": "reference_predictions/ablation-bare-metal-OCN.csv",
+      "bytes": 324345
+    },
+    {
+      "path": "reference_predictions/ablation-bare-metal-OS.csv",
+      "bytes": 320890
+    },
+    {
+      "path": "reference_predictions/ablation-bare-metal-PSGO.csv",
+      "bytes": 3545604
+    },
+    {
+      "path": "reference_predictions/ablation-bare-oxygen-CN.csv",
+      "bytes": 390625
+    },
+    {
+      "path": "reference_predictions/ablation-bare-oxygen-CN2.csv",
+      "bytes": 1591140
+    },
+    {
+      "path": "reference_predictions/ablation-bare-oxygen-NNOSM.csv",
+      "bytes": 89654
+    },
+    {
+      "path": "reference_predictions/ablation-bare-oxygen-NNRS.csv",
+      "bytes": 114885
+    },
+    {
+      "path": "reference_predictions/ablation-bare-oxygen-PSGO.csv",
+      "bytes": 3351499
+    },
+    {
+      "path": "reference_predictions/ablation-graph_only-metal-CN.csv",
+      "bytes": 323441
+    },
+    {
+      "path": "reference_predictions/ablation-graph_only-metal-CN2.csv",
+      "bytes": 1276557
+    },
+    {
+      "path": "reference_predictions/ablation-graph_only-metal-MOOD.csv",
+      "bytes": 99471
+    },
+    {
+      "path": "reference_predictions/ablation-graph_only-metal-NNRS.csv",
+      "bytes": 113027
+    },
+    {
+      "path": "reference_predictions/ablation-graph_only-metal-OCN.csv",
+      "bytes": 323529
+    },
+    {
+      "path": "reference_predictions/ablation-graph_only-metal-OS.csv",
+      "bytes": 321659
+    },
+    {
+      "path": "reference_predictions/ablation-graph_only-metal-PSGO.csv",
+      "bytes": 3554692
+    },
+    {
+      "path": "reference_predictions/ablation-graph_only-oxygen-CN.csv",
+      "bytes": 390801
+    },
+    {
+      "path": "reference_predictions/ablation-graph_only-oxygen-CN2.csv",
+      "bytes": 1615095
+    },
+    {
+      "path": "reference_predictions/ablation-graph_only-oxygen-NNOSM.csv",
+      "bytes": 89597
+    },
+    {
+      "path": "reference_predictions/ablation-graph_only-oxygen-NNRS.csv",
+      "bytes": 115026
+    },
+    {
+      "path": "reference_predictions/ablation-graph_only-oxygen-PSGO.csv",
+      "bytes": 3354449
+    },
+    {
+      "path": "reference_predictions/baseline-amformer-metal-CN.csv",
+      "bytes": 335352
+    },
+    {
+      "path": "reference_predictions/baseline-amformer-metal-CN2.csv",
+      "bytes": 1272659
+    },
+    {
+      "path": "reference_predictions/baseline-amformer-metal-MOOD.csv",
+      "bytes": 99506
+    },
+    {
+      "path": "reference_predictions/baseline-amformer-metal-NNRS.csv",
+      "bytes": 113122
+    },
+    {
+      "path": "reference_predictions/baseline-amformer-metal-OCN.csv",
+      "bytes": 334561
+    },
+    {
+      "path": "reference_predictions/baseline-amformer-metal-OS.csv",
+      "bytes": 331877
+    },
+    {
+      "path": "reference_predictions/baseline-amformer-metal-PSGO.csv",
+      "bytes": 3511070
+    },
+    {
+      "path": "reference_predictions/baseline-amformer-oxygen-CN.csv",
+      "bytes": 400515
+    },
+    {
+      "path": "reference_predictions/baseline-amformer-oxygen-CN2.csv",
+      "bytes": 1610611
+    },
+    {
+      "path": "reference_predictions/baseline-amformer-oxygen-NNOSM.csv",
+      "bytes": 89607
+    },
+    {
+      "path": "reference_predictions/baseline-amformer-oxygen-NNRS.csv",
+      "bytes": 115005
+    },
+    {
+      "path": "reference_predictions/baseline-amformer-oxygen-PSGO.csv",
+      "bytes": 3339958
+    },
+    {
+      "path": "reference_predictions/baseline-cnn1d-metal-CN.csv",
+      "bytes": 326234
+    },
+    {
+      "path": "reference_predictions/baseline-cnn1d-metal-CN2.csv",
+      "bytes": 1245804
+    },
+    {
+      "path": "reference_predictions/baseline-cnn1d-metal-MOOD.csv",
+      "bytes": 99509
+    },
+    {
+      "path": "reference_predictions/baseline-cnn1d-metal-NNRS.csv",
+      "bytes": 112769
+    },
+    {
+      "path": "reference_predictions/baseline-cnn1d-metal-OCN.csv",
+      "bytes": 328567
+    },
+    {
+      "path": "reference_predictions/baseline-cnn1d-metal-OS.csv",
+      "bytes": 331051
+    },
+    {
+      "path": "reference_predictions/baseline-cnn1d-metal-PSGO.csv",
+      "bytes": 3503655
+    },
+    {
+      "path": "reference_predictions/baseline-cnn1d-oxygen-CN.csv",
+      "bytes": 394155
+    },
+    {
+      "path": "reference_predictions/baseline-cnn1d-oxygen-CN2.csv",
+      "bytes": 1577889
+    },
+    {
+      "path": "reference_predictions/baseline-cnn1d-oxygen-NNOSM.csv",
+      "bytes": 89565
+    },
+    {
+      "path": "reference_predictions/baseline-cnn1d-oxygen-NNRS.csv",
+      "bytes": 114936
+    },
+    {
+      "path": "reference_predictions/baseline-cnn1d-oxygen-PSGO.csv",
+      "bytes": 3326622
+    },
+    {
+      "path": "reference_predictions/baseline-decision_tree-metal-CN.csv",
+      "bytes": 38041
+    },
+    {
+      "path": "reference_predictions/baseline-decision_tree-metal-CN2.csv",
+      "bytes": 44677
+    },
+    {
+      "path": "reference_predictions/baseline-decision_tree-metal-MOOD.csv",
+      "bytes": 162223
+    },
+    {
+      "path": "reference_predictions/baseline-decision_tree-metal-NNRS.csv",
+      "bytes": 166616
+    },
+    {
+      "path": "reference_predictions/baseline-decision_tree-metal-OCN.csv",
+      "bytes": 38041
+    },
+    {
+      "path": "reference_predictions/baseline-decision_tree-metal-OS.csv",
+      "bytes": 38041
+    },
+    {
+      "path": "reference_predictions/baseline-decision_tree-metal-PSGO.csv",
+      "bytes": 37252
+    },
+    {
+      "path": "reference_predictions/baseline-decision_tree-oxygen-CN.csv",
+      "bytes": 39570
+    },
+    {
+      "path": "reference_predictions/baseline-decision_tree-oxygen-CN2.csv",
+      "bytes": 46453
+    },
+    {
+      "path": "reference_predictions/baseline-decision_tree-oxygen-NNOSM.csv",
+      "bytes": 103435
+    },
+    {
+      "path": "reference_predictions/baseline-decision_tree-oxygen-NNRS.csv",
+      "bytes": 173744
+    },
+    {
+      "path": "reference_predictions/baseline-decision_tree-oxygen-PSGO.csv",
+      "bytes": 38532
+    },
+    {
+      "path": "reference_predictions/baseline-direct_nn-metal-CN.csv",
+      "bytes": 333295
+    },
+    {
+      "path": "reference_predictions/baseline-direct_nn-metal-CN2.csv",
+      "bytes": 1278784
+    },
+    {
+      "path": "reference_predictions/baseline-direct_nn-metal-MOOD.csv",
+      "bytes": 99516
+    },
+    {
+      "path": "reference_predictions/baseline-direct_nn-metal-NNRS.csv",
+      "bytes": 113211
+    },
+    {
+      "path": "reference_predictions/baseline-direct_nn-metal-OCN.csv",
+      "bytes": 333349
+    },
+    {
+      "path": "reference_predictions/baseline-direct_nn-metal-OS.csv",
+      "bytes": 289807
+    },
+    {
+      "path": "reference_predictions/baseline-direct_nn-metal-PSGO.csv",
+      "bytes": 3518058
+    },
+    {
+      "path": "reference_predictions/baseline-direct_nn-oxygen-CN.csv",
+      "bytes": 386406
+    },
+    {
+      "path": "reference_predictions/baseline-direct_nn-oxygen-CN2.csv",
+      "bytes": 1608706
+    },
+    {
+      "path": "reference_predictions/baseline-direct_nn-oxygen-NNOSM.csv",
+      "bytes": 89640
+    },
+    {
+      "path": "reference_predictions/baseline-direct_nn-oxygen-NNRS.csv",
+      "bytes": 115079
+    },
+    {
+      "path": "reference_predictions/baseline-direct_nn-oxygen-PSGO.csv",
+      "bytes": 3331208
+    },
+    {
+      "path": "reference_predictions/baseline-extra_trees-metal-CN.csv",
+      "bytes": 38041
+    },
+    {
+      "path": "reference_predictions/baseline-extra_trees-metal-CN2.csv",
+      "bytes": 44741
+    },
+    {
+      "path": "reference_predictions/baseline-extra_trees-metal-MOOD.csv",
+      "bytes": 165471
+    },
+    {
+      "path": "reference_predictions/baseline-extra_trees-metal-NNRS.csv",
+      "bytes": 173920
+    },
+    {
+      "path": "reference_predictions/baseline-extra_trees-metal-OCN.csv",
+      "bytes": 38041
+    },
+    {
+      "path": "reference_predictions/baseline-extra_trees-metal-OS.csv",
+      "bytes": 38041
+    },
+    {
+      "path": "reference_predictions/baseline-extra_trees-metal-PSGO.csv",
+      "bytes": 37061
+    },
+    {
+      "path": "reference_predictions/baseline-extra_trees-oxygen-CN.csv",
+      "bytes": 39570
+    },
+    {
+      "path": "reference_predictions/baseline-extra_trees-oxygen-CN2.csv",
+      "bytes": 46602
+    },
+    {
+      "path": "reference_predictions/baseline-extra_trees-oxygen-NNOSM.csv",
+      "bytes": 133248
+    },
+    {
+      "path": "reference_predictions/baseline-extra_trees-oxygen-NNRS.csv",
+      "bytes": 180066
+    },
+    {
+      "path": "reference_predictions/baseline-extra_trees-oxygen-PSGO.csv",
+      "bytes": 38281
+    },
+    {
+      "path": "reference_predictions/baseline-fttransformer-metal-CN.csv",
+      "bytes": 332458
+    },
+    {
+      "path": "reference_predictions/baseline-fttransformer-metal-CN2.csv",
+      "bytes": 1261193
+    },
+    {
+      "path": "reference_predictions/baseline-fttransformer-metal-MOOD.csv",
+      "bytes": 99450
+    },
+    {
+      "path": "reference_predictions/baseline-fttransformer-metal-NNRS.csv",
+      "bytes": 112955
+    },
+    {
+      "path": "reference_predictions/baseline-fttransformer-metal-OCN.csv",
+      "bytes": 332637
+    },
+    {
+      "path": "reference_predictions/baseline-fttransformer-metal-OS.csv",
+      "bytes": 328402
+    },
+    {
+      "path": "reference_predictions/baseline-fttransformer-metal-PSGO.csv",
+      "bytes": 3506427
+    },
+    {
+      "path": "reference_predictions/baseline-fttransformer-oxygen-CN.csv",
+      "bytes": 395842
+    },
+    {
+      "path": "reference_predictions/baseline-fttransformer-oxygen-CN2.csv",
+      "bytes": 1597177
+    },
+    {
+      "path": "reference_predictions/baseline-fttransformer-oxygen-NNOSM.csv",
+      "bytes": 89638
+    },
+    {
+      "path": "reference_predictions/baseline-fttransformer-oxygen-NNRS.csv",
+      "bytes": 115075
+    },
+    {
+      "path": "reference_predictions/baseline-fttransformer-oxygen-PSGO.csv",
+      "bytes": 3315564
+    },
+    {
+      "path": "reference_predictions/baseline-random_forest-metal-CN.csv",
+      "bytes": 38041
+    },
+    {
+      "path": "reference_predictions/baseline-random_forest-metal-CN2.csv",
+      "bytes": 44752
+    },
+    {
+      "path": "reference_predictions/baseline-random_forest-metal-MOOD.csv",
+      "bytes": 165521
+    },
+    {
+      "path": "reference_predictions/baseline-random_forest-metal-NNRS.csv",
+      "bytes": 173933
+    },
+    {
+      "path": "reference_predictions/baseline-random_forest-metal-OCN.csv",
+      "bytes": 38041
+    },
+    {
+      "path": "reference_predictions/baseline-random_forest-metal-OS.csv",
+      "bytes": 38041
+    },
+    {
+      "path": "reference_predictions/baseline-random_forest-metal-PSGO.csv",
+      "bytes": 37014
+    },
+    {
+      "path": "reference_predictions/baseline-random_forest-oxygen-CN.csv",
+      "bytes": 39570
+    },
+    {
+      "path": "reference_predictions/baseline-random_forest-oxygen-CN2.csv",
+      "bytes": 46604
+    },
+    {
+      "path": "reference_predictions/baseline-random_forest-oxygen-NNOSM.csv",
+      "bytes": 133616
+    },
+    {
+      "path": "reference_predictions/baseline-random_forest-oxygen-NNRS.csv",
+      "bytes": 180067
+    },
+    {
+      "path": "reference_predictions/baseline-random_forest-oxygen-PSGO.csv",
+      "bytes": 38259
+    },
+    {
+      "path": "reference_predictions/baseline-rankaae-metal-CN.csv",
+      "bytes": 326342
+    },
+    {
+      "path": "reference_predictions/baseline-rankaae-metal-CN2.csv",
+      "bytes": 1245205
+    },
+    {
+      "path": "reference_predictions/baseline-rankaae-metal-MOOD.csv",
+      "bytes": 99535
+    },
+    {
+      "path": "reference_predictions/baseline-rankaae-metal-NNRS.csv",
+      "bytes": 113096
+    },
+    {
+      "path": "reference_predictions/baseline-rankaae-metal-OCN.csv",
+      "bytes": 328259
+    },
+    {
+      "path": "reference_predictions/baseline-rankaae-metal-OS.csv",
+      "bytes": 329521
+    },
+    {
+      "path": "reference_predictions/baseline-rankaae-metal-PSGO.csv",
+      "bytes": 3540603
+    },
+    {
+      "path": "reference_predictions/baseline-rankaae-oxygen-CN.csv",
+      "bytes": 389934
+    },
+    {
+      "path": "reference_predictions/baseline-rankaae-oxygen-CN2.csv",
+      "bytes": 1569224
+    },
+    {
+      "path": "reference_predictions/baseline-rankaae-oxygen-NNOSM.csv",
+      "bytes": 89600
+    },
+    {
+      "path": "reference_predictions/baseline-rankaae-oxygen-NNRS.csv",
+      "bytes": 114884
+    },
+    {
+      "path": "reference_predictions/baseline-rankaae-oxygen-PSGO.csv",
+      "bytes": 3294771
+    },
+    {
+      "path": "reference_predictions/baseline-xgboost-metal-CN.csv",
+      "bytes": 38041
+    },
+    {
+      "path": "reference_predictions/baseline-xgboost-metal-CN2.csv",
+      "bytes": 44743
+    },
+    {
+      "path": "reference_predictions/baseline-xgboost-metal-MOOD.csv",
+      "bytes": 130634
+    },
+    {
+      "path": "reference_predictions/baseline-xgboost-metal-NNRS.csv",
+      "bytes": 139523
+    },
+    {
+      "path": "reference_predictions/baseline-xgboost-metal-OCN.csv",
+      "bytes": 38041
+    },
+    {
+      "path": "reference_predictions/baseline-xgboost-metal-OS.csv",
+      "bytes": 38041
+    },
+    {
+      "path": "reference_predictions/baseline-xgboost-metal-PSGO.csv",
+      "bytes": 37041
+    },
+    {
+      "path": "reference_predictions/baseline-xgboost-oxygen-CN.csv",
+      "bytes": 39570
+    },
+    {
+      "path": "reference_predictions/baseline-xgboost-oxygen-CN2.csv",
+      "bytes": 46604
+    },
+    {
+      "path": "reference_predictions/baseline-xgboost-oxygen-NNOSM.csv",
+      "bytes": 102975
+    },
+    {
+      "path": "reference_predictions/baseline-xgboost-oxygen-NNRS.csv",
+      "bytes": 144218
+    },
+    {
+      "path": "reference_predictions/baseline-xgboost-oxygen-PSGO.csv",
+      "bytes": 38301
+    },
+    {
+      "path": "reference_predictions/expert-metal-CN.csv",
+      "bytes": 323507
+    },
+    {
+      "path": "reference_predictions/expert-metal-CN2.csv",
+      "bytes": 1289706
+    },
+    {
+      "path": "reference_predictions/expert-metal-MOOD.csv",
+      "bytes": 99512
+    },
+    {
+      "path": "reference_predictions/expert-metal-NNRS.csv",
+      "bytes": 113164
+    },
+    {
+      "path": "reference_predictions/expert-metal-OCN.csv",
+      "bytes": 323805
+    },
+    {
+      "path": "reference_predictions/expert-metal-OS.csv",
+      "bytes": 321940
+    },
+    {
+      "path": "reference_predictions/expert-metal-PSGO.csv",
+      "bytes": 3556446
+    },
+    {
+      "path": "reference_predictions/expert-oxygen-CN.csv",
+      "bytes": 390708
+    },
+    {
+      "path": "reference_predictions/expert-oxygen-CN2.csv",
+      "bytes": 1625651
+    },
+    {
+      "path": "reference_predictions/expert-oxygen-NNOSM.csv",
+      "bytes": 89720
+    },
+    {
+      "path": "reference_predictions/expert-oxygen-NNRS.csv",
+      "bytes": 115132
+    },
+    {
+      "path": "reference_predictions/expert-oxygen-PSGO.csv",
+      "bytes": 3359052
+    },
+    {
+      "path": "reference_predictions/joint-metal.csv",
+      "bytes": 7631689
+    },
+    {
+      "path": "reference_predictions/joint-oxygen.csv",
+      "bytes": 6578810
+    },
+    {
+      "path": "reference_predictions/transfer/CN/scratch_10.csv",
+      "bytes": 19720
+    },
+    {
+      "path": "reference_predictions/transfer/CN/scratch_25.csv",
+      "bytes": 18452
+    },
+    {
+      "path": "reference_predictions/transfer/CN/scratch_50.csv",
+      "bytes": 19635
+    },
+    {
+      "path": "reference_predictions/transfer/CN/source_all.csv",
+      "bytes": 69328
+    },
+    {
+      "path": "reference_predictions/transfer/CN/source_test.csv",
+      "bytes": 18696
+    },
+    {
+      "path": "reference_predictions/transfer/CN/tl_10.csv",
+      "bytes": 18574
+    },
+    {
+      "path": "reference_predictions/transfer/CN/tl_25.csv",
+      "bytes": 18566
+    },
+    {
+      "path": "reference_predictions/transfer/CN/tl_50.csv",
+      "bytes": 18639
+    },
+    {
+      "path": "reference_predictions/transfer/OCN/scratch_10.csv",
+      "bytes": 19699
+    },
+    {
+      "path": "reference_predictions/transfer/OCN/scratch_25.csv",
+      "bytes": 18462
+    },
+    {
+      "path": "reference_predictions/transfer/OCN/scratch_50.csv",
+      "bytes": 19651
+    },
+    {
+      "path": "reference_predictions/transfer/OCN/source_all.csv",
+      "bytes": 69668
+    },
+    {
+      "path": "reference_predictions/transfer/OCN/source_test.csv",
+      "bytes": 18753
+    },
+    {
+      "path": "reference_predictions/transfer/OCN/tl_10.csv",
+      "bytes": 18654
+    },
+    {
+      "path": "reference_predictions/transfer/OCN/tl_25.csv",
+      "bytes": 18730
+    },
+    {
+      "path": "reference_predictions/transfer/OCN/tl_50.csv",
+      "bytes": 18762
+    },
+    {
+      "path": "reference_predictions/transfer/OS/scratch_10.csv",
+      "bytes": 18763
+    },
+    {
+      "path": "reference_predictions/transfer/OS/scratch_25.csv",
+      "bytes": 18805
+    },
+    {
+      "path": "reference_predictions/transfer/OS/scratch_50.csv",
+      "bytes": 18894
+    },
+    {
+      "path": "reference_predictions/transfer/OS/source_all.csv",
+      "bytes": 70264
+    },
+    {
+      "path": "reference_predictions/transfer/OS/source_test.csv",
+      "bytes": 19018
+    },
+    {
+      "path": "reference_predictions/transfer/OS/tl_10.csv",
+      "bytes": 19348
+    },
+    {
+      "path": "reference_predictions/transfer/OS/tl_25.csv",
+      "bytes": 19338
+    },
+    {
+      "path": "reference_predictions/transfer/OS/tl_50.csv",
+      "bytes": 19456
+    },
+    {
+      "path": "reference_predictions/transfer/baselines/amformer/CN/scratch-10-test.csv",
+      "bytes": 18395
+    },
+    {
+      "path": "reference_predictions/transfer/baselines/amformer/CN/scratch-25-test.csv",
+      "bytes": 18393
+    },
+    {
+      "path": "reference_predictions/transfer/baselines/amformer/CN/scratch-50-test.csv",
+      "bytes": 18415
+    },
+    {
+      "path": "reference_predictions/transfer/baselines/amformer/CN/source-all.csv",
+      "bytes": 66970
+    },
+    {
+      "path": "reference_predictions/transfer/baselines/amformer/CN/source-test.csv",
+      "bytes": 18660
+    },
+    {
+      "path": "reference_predictions/transfer/baselines/amformer/CN/tl-10-test.csv",
+      "bytes": 18624
+    },
+    {
+      "path": "reference_predictions/transfer/baselines/amformer/CN/tl-25-test.csv",
+      "bytes": 18605
+    },
+    {
+      "path": "reference_predictions/transfer/baselines/amformer/CN/tl-50-test.csv",
+      "bytes": 18565
+    },
+    {
+      "path": "reference_predictions/transfer/baselines/amformer/OCN/scratch-10-test.csv",
+      "bytes": 18374
+    },
+    {
+      "path": "reference_predictions/transfer/baselines/amformer/OCN/scratch-25-test.csv",
+      "bytes": 18436
+    },
+    {
+      "path": "reference_predictions/transfer/baselines/amformer/OCN/scratch-50-test.csv",
+      "bytes": 18427
+    },
+    {
+      "path": "reference_predictions/transfer/baselines/amformer/OCN/source-all.csv",
+      "bytes": 67061
+    },
+    {
+      "path": "reference_predictions/transfer/baselines/amformer/OCN/source-test.csv",
+      "bytes": 18647
+    },
+    {
+      "path": "reference_predictions/transfer/baselines/amformer/OCN/tl-10-test.csv",
+      "bytes": 18612
+    },
+    {
+      "path": "reference_predictions/transfer/baselines/amformer/OCN/tl-25-test.csv",
+      "bytes": 18548
+    },
+    {
+      "path": "reference_predictions/transfer/baselines/amformer/OCN/tl-50-test.csv",
+      "bytes": 18533
+    },
+    {
+      "path": "reference_predictions/transfer/baselines/amformer/OS/scratch-10-test.csv",
+      "bytes": 18397
+    },
+    {
+      "path": "reference_predictions/transfer/baselines/amformer/OS/scratch-25-test.csv",
+      "bytes": 18469
+    },
+    {
+      "path": "reference_predictions/transfer/baselines/amformer/OS/scratch-50-test.csv",
+      "bytes": 18640
+    },
+    {
+      "path": "reference_predictions/transfer/baselines/amformer/OS/source-all.csv",
+      "bytes": 68307
+    },
+    {
+      "path": "reference_predictions/transfer/baselines/amformer/OS/source-test.csv",
+      "bytes": 19159
+    },
+    {
+      "path": "reference_predictions/transfer/baselines/amformer/OS/tl-10-test.csv",
+      "bytes": 19177
+    },
+    {
+      "path": "reference_predictions/transfer/baselines/amformer/OS/tl-25-test.csv",
+      "bytes": 19153
+    },
+    {
+      "path": "reference_predictions/transfer/baselines/amformer/OS/tl-50-test.csv",
+      "bytes": 19192
+    },
+    {
+      "path": "reference_predictions/transfer/baselines/direct_nn/CN/scratch-10-test.csv",
+      "bytes": 18392
+    },
+    {
+      "path": "reference_predictions/transfer/baselines/direct_nn/CN/scratch-25-test.csv",
+      "bytes": 18439
+    },
+    {
+      "path": "reference_predictions/transfer/baselines/direct_nn/CN/scratch-50-test.csv",
+      "bytes": 18476
+    },
+    {
+      "path": "reference_predictions/transfer/baselines/direct_nn/CN/source-all.csv",
+      "bytes": 69969
+    },
+    {
+      "path": "reference_predictions/transfer/baselines/direct_nn/CN/source-test.csv",
+      "bytes": 20169
+    },
+    {
+      "path": "reference_predictions/transfer/baselines/direct_nn/CN/tl-10-test.csv",
+      "bytes": 18900
+    },
+    {
+      "path": "reference_predictions/transfer/baselines/direct_nn/CN/tl-25-test.csv",
+      "bytes": 18847
+    },
+    {
+      "path": "reference_predictions/transfer/baselines/direct_nn/CN/tl-50-test.csv",
+      "bytes": 18740
+    },
+    {
+      "path": "reference_predictions/transfer/baselines/direct_nn/OCN/scratch-10-test.csv",
+      "bytes": 18392
+    },
+    {
+      "path": "reference_predictions/transfer/baselines/direct_nn/OCN/scratch-25-test.csv",
+      "bytes": 18424
+    },
+    {
+      "path": "reference_predictions/transfer/baselines/direct_nn/OCN/scratch-50-test.csv",
+      "bytes": 18466
+    },
+    {
+      "path": "reference_predictions/transfer/baselines/direct_nn/OCN/source-all.csv",
+      "bytes": 70133
+    },
+    {
+      "path": "reference_predictions/transfer/baselines/direct_nn/OCN/source-test.csv",
+      "bytes": 20189
+    },
+    {
+      "path": "reference_predictions/transfer/baselines/direct_nn/OCN/tl-10-test.csv",
+      "bytes": 18875
+    },
+    {
+      "path": "reference_predictions/transfer/baselines/direct_nn/OCN/tl-25-test.csv",
+      "bytes": 18858
+    },
+    {
+      "path": "reference_predictions/transfer/baselines/direct_nn/OCN/tl-50-test.csv",
+      "bytes": 18752
+    },
+    {
+      "path": "reference_predictions/transfer/baselines/direct_nn/OS/scratch-10-test.csv",
+      "bytes": 18686
+    },
+    {
+      "path": "reference_predictions/transfer/baselines/direct_nn/OS/scratch-25-test.csv",
+      "bytes": 18918
+    },
+    {
+      "path": "reference_predictions/transfer/baselines/direct_nn/OS/scratch-50-test.csv",
+      "bytes": 19084
+    },
+    {
+      "path": "reference_predictions/transfer/baselines/direct_nn/OS/source-all.csv",
+      "bytes": 69726
+    },
+    {
+      "path": "reference_predictions/transfer/baselines/direct_nn/OS/source-test.csv",
+      "bytes": 20002
+    },
+    {
+      "path": "reference_predictions/transfer/baselines/direct_nn/OS/tl-10-test.csv",
+      "bytes": 18426
+    },
+    {
+      "path": "reference_predictions/transfer/baselines/direct_nn/OS/tl-25-test.csv",
+      "bytes": 18390
+    },
+    {
+      "path": "reference_predictions/transfer/baselines/direct_nn/OS/tl-50-test.csv",
+      "bytes": 18896
+    },
+    {
+      "path": "reference_predictions/transfer/baselines/random_forest/CN/source-all.csv",
+      "bytes": 42297
+    },
+    {
+      "path": "reference_predictions/transfer/baselines/random_forest/CN/source-test.csv",
+      "bytes": 11566
+    },
+    {
+      "path": "reference_predictions/transfer/baselines/random_forest/CN/target_only-10-test.csv",
+      "bytes": 12920
+    },
+    {
+      "path": "reference_predictions/transfer/baselines/random_forest/CN/target_only-25-test.csv",
+      "bytes": 12944
+    },
+    {
+      "path": "reference_predictions/transfer/baselines/random_forest/CN/target_only-50-test.csv",
+      "bytes": 12916
+    },
+    {
+      "path": "reference_predictions/transfer/baselines/random_forest/OCN/source-all.csv",
+      "bytes": 42338
+    },
+    {
+      "path": "reference_predictions/transfer/baselines/random_forest/OCN/source-test.csv",
+      "bytes": 11575
+    },
+    {
+      "path": "reference_predictions/transfer/baselines/random_forest/OCN/target_only-10-test.csv",
+      "bytes": 12920
+    },
+    {
+      "path": "reference_predictions/transfer/baselines/random_forest/OCN/target_only-25-test.csv",
+      "bytes": 12935
+    },
+    {
+      "path": "reference_predictions/transfer/baselines/random_forest/OCN/target_only-50-test.csv",
+      "bytes": 12932
+    },
+    {
+      "path": "reference_predictions/transfer/baselines/random_forest/OS/source-all.csv",
+      "bytes": 41481
+    },
+    {
+      "path": "reference_predictions/transfer/baselines/random_forest/OS/source-test.csv",
+      "bytes": 11255
+    },
+    {
+      "path": "reference_predictions/transfer/baselines/random_forest/OS/target_only-10-test.csv",
+      "bytes": 11520
+    },
+    {
+      "path": "reference_predictions/transfer/baselines/random_forest/OS/target_only-25-test.csv",
+      "bytes": 11449
+    },
+    {
+      "path": "reference_predictions/transfer/baselines/random_forest/OS/target_only-50-test.csv",
+      "bytes": 11433
+    },
+    {
+      "path": "reference_predictions/transform-dct-metal-CN.csv",
+      "bytes": 323902
+    },
+    {
+      "path": "reference_predictions/transform-dct-metal-CN2.csv",
+      "bytes": 1280810
+    },
+    {
+      "path": "reference_predictions/transform-dct-metal-MOOD.csv",
+      "bytes": 99498
+    },
+    {
+      "path": "reference_predictions/transform-dct-metal-NNRS.csv",
+      "bytes": 113068
+    },
+    {
+      "path": "reference_predictions/transform-dct-metal-OCN.csv",
+      "bytes": 323826
+    },
+    {
+      "path": "reference_predictions/transform-dct-metal-OS.csv",
+      "bytes": 321490
+    },
+    {
+      "path": "reference_predictions/transform-dct-metal-PSGO.csv",
+      "bytes": 3549336
+    },
+    {
+      "path": "reference_predictions/transform-dct-oxygen-CN.csv",
+      "bytes": 391553
+    },
+    {
+      "path": "reference_predictions/transform-dct-oxygen-CN2.csv",
+      "bytes": 1619490
+    },
+    {
+      "path": "reference_predictions/transform-dct-oxygen-NNOSM.csv",
+      "bytes": 89666
+    },
+    {
+      "path": "reference_predictions/transform-dct-oxygen-NNRS.csv",
+      "bytes": 115092
+    },
+    {
+      "path": "reference_predictions/transform-dct-oxygen-PSGO.csv",
+      "bytes": 3359299
+    },
+    {
+      "path": "reference_predictions/transform-fft-metal-CN.csv",
+      "bytes": 323715
+    },
+    {
+      "path": "reference_predictions/transform-fft-metal-CN2.csv",
+      "bytes": 1280023
+    },
+    {
+      "path": "reference_predictions/transform-fft-metal-MOOD.csv",
+      "bytes": 99554
+    },
+    {
+      "path": "reference_predictions/transform-fft-metal-NNRS.csv",
+      "bytes": 113145
+    },
+    {
+      "path": "reference_predictions/transform-fft-metal-OCN.csv",
+      "bytes": 323938
+    },
+    {
+      "path": "reference_predictions/transform-fft-metal-OS.csv",
+      "bytes": 321479
+    },
+    {
+      "path": "reference_predictions/transform-fft-metal-PSGO.csv",
+      "bytes": 3553772
+    },
+    {
+      "path": "reference_predictions/transform-fft-oxygen-CN.csv",
+      "bytes": 391785
+    },
+    {
+      "path": "reference_predictions/transform-fft-oxygen-CN2.csv",
+      "bytes": 1619263
+    },
+    {
+      "path": "reference_predictions/transform-fft-oxygen-NNOSM.csv",
+      "bytes": 89663
+    },
+    {
+      "path": "reference_predictions/transform-fft-oxygen-NNRS.csv",
+      "bytes": 115058
+    },
+    {
+      "path": "reference_predictions/transform-fft-oxygen-PSGO.csv",
+      "bytes": 3357235
+    },
+    {
+      "path": "reference_predictions/transform-haar-metal-CN.csv",
+      "bytes": 323602
+    },
+    {
+      "path": "reference_predictions/transform-haar-metal-CN2.csv",
+      "bytes": 1282533
+    },
+    {
+      "path": "reference_predictions/transform-haar-metal-MOOD.csv",
+      "bytes": 99484
+    },
+    {
+      "path": "reference_predictions/transform-haar-metal-NNRS.csv",
+      "bytes": 113159
+    },
+    {
+      "path": "reference_predictions/transform-haar-metal-OCN.csv",
+      "bytes": 323657
+    },
+    {
+      "path": "reference_predictions/transform-haar-metal-OS.csv",
+      "bytes": 321824
+    },
+    {
+      "path": "reference_predictions/transform-haar-metal-PSGO.csv",
+      "bytes": 3553733
+    },
+    {
+      "path": "reference_predictions/transform-haar-oxygen-CN.csv",
+      "bytes": 391366
+    },
+    {
+      "path": "reference_predictions/transform-haar-oxygen-CN2.csv",
+      "bytes": 1622061
+    },
+    {
+      "path": "reference_predictions/transform-haar-oxygen-NNOSM.csv",
+      "bytes": 89667
+    },
+    {
+      "path": "reference_predictions/transform-haar-oxygen-NNRS.csv",
+      "bytes": 115130
+    },
+    {
+      "path": "reference_predictions/transform-haar-oxygen-PSGO.csv",
+      "bytes": 3355873
+    },
+    {
+      "path": "reference_predictions/transform-stft-metal-CN.csv",
+      "bytes": 323603
+    },
+    {
+      "path": "reference_predictions/transform-stft-metal-CN2.csv",
+      "bytes": 1282169
+    },
+    {
+      "path": "reference_predictions/transform-stft-metal-MOOD.csv",
+      "bytes": 99482
+    },
+    {
+      "path": "reference_predictions/transform-stft-metal-NNRS.csv",
+      "bytes": 113082
+    },
+    {
+      "path": "reference_predictions/transform-stft-metal-OCN.csv",
+      "bytes": 323358
+    },
+    {
+      "path": "reference_predictions/transform-stft-metal-OS.csv",
+      "bytes": 321669
+    },
+    {
+      "path": "reference_predictions/transform-stft-metal-PSGO.csv",
+      "bytes": 3550327
+    },
+    {
+      "path": "reference_predictions/transform-stft-oxygen-CN.csv",
+      "bytes": 391426
+    },
+    {
+      "path": "reference_predictions/transform-stft-oxygen-CN2.csv",
+      "bytes": 1619557
+    },
+    {
+      "path": "reference_predictions/transform-stft-oxygen-NNOSM.csv",
+      "bytes": 89621
+    },
+    {
+      "path": "reference_predictions/transform-stft-oxygen-NNRS.csv",
+      "bytes": 115047
+    },
+    {
+      "path": "reference_predictions/transform-stft-oxygen-PSGO.csv",
+      "bytes": 3359466
+    },
+    {
+      "path": "reference_predictions/uncertainty/metal/CN/test.csv",
+      "bytes": 737936
+    },
+    {
+      "path": "reference_predictions/uncertainty/metal/CN/val.csv",
+      "bytes": 741485
+    },
+    {
+      "path": "reference_predictions/uncertainty/metal/CN2/test.csv",
+      "bytes": 2385915
+    },
+    {
+      "path": "reference_predictions/uncertainty/metal/CN2/val.csv",
+      "bytes": 2396583
+    },
+    {
+      "path": "reference_predictions/uncertainty/metal/MOOD/test.csv",
+      "bytes": 332556
+    },
+    {
+      "path": "reference_predictions/uncertainty/metal/MOOD/val.csv",
+      "bytes": 334459
+    },
+    {
+      "path": "reference_predictions/uncertainty/metal/NNRS/test.csv",
+      "bytes": 349850
+    },
+    {
+      "path": "reference_predictions/uncertainty/metal/NNRS/val.csv",
+      "bytes": 351654
+    },
+    {
+      "path": "reference_predictions/uncertainty/metal/OCN/test.csv",
+      "bytes": 738223
+    },
+    {
+      "path": "reference_predictions/uncertainty/metal/OCN/val.csv",
+      "bytes": 741801
+    },
+    {
+      "path": "reference_predictions/uncertainty/metal/OS/test.csv",
+      "bytes": 734287
+    },
+    {
+      "path": "reference_predictions/uncertainty/metal/OS/val.csv",
+      "bytes": 737785
+    },
+    {
+      "path": "reference_predictions/uncertainty/metal/PSGO/test.csv",
+      "bytes": 6274092
+    },
+    {
+      "path": "reference_predictions/uncertainty/metal/PSGO/val.csv",
+      "bytes": 6317491
+    },
+    {
+      "path": "reference_predictions/uncertainty/oxygen/CN/test.csv",
+      "bytes": 858394
+    },
+    {
+      "path": "reference_predictions/uncertainty/oxygen/CN/val.csv",
+      "bytes": 856868
+    },
+    {
+      "path": "reference_predictions/uncertainty/oxygen/CN2/test.csv",
+      "bytes": 2961590
+    },
+    {
+      "path": "reference_predictions/uncertainty/oxygen/CN2/val.csv",
+      "bytes": 2957193
+    },
+    {
+      "path": "reference_predictions/uncertainty/oxygen/NNOSM/test.csv",
+      "bytes": 310432
+    },
+    {
+      "path": "reference_predictions/uncertainty/oxygen/NNOSM/val.csv",
+      "bytes": 310013
+    },
+    {
+      "path": "reference_predictions/uncertainty/oxygen/NNRS/test.csv",
+      "bytes": 360523
+    },
+    {
+      "path": "reference_predictions/uncertainty/oxygen/NNRS/val.csv",
+      "bytes": 359851
+    },
+    {
+      "path": "reference_predictions/uncertainty/oxygen/PSGO/test.csv",
+      "bytes": 5941642
+    },
+    {
+      "path": "reference_predictions/uncertainty/oxygen/PSGO/val.csv",
+      "bytes": 5937702
+    },
+    {
+      "path": "reference_results/benchmark_metrics.json",
+      "bytes": 18670
+    },
+    {
+      "path": "reference_results/measurement_controls/co_grid.csv",
+      "bytes": 1093
+    },
+    {
+      "path": "reference_results/measurement_controls/co_primary.csv",
+      "bytes": 1494
+    },
+    {
+      "path": "reference_results/measurement_controls/computed.csv",
+      "bytes": 3599
+    },
+    {
+      "path": "reference_results/measurement_controls/fe.csv",
+      "bytes": 2870
+    },
+    {
+      "path": "reference_results/measurement_controls/fe_neutral.csv",
+      "bytes": 975
+    },
+    {
+      "path": "reference_results/measurement_controls/lco.csv",
+      "bytes": 6165
+    },
+    {
+      "path": "reference_results/measurement_controls/ni.csv",
+      "bytes": 955
+    },
+    {
+      "path": "reference_results/uncertainty_classification.csv",
+      "bytes": 1750
+    },
+    {
+      "path": "reference_results/uncertainty_regression.csv",
+      "bytes": 1043
+    }
+  ]
+}

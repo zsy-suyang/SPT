@@ -1,0 +1,443 @@
+{
+  "schema_version": 1,
+  "provider": "huggingface",
+  "dataset_repo_id": null,
+  "model_repo_id": null,
+  "assets": [
+    {
+      "path": "checkpoints/transfer/CN/scratch_10.pth",
+      "bytes": 2609941,
+      "kind": "target-checkpoint"
+    },
+    {
+      "path": "checkpoints/transfer/CN/scratch_25.pth",
+      "bytes": 2609941,
+      "kind": "target-checkpoint"
+    },
+    {
+      "path": "checkpoints/transfer/CN/scratch_50.pth",
+      "bytes": 2609941,
+      "kind": "target-checkpoint"
+    },
+    {
+      "path": "checkpoints/transfer/CN/source.pth",
+      "bytes": 2604589,
+      "kind": "source-checkpoint"
+    },
+    {
+      "path": "checkpoints/transfer/CN/tl_10.pth",
+      "bytes": 2609941,
+      "kind": "target-checkpoint"
+    },
+    {
+      "path": "checkpoints/transfer/CN/tl_10_initializer.pth",
+      "bytes": 2619387,
+      "kind": "case-specific-initialization-checkpoint"
+    },
+    {
+      "path": "checkpoints/transfer/CN/tl_10_source.pth",
+      "bytes": 2604589,
+      "kind": "case-specific-source-checkpoint"
+    },
+    {
+      "path": "checkpoints/transfer/CN/tl_25.pth",
+      "bytes": 2609941,
+      "kind": "target-checkpoint"
+    },
+    {
+      "path": "checkpoints/transfer/CN/tl_25_initializer.pth",
+      "bytes": 2619387,
+      "kind": "case-specific-initialization-checkpoint"
+    },
+    {
+      "path": "checkpoints/transfer/CN/tl_25_source.pth",
+      "bytes": 2604589,
+      "kind": "case-specific-source-checkpoint"
+    },
+    {
+      "path": "checkpoints/transfer/CN/tl_50.pth",
+      "bytes": 2609941,
+      "kind": "target-checkpoint"
+    },
+    {
+      "path": "checkpoints/transfer/CN/tl_50_initializer.pth",
+      "bytes": 2619387,
+      "kind": "case-specific-initialization-checkpoint"
+    },
+    {
+      "path": "checkpoints/transfer/CN/tl_50_source.pth",
+      "bytes": 2604589,
+      "kind": "case-specific-source-checkpoint"
+    },
+    {
+      "path": "checkpoints/transfer/OCN/scratch_10.pth",
+      "bytes": 2609941,
+      "kind": "target-checkpoint"
+    },
+    {
+      "path": "checkpoints/transfer/OCN/scratch_25.pth",
+      "bytes": 2609941,
+      "kind": "target-checkpoint"
+    },
+    {
+      "path": "checkpoints/transfer/OCN/scratch_50.pth",
+      "bytes": 2609941,
+      "kind": "target-checkpoint"
+    },
+    {
+      "path": "checkpoints/transfer/OCN/source.pth",
+      "bytes": 2604589,
+      "kind": "source-checkpoint"
+    },
+    {
+      "path": "checkpoints/transfer/OCN/tl_10.pth",
+      "bytes": 2609941,
+      "kind": "target-checkpoint"
+    },
+    {
+      "path": "checkpoints/transfer/OCN/tl_10_initializer.pth",
+      "bytes": 2619387,
+      "kind": "case-specific-initialization-checkpoint"
+    },
+    {
+      "path": "checkpoints/transfer/OCN/tl_10_source.pth",
+      "bytes": 2604589,
+      "kind": "case-specific-source-checkpoint"
+    },
+    {
+      "path": "checkpoints/transfer/OCN/tl_25.pth",
+      "bytes": 2609941,
+      "kind": "target-checkpoint"
+    },
+    {
+      "path": "checkpoints/transfer/OCN/tl_25_initializer.pth",
+      "bytes": 2619387,
+      "kind": "case-specific-initialization-checkpoint"
+    },
+    {
+      "path": "checkpoints/transfer/OCN/tl_25_source.pth",
+      "bytes": 2604589,
+      "kind": "case-specific-source-checkpoint"
+    },
+    {
+      "path": "checkpoints/transfer/OCN/tl_50.pth",
+      "bytes": 2609941,
+      "kind": "target-checkpoint"
+    },
+    {
+      "path": "checkpoints/transfer/OCN/tl_50_initializer.pth",
+      "bytes": 2619387,
+      "kind": "case-specific-initialization-checkpoint"
+    },
+    {
+      "path": "checkpoints/transfer/OCN/tl_50_source.pth",
+      "bytes": 2604589,
+      "kind": "case-specific-source-checkpoint"
+    },
+    {
+      "path": "checkpoints/transfer/OS/scratch_10.pth",
+      "bytes": 2609941,
+      "kind": "target-checkpoint"
+    },
+    {
+      "path": "checkpoints/transfer/OS/scratch_25.pth",
+      "bytes": 2609941,
+      "kind": "target-checkpoint"
+    },
+    {
+      "path": "checkpoints/transfer/OS/scratch_50.pth",
+      "bytes": 2609941,
+      "kind": "target-checkpoint"
+    },
+    {
+      "path": "checkpoints/transfer/OS/source.pth",
+      "bytes": 2604589,
+      "kind": "source-checkpoint"
+    },
+    {
+      "path": "checkpoints/transfer/OS/tl_10.pth",
+      "bytes": 2609941,
+      "kind": "target-checkpoint"
+    },
+    {
+      "path": "checkpoints/transfer/OS/tl_10_initializer.pth",
+      "bytes": 2619387,
+      "kind": "case-specific-initialization-checkpoint"
+    },
+    {
+      "path": "checkpoints/transfer/OS/tl_10_source.pth",
+      "bytes": 2604589,
+      "kind": "case-specific-source-checkpoint"
+    },
+    {
+      "path": "checkpoints/transfer/OS/tl_25.pth",
+      "bytes": 2609941,
+      "kind": "target-checkpoint"
+    },
+    {
+      "path": "checkpoints/transfer/OS/tl_25_initializer.pth",
+      "bytes": 2619387,
+      "kind": "case-specific-initialization-checkpoint"
+    },
+    {
+      "path": "checkpoints/transfer/OS/tl_25_source.pth",
+      "bytes": 2604589,
+      "kind": "case-specific-source-checkpoint"
+    },
+    {
+      "path": "checkpoints/transfer/OS/tl_50.pth",
+      "bytes": 2609941,
+      "kind": "target-checkpoint"
+    },
+    {
+      "path": "checkpoints/transfer/OS/tl_50_initializer.pth",
+      "bytes": 2619387,
+      "kind": "case-specific-initialization-checkpoint"
+    },
+    {
+      "path": "checkpoints/transfer/OS/tl_50_source.pth",
+      "bytes": 2604589,
+      "kind": "case-specific-source-checkpoint"
+    },
+    {
+      "path": "data/splits/transfer/source_metal.json",
+      "bytes": 84281,
+      "kind": "source-partition"
+    },
+    {
+      "path": "datasets/transfer/source/metal_parent_excluded.csv",
+      "bytes": 151041024,
+      "kind": "computed-source-data"
+    },
+    {
+      "path": "datasets/transfer/target/CN.csv",
+      "bytes": 2669645,
+      "kind": "complete-target-data"
+    },
+    {
+      "path": "datasets/transfer/target/OCN.csv",
+      "bytes": 2669645,
+      "kind": "complete-target-data"
+    },
+    {
+      "path": "datasets/transfer/target/OS.csv",
+      "bytes": 2669645,
+      "kind": "complete-target-data"
+    },
+    {
+      "path": "datasets/transfer/train/CN/scratch_10.csv",
+      "bytes": 196911,
+      "kind": "frozen-fitting-data"
+    },
+    {
+      "path": "datasets/transfer/train/CN/scratch_25.csv",
+      "bytes": 482591,
+      "kind": "frozen-fitting-data"
+    },
+    {
+      "path": "datasets/transfer/train/CN/scratch_50.csv",
+      "bytes": 951896,
+      "kind": "frozen-fitting-data"
+    },
+    {
+      "path": "datasets/transfer/train/CN/tl_10.csv",
+      "bytes": 196911,
+      "kind": "frozen-fitting-data"
+    },
+    {
+      "path": "datasets/transfer/train/CN/tl_25.csv",
+      "bytes": 482591,
+      "kind": "frozen-fitting-data"
+    },
+    {
+      "path": "datasets/transfer/train/CN/tl_50.csv",
+      "bytes": 951896,
+      "kind": "frozen-fitting-data"
+    },
+    {
+      "path": "datasets/transfer/train/OCN/scratch_10.csv",
+      "bytes": 196911,
+      "kind": "frozen-fitting-data"
+    },
+    {
+      "path": "datasets/transfer/train/OCN/scratch_25.csv",
+      "bytes": 482591,
+      "kind": "frozen-fitting-data"
+    },
+    {
+      "path": "datasets/transfer/train/OCN/scratch_50.csv",
+      "bytes": 951896,
+      "kind": "frozen-fitting-data"
+    },
+    {
+      "path": "datasets/transfer/train/OCN/tl_10.csv",
+      "bytes": 196911,
+      "kind": "frozen-fitting-data"
+    },
+    {
+      "path": "datasets/transfer/train/OCN/tl_25.csv",
+      "bytes": 482591,
+      "kind": "frozen-fitting-data"
+    },
+    {
+      "path": "datasets/transfer/train/OCN/tl_50.csv",
+      "bytes": 951896,
+      "kind": "frozen-fitting-data"
+    },
+    {
+      "path": "datasets/transfer/train/OS/scratch_10.csv",
+      "bytes": 196911,
+      "kind": "frozen-fitting-data"
+    },
+    {
+      "path": "datasets/transfer/train/OS/scratch_25.csv",
+      "bytes": 482591,
+      "kind": "frozen-fitting-data"
+    },
+    {
+      "path": "datasets/transfer/train/OS/scratch_50.csv",
+      "bytes": 951896,
+      "kind": "frozen-fitting-data"
+    },
+    {
+      "path": "datasets/transfer/train/OS/tl_10.csv",
+      "bytes": 196911,
+      "kind": "frozen-fitting-data"
+    },
+    {
+      "path": "datasets/transfer/train/OS/tl_25.csv",
+      "bytes": 482591,
+      "kind": "frozen-fitting-data"
+    },
+    {
+      "path": "datasets/transfer/train/OS/tl_50.csv",
+      "bytes": 951896,
+      "kind": "frozen-fitting-data"
+    },
+    {
+      "path": "reference_predictions/transfer/CN/scratch_10.csv",
+      "bytes": 19720,
+      "kind": "target-reference"
+    },
+    {
+      "path": "reference_predictions/transfer/CN/scratch_25.csv",
+      "bytes": 18452,
+      "kind": "target-reference"
+    },
+    {
+      "path": "reference_predictions/transfer/CN/scratch_50.csv",
+      "bytes": 19635,
+      "kind": "target-reference"
+    },
+    {
+      "path": "reference_predictions/transfer/CN/source_all.csv",
+      "bytes": 69328,
+      "kind": "zero-shot-reference"
+    },
+    {
+      "path": "reference_predictions/transfer/CN/source_test.csv",
+      "bytes": 18696,
+      "kind": "zero-shot-reference"
+    },
+    {
+      "path": "reference_predictions/transfer/CN/tl_10.csv",
+      "bytes": 18574,
+      "kind": "target-reference"
+    },
+    {
+      "path": "reference_predictions/transfer/CN/tl_25.csv",
+      "bytes": 18566,
+      "kind": "target-reference"
+    },
+    {
+      "path": "reference_predictions/transfer/CN/tl_50.csv",
+      "bytes": 18639,
+      "kind": "target-reference"
+    },
+    {
+      "path": "reference_predictions/transfer/OCN/scratch_10.csv",
+      "bytes": 19699,
+      "kind": "target-reference"
+    },
+    {
+      "path": "reference_predictions/transfer/OCN/scratch_25.csv",
+      "bytes": 18462,
+      "kind": "target-reference"
+    },
+    {
+      "path": "reference_predictions/transfer/OCN/scratch_50.csv",
+      "bytes": 19651,
+      "kind": "target-reference"
+    },
+    {
+      "path": "reference_predictions/transfer/OCN/source_all.csv",
+      "bytes": 69668,
+      "kind": "zero-shot-reference"
+    },
+    {
+      "path": "reference_predictions/transfer/OCN/source_test.csv",
+      "bytes": 18753,
+      "kind": "zero-shot-reference"
+    },
+    {
+      "path": "reference_predictions/transfer/OCN/tl_10.csv",
+      "bytes": 18654,
+      "kind": "target-reference"
+    },
+    {
+      "path": "reference_predictions/transfer/OCN/tl_25.csv",
+      "bytes": 18730,
+      "kind": "target-reference"
+    },
+    {
+      "path": "reference_predictions/transfer/OCN/tl_50.csv",
+      "bytes": 18762,
+      "kind": "target-reference"
+    },
+    {
+      "path": "reference_predictions/transfer/OS/scratch_10.csv",
+      "bytes": 18763,
+      "kind": "target-reference"
+    },
+    {
+      "path": "reference_predictions/transfer/OS/scratch_25.csv",
+      "bytes": 18805,
+      "kind": "target-reference"
+    },
+    {
+      "path": "reference_predictions/transfer/OS/scratch_50.csv",
+      "bytes": 18894,
+      "kind": "target-reference"
+    },
+    {
+      "path": "reference_predictions/transfer/OS/source_all.csv",
+      "bytes": 70264,
+      "kind": "zero-shot-reference"
+    },
+    {
+      "path": "reference_predictions/transfer/OS/source_test.csv",
+      "bytes": 19018,
+      "kind": "zero-shot-reference"
+    },
+    {
+      "path": "reference_predictions/transfer/OS/tl_10.csv",
+      "bytes": 19348,
+      "kind": "target-reference"
+    },
+    {
+      "path": "reference_predictions/transfer/OS/tl_25.csv",
+      "bytes": 19338,
+      "kind": "target-reference"
+    },
+    {
+      "path": "reference_predictions/transfer/OS/tl_50.csv",
+      "bytes": 19456,
+      "kind": "target-reference"
+    },
+    {
+      "path": "data/splits/transfer/manifest.json",
+      "bytes": 39075,
+      "kind": "portable-budget-manifest"
+    }
+  ]
+}

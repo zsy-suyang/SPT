@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "provider": "huggingface",
+  "dataset_repo_id": "zsysuyang/XAS_SPT",
+  "dataset_revision": null,
+  "model_repo_id": null,
+  "model_revision": null,
+  "status": "The reorganized dataset bundle and separate model-weight bundle for this code version are pending upload. Local artifact paths are in registry.json."
+}

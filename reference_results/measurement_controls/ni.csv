@@ -1,0 +1,17 @@
+state,condition,task,prediction
+Dry,provided_70_eV_window,NNRS,0.1477136313915252
+Dry,train_only_median_grid,NNRS,0.0814266502857208
+Dry,provided_window_foil_shift_diagnostic,NNRS,0.1476996392011642
+Dry,train_grid_foil_shift_diagnostic,NNRS,0.1069246977567672
+4 h,provided_70_eV_window,NNRS,0.0610508508980274
+4 h,train_only_median_grid,NNRS,0.040747582912445
+4 h,provided_window_foil_shift_diagnostic,NNRS,0.0610929653048515
+4 h,train_grid_foil_shift_diagnostic,NNRS,0.0292918048799037
+Dry,provided_70_eV_window,MOOD,2.905561685562134
+Dry,train_only_median_grid,MOOD,2.4692275524139404
+Dry,provided_window_foil_shift_diagnostic,MOOD,2.905291795730591
+Dry,train_grid_foil_shift_diagnostic,MOOD,2.617117404937744
+4 h,provided_70_eV_window,MOOD,2.6857259273529053
+4 h,train_only_median_grid,MOOD,2.4253275394439697
+4 h,provided_window_foil_shift_diagnostic,MOOD,2.6864476203918457
+4 h,train_grid_foil_shift_diagnostic,MOOD,2.51829195022583
