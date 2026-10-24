@@ -45,7 +45,7 @@ This is the official code repository for SPT, a framework for inferring electron
 ### Highlights
 
 - **One architecture, 12 descriptor tasks.** Eight classification and four regression tasks cover electronic states, coordination, local geometry and crystallographic symmetry.
-- **Consistent benchmark performance.** Expert SPT achieves the highest test-set point estimates against nine baselines across all 12 tasks on the computed oxide benchmark.
+- **Leading scores across all evaluated descriptors.** Expert SPT achieves the highest test-set point estimates among the ten compared models across all 12 descriptor tasks on the computed oxide benchmark, measured by weighted F1 for classification and R² for regression.
 - **From benchmarks to applications.** Experiment-specific interfaces cover computed spectra, measured reference and reaction-sequence spectra, matched noise comparisons and transfer learning.
 
 ### Supported descriptors
@@ -63,7 +63,7 @@ Configuration files use `metal` for non-oxygen absorbing sites and `PSGO` for SG
 
 | Date | Update |
 | --- | --- |
-| 2026-10-24 | Updated code, experiment configurations and usage guides are available on GitHub. |
+| 2026-10-24 | Code and experiment guides are available on GitHub; data and experiment-specific checkpoints are available on Hugging Face. |
 
 ## Installation
 
@@ -79,7 +79,7 @@ conda activate spt
 ### 2. Clone and install
 
 ```bash
-git clone https://github.com/zsy-suyang/SPT.git
+git clone --branch v0.1.0 https://github.com/zsy-suyang/SPT.git
 cd SPT
 python -m pip install -e .
 spt --help
@@ -95,12 +95,20 @@ Download the external assets below and place them in the repository before runni
 
 | Package | Location | Contents |
 | --- | --- | --- |
-| Data | [XAS_SPT on Hugging Face](https://huggingface.co/datasets/zsysuyang/XAS_SPT) | Computed and measured inputs, source information and reference predictions |
-| Weights | Hugging Face repository link pending | Experiment-specific checkpoints and matching configurations |
+| Data | [XAS_SPT dataset](https://huggingface.co/datasets/zsysuyang/XAS_SPT) | Computed and measured inputs, source information and reference predictions |
+| Weights | [XAS_SPT models](https://huggingface.co/zsysuyang/XAS_SPT) | Experiment-specific checkpoints and matching configurations |
 
-The reorganized data bundle for this code version and the separate weight bundle are pending upload.
+Both collections use the release tag `2026-10-24` with [code version `v0.1.0`](https://github.com/zsy-suyang/SPT/tree/v0.1.0). The repository identifiers and versions are recorded in [configs/assets.json](configs/assets.json).
 
-Copy the data bundle's `datasets/`, `data/`, `reference_predictions/` and `reference_results/` folders into the checkout, preserving their paths. Copy the weight bundle's `checkpoints/` folder into the checkout and use its matching configuration snapshot. Keep the code checkout's root README and complete `data/asset_manifest.json`; see [Download layout and versions](docs/releases.md) for the assembly instructions.
+From the code repository root, install the assets into their expected directories:
+
+```bash
+python -m pip install "huggingface_hub>=2.3,<3"
+hf download zsysuyang/XAS_SPT --repo-type dataset --revision 2026-10-24 --local-dir . --include "datasets/**" --include "data/**" --include "reference_predictions/**" --include "reference_results/**"
+hf download zsysuyang/XAS_SPT --repo-type model --revision 2026-10-24 --local-dir . --include "checkpoints/**" --include "configs/**"
+```
+
+These commands retain the code checkout's root README and complete `data/asset_manifest.json`. For separate downloads and manual assembly, see [Download layout and versions](docs/releases.md).
 
 [DATA_INDEX.csv](datasets/DATA_INDEX.csv) lists the inputs. [WEIGHT_INDEX.csv](checkpoints/WEIGHT_INDEX.csv) maps each experiment to its configurations and checkpoints. The [model registry](configs/registry.json) supplies these paths to the public commands.
 
@@ -201,4 +209,4 @@ For code and usage questions, please open a [GitHub issue](https://github.com/zs
 
 ## License
 
-The repository's source-code license is [Apache 2.0](LICENSE). Third-party software and adapted components retain their own terms; see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). This license does not relicense third-party spectra or structures. Data and checkpoint reuse terms will accompany their external release records.
+The repository's source-code license is [Apache 2.0](LICENSE). Third-party software and adapted components retain their own terms; see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). This license does not relicense third-party spectra or structures. Data and checkpoint reuse terms are described in the [dataset card](https://huggingface.co/datasets/zsysuyang/XAS_SPT) and [model card](https://huggingface.co/zsysuyang/XAS_SPT).
