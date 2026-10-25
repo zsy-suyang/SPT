@@ -34,10 +34,10 @@ configs:
 <p align="center">Suyang Zhong, Boying Huang, Pengwei Xu, Fanjie Xu, Yuhao Zhao,<br>Jun Cheng, Fujie Tang, Weinan E, Zhong-Qun Tian</p>
 
 <p align="center">
-  <a href="https://github.com/zsy-suyang/SPT"><img src="images/badge-code.svg" alt="GitHub code"></a>
-  <a href="https://huggingface.co/datasets/zsysuyang/XAS_SPT"><img src="images/badge-data.svg" alt="Hugging Face dataset"></a>
-  <a href="https://huggingface.co/zsysuyang/XAS_SPT"><img src="images/badge-weights.svg" alt="Hugging Face model weights"></a>
-  <a href="LICENSE"><img src="images/badge-license.svg" alt="Repo license: Apache-2.0"></a>
+  <a href="https://github.com/zsy-suyang/SPT"><img src="images/code-badge.svg" alt="GitHub code"></a>
+  <a href="https://huggingface.co/datasets/zsysuyang/XAS_SPT"><img src="images/data-badge.svg" alt="Hugging Face dataset"></a>
+  <a href="https://huggingface.co/zsysuyang/XAS_SPT"><img src="images/weights-badge.svg" alt="Hugging Face model weights"></a>
+  <a href="LICENSE"><img src="images/license-badge.svg" alt="Repo license: Apache-2.0"></a>
 </p>
 
 <p align="center"><a href="https://github.com/zsy-suyang/SPT">Code &amp; experiments</a> · <a href="#dataset-overview">Overview</a> · <a href="#download-and-use">Download &amp; use</a> · <a href="datasets/DATA_INDEX.csv">Data index</a> · <a href="#citation">Citation</a></p>
