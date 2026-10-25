@@ -16,11 +16,13 @@
 <p align="center">
   <a href="https://github.com/zsy-suyang/SPT"><img src="docs/assets/badge-code.svg" alt="Code on GitHub"></a>
   <a href="https://huggingface.co/datasets/zsysuyang/XAS_SPT"><img src="docs/assets/badge-data.svg" alt="XAS_SPT dataset collection on Hugging Face"></a>
+  <a href="https://huggingface.co/zsysuyang/XAS_SPT"><img src="docs/assets/badge-weights.svg" alt="XAS_SPT model weights on Hugging Face"></a>
   <a href="LICENSE"><img src="docs/assets/badge-license.svg" alt="Source-code license: Apache 2.0"></a>
 </p>
 
 <p align="center">
   <a href="#overview">Overview</a> ·
+  <a href="#news">News</a> ·
   <a href="#installation">Installation</a> ·
   <a href="#data-and-weights">Data &amp; weights</a> ·
   <a href="#quick-start">Quick start</a> ·
@@ -28,7 +30,9 @@
   <a href="#citation">Citation</a>
 </p>
 
-## Overview
+<a id="overview"></a>
+
+## 📖 Overview
 
 This is the official code repository for SPT, a framework for inferring electronic, local-geometric and crystallographic descriptors from X-ray absorption near-edge structure (XANES). SPT combines adaptive Fourier lifting with energy-aware graph aggregation to represent spectral variation across scales and relationships between energy regions.
 
@@ -59,14 +63,18 @@ OS: oxidation state; CN: coordination number; OCN: oxygen coordination number; C
 
 Configuration files use `metal` for non-oxygen absorbing sites and `PSGO` for SGN. See [Architecture](docs/architecture.md) for the encoder and readout, and [Datasets](docs/datasets.md) for descriptor labels and input preparation.
 
-## News
+<a id="news"></a>
+
+## 🗞️ News
 
 | Date | Update |
 | --- | --- |
 | 2026-10-25 | Seven Li–Co–O coordinate files and the 17-Co-site mapping are available in the data release, with matching download instructions. |
 | 2026-10-24 | Code and experiment guides are available on GitHub; data and experiment-specific checkpoints are available on Hugging Face. |
 
-## Installation
+<a id="installation"></a>
+
+## ⚙️ Installation
 
 ### 1. Create an environment
 
@@ -92,7 +100,9 @@ Use a PyTorch build appropriate for your CPU or CUDA environment. To evaluate th
 
 Download the external assets below and place them in the repository before running inference or experiments. The code checkout includes the configurations, indices, fixed partitions and summary tables.
 
-## Data and weights
+<a id="data-and-weights"></a>
+
+## 📦 Data and weights
 
 | Package | Location | Contents |
 | --- | --- | --- |
@@ -120,7 +130,9 @@ spt list-models
 spt verify-assets --all-assets
 ```
 
-## Quick start
+<a id="quick-start"></a>
+
+## 🚀 Quick start
 
 Run commands from the repository root after installing the required data and weights. Multi-line examples use Bash syntax; in PowerShell, enter each command on one line or replace the line-continuation character with a backtick.
 
@@ -148,7 +160,9 @@ spt predict --model expert-metal-OS \
 
 The CSV contains `energy_eV`, `intensity` and `absorber` columns, with 256 ordered points per spectrum and absolute positive energies in eV. An optional `spectrum_id` column distinguishes multiple spectra. See [Datasets](docs/datasets.md) for preparation details.
 
-## Experiments
+<a id="experiments"></a>
+
+## 🧪 Experiments
 
 Each guide provides the commands and corresponding configurations, data partitions and model identifiers. [Checkpoints](docs/checkpoints.md) explains the model mapping.
 
@@ -166,7 +180,9 @@ Each guide provides the commands and corresponding configurations, data partitio
 
 Retraining commands for supported neural models are described in [Numerical experiments](docs/reproduce.md#computed-benchmark-and-architectural-controls). Evaluate the supplied tree estimators through the benchmark interface.
 
-## Repository structure
+<a id="repository-structure"></a>
+
+## 🗂️ Repository structure
 
 After assembling the code, data and weight packages:
 
@@ -189,7 +205,9 @@ SPT/
 
 Fixed computed-data partitions are in `data/splits/final/`.
 
-## Tests
+<a id="tests"></a>
+
+## ✅ Tests
 
 ```bash
 python -m pip install -e '.[dev]'
@@ -198,16 +216,22 @@ python -m pytest -q
 
 The tests cover input preparation, model operations and experiment protocols. With the Ni–Fe data and weights installed, they also replay its eight-spectrum application.
 
-## Citation
+<a id="citation"></a>
+
+## 📝 Citation
 
 Please cite the accompanying manuscript using [CITATION.cff](CITATION.cff):
 
 > Suyang Zhong, Boying Huang, Pengwei Xu, Fanjie Xu, Yuhao Zhao, Jun Cheng, Fujie Tang, Weinan E and Zhong-Qun Tian. *Inferring structural descriptor information from X-ray absorption spectra through adaptive multiscale learning.*
 
-## Contact
+<a id="contact"></a>
+
+## ✉️ Contact
 
 For code and usage questions, please open a [GitHub issue](https://github.com/zsy-suyang/SPT/issues). Scientific correspondence: [Jun Cheng](mailto:chengjun@xmu.edu.cn) and [Fujie Tang](mailto:tangfujie@xmu.edu.cn).
 
-## License
+<a id="license"></a>
+
+## ⚖️ License
 
 The repository's source-code license is [Apache 2.0](LICENSE). Third-party software and adapted components retain their own terms; see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). This license does not relicense third-party spectra or structures. Data and checkpoint reuse terms are described in the [dataset card](https://huggingface.co/datasets/zsysuyang/XAS_SPT) and [model card](https://huggingface.co/zsysuyang/XAS_SPT).

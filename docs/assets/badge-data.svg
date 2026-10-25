@@ -1,5 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="146" height="22" viewBox="0 0 146 22" role="img" aria-label="Dataset: Hugging Face">
-  <clipPath id="pill"><rect width="146" height="22" rx="4"/></clipPath>
-  <g clip-path="url(#pill)"><path fill="#485b69" d="M0 0h55v22H0z"/><path fill="#a56c24" d="M55 0h91v22H55z"/></g>
-  <g fill="#fff" text-anchor="middle" font-family="Verdana,DejaVu Sans,sans-serif" font-size="11"><text x="27.5" y="15">Dataset</text><text x="100.5" y="15">Hugging Face</text></g>
+<svg xmlns="http://www.w3.org/2000/svg" width="164" height="26" viewBox="0 0 164 26" role="img" aria-label="Data: Hugging Face">
+  <title>SPT data on Hugging Face</title>
+  <clipPath id="pill"><rect width="164" height="26" rx="5"/></clipPath>
+  <g clip-path="url(#pill)"><path fill="#354f63" d="M0 0h66v26H0z"/><path fill="#a66635" d="M66 0h98v26H66z"/></g>
+  <g fill="none" stroke="#fff" stroke-width="1.3" stroke-linecap="round"><ellipse cx="16" cy="8.5" rx="6" ry="2.5"/><path d="M10 8.5v9c0 3.3 12 3.3 12 0v-9M10 13c0 3.3 12 3.3 12 0"/></g>
+  <g fill="#fff" text-anchor="middle" font-family="Arial,DejaVu Sans,sans-serif" font-size="11.5"><text x="46" y="17">Data</text><text x="115" y="17">Hugging Face</text></g>
 </svg>
