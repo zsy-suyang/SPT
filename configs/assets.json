@@ -2,8 +2,8 @@
   "schema_version": 1,
   "provider": "huggingface",
   "dataset_repo_id": "zsysuyang/XAS_SPT",
-  "dataset_revision": "2026-10-24",
+  "dataset_revision": "2026-10-25",
   "model_repo_id": "zsysuyang/XAS_SPT",
-  "model_revision": "2026-10-24",
+  "model_revision": "2026-10-25",
   "status": "Data and model assets are provided in separate Hugging Face repositories. Local artifact paths are in registry.json."
 }

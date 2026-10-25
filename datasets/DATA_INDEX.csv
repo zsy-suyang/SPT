@@ -19,7 +19,7 @@ fe_charging,measured,source spectra,datasets/applications/fe_charging/raw/LFP_3x
 fe_charging,measured,reference predictions,datasets/applications/fe_charging/reference_predictions.csv,126369
 fe_charging,measured,data table,datasets/applications/fe_charging/source_context/model_input_arrays.csv,359276
 lco_computed_co_sites,computed,prepared input,datasets/applications/lco_computed_co_sites/prepared.csv,512118
-lco_computed_co_sites,computed,provenance,datasets/applications/lco_computed_co_sites/provenance.json,2089
+lco_computed_co_sites,computed,provenance,datasets/applications/lco_computed_co_sites/provenance.json,2292
 lco_computed_co_sites,computed,source spectra,datasets/applications/lco_computed_co_sites/raw/computed_Li_Co_O_all_26_sites.csv,179524
 lco_computed_co_sites,computed,reference predictions,datasets/applications/lco_computed_co_sites/reference_predictions.csv,5240
 lco_measured_charging,measured,prepared input,datasets/applications/lco_measured_charging/prepared.csv,172555
@@ -85,7 +85,14 @@ splits,computed,frozen partition,data/splits/transfer/manifest.json,39075
 splits,computed,frozen partition,data/splits/transfer/source_metal.json,84281
 ni_fe_activation,measured,reference predictions with class scores,datasets/applications/ni_fe_activation/reference_predictions_long.csv,4965
 ni_fe_activation,measured,inference metadata,datasets/applications/ni_fe_activation/reference_predictions_long.metadata.json,1840
-lco_computed_co_sites,computed,source group mapping,datasets/applications/lco_computed_co_sites/source_context/source_groups.csv,420
+lco_computed_co_sites,computed,structure and Co-site mapping,datasets/applications/lco_computed_co_sites/source_context/structure_site_mapping.csv,1242
+lco_computed_co_sites,computed,structure coordinates,datasets/applications/lco_computed_co_sites/source_context/structures/Li0.166667CoO2_SG151.vasp,4208
+lco_computed_co_sites,computed,structure coordinates,datasets/applications/lco_computed_co_sites/source_context/structures/Li0.333333CoO2_SG151.vasp,2335
+lco_computed_co_sites,computed,structure coordinates,datasets/applications/lco_computed_co_sites/source_context/structures/Li0.500000CoO2_SG10.vasp,737
+lco_computed_co_sites,computed,structure coordinates,datasets/applications/lco_computed_co_sites/source_context/structures/Li0.666667CoO2_SG151.vasp,2545
+lco_computed_co_sites,computed,structure coordinates,datasets/applications/lco_computed_co_sites/source_context/structures/Li0.750000CoO2_SG10.vasp,1293
+lco_computed_co_sites,computed,structure coordinates,datasets/applications/lco_computed_co_sites/source_context/structures/Li0.750000CoO2_SG166.vasp,1294
+lco_computed_co_sites,computed,structure coordinates,datasets/applications/lco_computed_co_sites/source_context/structures/Li1.000000CoO2_SG166.vasp,530
 computed_benchmark,computed,frozen reference predictions,reference_predictions/ablation-bare-metal-CN.csv,324908
 computed_benchmark,computed,frozen reference predictions,reference_predictions/ablation-bare-metal-CN2.csv,1240911
 computed_benchmark,computed,frozen reference predictions,reference_predictions/ablation-bare-metal-MOOD.csv,99461

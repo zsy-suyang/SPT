@@ -1,6 +1,8 @@
 cff-version: 1.2.0
 message: "Please cite the accompanying manuscript when using SPT."
 type: software
+version: "0.1.1"
+date-released: 2026-10-25
 title: "Spectral Pattern Translator (SPT)"
 url: "https://github.com/zsy-suyang/SPT"
 repository-code: "https://github.com/zsy-suyang/SPT"
@@ -25,7 +27,7 @@ authors:
     given-names: Zhong-Qun
 preferred-citation:
   type: unpublished
-  title: "Adaptive Fourier lifting for electronic and geometric descriptor inference from XANES"
+  title: "Inferring structural descriptor information from X-ray absorption spectra through adaptive multiscale learning"
   authors:
     - family-names: Zhong
       given-names: Suyang

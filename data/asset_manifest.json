@@ -1759,7 +1759,7 @@
     },
     {
       "path": "datasets/applications/lco_computed_co_sites/provenance.json",
-      "bytes": 2089
+      "bytes": 2292
     },
     {
       "path": "datasets/applications/lco_computed_co_sites/raw/computed_Li_Co_O_all_26_sites.csv",
@@ -1770,8 +1770,36 @@
       "bytes": 5240
     },
     {
-      "path": "datasets/applications/lco_computed_co_sites/source_context/source_groups.csv",
-      "bytes": 420
+      "path": "datasets/applications/lco_computed_co_sites/source_context/structure_site_mapping.csv",
+      "bytes": 1242
+    },
+    {
+      "path": "datasets/applications/lco_computed_co_sites/source_context/structures/Li0.166667CoO2_SG151.vasp",
+      "bytes": 4208
+    },
+    {
+      "path": "datasets/applications/lco_computed_co_sites/source_context/structures/Li0.333333CoO2_SG151.vasp",
+      "bytes": 2335
+    },
+    {
+      "path": "datasets/applications/lco_computed_co_sites/source_context/structures/Li0.500000CoO2_SG10.vasp",
+      "bytes": 737
+    },
+    {
+      "path": "datasets/applications/lco_computed_co_sites/source_context/structures/Li0.666667CoO2_SG151.vasp",
+      "bytes": 2545
+    },
+    {
+      "path": "datasets/applications/lco_computed_co_sites/source_context/structures/Li0.750000CoO2_SG10.vasp",
+      "bytes": 1293
+    },
+    {
+      "path": "datasets/applications/lco_computed_co_sites/source_context/structures/Li0.750000CoO2_SG166.vasp",
+      "bytes": 1294
+    },
+    {
+      "path": "datasets/applications/lco_computed_co_sites/source_context/structures/Li1.000000CoO2_SG166.vasp",
+      "bytes": 530
     },
     {
       "path": "datasets/applications/lco_measured_charging/prepared.csv",

@@ -1,7 +1,7 @@
 <h1 align="center">Spectral Pattern Translator (SPT)</h1>
 
 <p align="center">
-  <strong>Adaptive Fourier lifting for electronic and geometric descriptor inference from XANES</strong>
+  <strong>Inferring structural descriptor information from X-ray absorption spectra through adaptive multiscale learning</strong>
 </p>
 
 <p align="center">
@@ -63,6 +63,7 @@ Configuration files use `metal` for non-oxygen absorbing sites and `PSGO` for SG
 
 | Date | Update |
 | --- | --- |
+| 2026-10-25 | Seven Li–Co–O coordinate files and the 17-Co-site mapping are available in the data release, with matching download instructions. |
 | 2026-10-24 | Code and experiment guides are available on GitHub; data and experiment-specific checkpoints are available on Hugging Face. |
 
 ## Installation
@@ -79,7 +80,7 @@ conda activate spt
 ### 2. Clone and install
 
 ```bash
-git clone --branch v0.1.0 https://github.com/zsy-suyang/SPT.git
+git clone --branch v0.1.1 https://github.com/zsy-suyang/SPT.git
 cd SPT
 python -m pip install -e .
 spt --help
@@ -98,14 +99,14 @@ Download the external assets below and place them in the repository before runni
 | Data | [XAS_SPT dataset](https://huggingface.co/datasets/zsysuyang/XAS_SPT) | Computed and measured inputs, source information and reference predictions |
 | Weights | [XAS_SPT models](https://huggingface.co/zsysuyang/XAS_SPT) | Experiment-specific checkpoints and matching configurations |
 
-Both collections use the release tag `2026-10-24` with [code version `v0.1.0`](https://github.com/zsy-suyang/SPT/tree/v0.1.0). The repository identifiers and versions are recorded in [configs/assets.json](configs/assets.json).
+Both collections use the release tag `2026-10-25` with [code version `v0.1.1`](https://github.com/zsy-suyang/SPT/tree/v0.1.1). The repository identifiers and versions are recorded in [configs/assets.json](configs/assets.json).
 
 From the code repository root, install the assets into their expected directories:
 
 ```bash
 python -m pip install "huggingface_hub>=2.3,<3"
-hf download zsysuyang/XAS_SPT --repo-type dataset --revision 2026-10-24 --local-dir . --include "datasets/**" --include "data/**" --include "reference_predictions/**" --include "reference_results/**"
-hf download zsysuyang/XAS_SPT --repo-type model --revision 2026-10-24 --local-dir . --include "checkpoints/**" --include "configs/**"
+hf download zsysuyang/XAS_SPT --repo-type dataset --revision 2026-10-25 --local-dir . --include "datasets/**" --include "data/**" --include "reference_predictions/**" --include "reference_results/**"
+hf download zsysuyang/XAS_SPT --repo-type model --revision 2026-10-25 --local-dir . --include "checkpoints/**" --include "configs/**"
 ```
 
 These commands retain the code checkout's root README and complete `data/asset_manifest.json`. For separate downloads and manual assembly, see [Download layout and versions](docs/releases.md).
@@ -201,7 +202,7 @@ The tests cover input preparation, model operations and experiment protocols. Wi
 
 Please cite the accompanying manuscript using [CITATION.cff](CITATION.cff):
 
-> Suyang Zhong, Boying Huang, Pengwei Xu, Fanjie Xu, Yuhao Zhao, Jun Cheng, Fujie Tang, Weinan E and Zhong-Qun Tian. *Adaptive Fourier lifting for electronic and geometric descriptor inference from XANES.*
+> Suyang Zhong, Boying Huang, Pengwei Xu, Fanjie Xu, Yuhao Zhao, Jun Cheng, Fujie Tang, Weinan E and Zhong-Qun Tian. *Inferring structural descriptor information from X-ray absorption spectra through adaptive multiscale learning.*
 
 ## Contact
 

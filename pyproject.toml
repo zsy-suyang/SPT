@@ -4,8 +4,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "spt-xanes"
-version = "0.1.0"
-description = "Adaptive Fourier lifting for electronic and geometric descriptor inference from XANES"
+version = "0.1.1"
+description = "Inferring structural descriptor information from X-ray absorption spectra through adaptive multiscale learning"
 readme = "README.md"
 requires-python = ">=3.10,<3.13"
 license = {file = "LICENSE"}
