@@ -88,7 +88,7 @@ conda activate spt
 ### 2. Clone and install
 
 ```bash
-git clone --branch v0.1.1 https://github.com/zsy-suyang/SPT.git
+git clone --branch main https://github.com/zsy-suyang/SPT.git
 cd SPT
 python -m pip install -e .
 spt --help
@@ -109,17 +109,17 @@ Download the external assets below and place them in the repository before runni
 | Data | [XAS_SPT dataset](https://huggingface.co/datasets/zsysuyang/XAS_SPT) | Computed and measured inputs, source information and reference predictions |
 | Weights | [XAS_SPT models](https://huggingface.co/zsysuyang/XAS_SPT) | Experiment-specific checkpoints and matching configurations |
 
-Both collections use the release tag `2026-10-25` with [code version `v0.1.1`](https://github.com/zsy-suyang/SPT/tree/v0.1.1). The repository identifiers and versions are recorded in [configs/assets.json](configs/assets.json).
+Code, data and weights are maintained on the `main` branches of their repositories. The repository identifiers and download branches are recorded in [configs/assets.json](configs/assets.json).
 
 From the code repository root, install the assets into their expected directories:
 
 ```bash
 python -m pip install "huggingface_hub>=2.3,<3"
-hf download zsysuyang/XAS_SPT --repo-type dataset --revision 2026-10-25 --local-dir . --include "datasets/**" --include "data/**" --include "reference_predictions/**" --include "reference_results/**"
-hf download zsysuyang/XAS_SPT --repo-type model --revision 2026-10-25 --local-dir . --include "checkpoints/**" --include "configs/**"
+hf download zsysuyang/XAS_SPT --repo-type dataset --revision main --local-dir . --include "datasets/**" --include "data/**" --include "reference_predictions/**" --include "reference_results/**"
+hf download zsysuyang/XAS_SPT --repo-type model --revision main --local-dir . --include "checkpoints/**" --include "configs/**"
 ```
 
-These commands retain the code checkout's root README and complete `data/asset_manifest.json`. For separate downloads and manual assembly, see [Download layout and versions](docs/releases.md).
+These commands retain the code checkout's root README and complete `data/asset_manifest.json`. For separate downloads and manual assembly, see [Download layout](docs/releases.md).
 
 [DATA_INDEX.csv](datasets/DATA_INDEX.csv) lists the inputs. [WEIGHT_INDEX.csv](checkpoints/WEIGHT_INDEX.csv) maps each experiment to its configurations and checkpoints. The [model registry](configs/registry.json) supplies these paths to the public commands.
 

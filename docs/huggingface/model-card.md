@@ -39,12 +39,12 @@ This collection provides the experiment-specific checkpoints and configurations 
 
 The framework connects energy–intensity inputs to descriptor predictions through the adaptive Fourier lifting and graph branches. The diagram is reproduced from the accompanying manuscript.
 
-### Release
+### Repository access
 
-| Collection | Version | Companion code |
+| Collection | Branch | Companion code |
 | --- | --- | --- |
-| Model checkpoints and configurations | `2026-10-25` | SPT `0.1.1` |
-| Data and reference results | [`2026-10-25`](https://huggingface.co/datasets/zsysuyang/XAS_SPT/tree/2026-10-25) | SPT `0.1.1` |
+| Model checkpoints and configurations | `main` | [SPT `main`](https://github.com/zsy-suyang/SPT) |
+| Data and reference results | [`main`](https://huggingface.co/datasets/zsysuyang/XAS_SPT/tree/main) | [SPT `main`](https://github.com/zsy-suyang/SPT) |
 
 <a id="descriptor-tasks"></a>
 
@@ -90,21 +90,21 @@ Classification outputs are physical class labels and class scores. Regression ou
 
 ## 📥 Run an application
 
-Use this collection with SPT code version 0.1.1 and the corresponding [XAS_SPT data collection](https://huggingface.co/datasets/zsysuyang/XAS_SPT). Follow the code repository's [installation guide](https://github.com/zsy-suyang/SPT#installation), then download both releases:
+Use the `main` branches of the SPT code repository and the corresponding [XAS_SPT data collection](https://huggingface.co/datasets/zsysuyang/XAS_SPT). Follow the code repository's [installation guide](https://github.com/zsy-suyang/SPT#installation), then download the data and weights:
 
 ```bash
-git clone --branch v0.1.1 https://github.com/zsy-suyang/SPT.git
+git clone --branch main https://github.com/zsy-suyang/SPT.git
 cd SPT
 python -m pip install -e .
 python -m pip install -U huggingface_hub
 
 hf download zsysuyang/XAS_SPT --repo-type model \
-  --revision 2026-10-25 --local-dir ../spt-models
+  --revision main --local-dir ../spt-models
 hf download zsysuyang/XAS_SPT --repo-type dataset \
-  --revision 2026-10-25 --local-dir ../spt-data
+  --revision main --local-dir ../spt-data
 ```
 
-Merge `spt-models/checkpoints/` into the code checkout's `checkpoints/`, and retain the matching `configs/`. Merge `datasets/`, `data/`, `reference_predictions/` and `reference_results/` from `spt-data` into the checkout. Keep the code README and licence at its root. The [release guide](https://github.com/zsy-suyang/SPT/blob/main/docs/releases.md) describes the assembled layout. From the assembled checkout, run:
+Merge `spt-models/checkpoints/` into the code checkout's `checkpoints/`, and retain the matching `configs/`. Merge `datasets/`, `data/`, `reference_predictions/` and `reference_results/` from `spt-data` into the checkout. Keep the code README and licence at its root. The [download guide](https://github.com/zsy-suyang/SPT/blob/main/docs/releases.md) describes the assembled layout. From the assembled checkout, run:
 
 ```bash
 spt verify-assets --all-assets
@@ -133,14 +133,13 @@ The repository retains its Apache 2.0 licence for author-provided material; see 
 
 ## 📝 Citation and contact
 
-Please cite the accompanying manuscript and identify the checkpoint release used. [CITATION.cff](CITATION.cff) contains the author information and manuscript title.
+Please cite the accompanying manuscript and this checkpoint collection. [CITATION.cff](CITATION.cff) contains the author information and manuscript title.
 
 ```bibtex
 @misc{spt_models_2026,
   author = {Zhong, Suyang and Huang, Boying and Xu, Pengwei and Xu, Fanjie and Zhao, Yuhao and Cheng, Jun and Tang, Fujie and E, Weinan and Tian, Zhong-Qun},
   title = {SPT model checkpoints and configurations},
   year = {2026},
-  version = {2026-10-25},
   url = {https://huggingface.co/zsysuyang/XAS_SPT}
 }
 ```

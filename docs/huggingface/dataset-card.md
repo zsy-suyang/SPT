@@ -64,13 +64,13 @@ The main benchmark contains **54,744 computed spectra** and **12 site-specific d
 
 <a id="release"></a>
 
-## 📦 Release
+## 📦 Data access
 
-| Dataset release | Compatible SPT code | Contents |
+| Dataset branch | Companion code | Contents |
 | --- | --- | --- |
-| 2026-10-25 | 0.1.1 | Benchmark tables, application inputs and sources, Li–Co–O coordinates and site mapping, transfer data, fixed partitions and reference predictions |
+| `main` | [SPT `main`](https://github.com/zsy-suyang/SPT) | Benchmark tables, application inputs and sources, Li–Co–O coordinates and site mapping, transfer data, fixed partitions and reference predictions |
 
-Model checkpoints and configurations are distributed separately in the [SPT model repository](https://huggingface.co/zsysuyang/XAS_SPT), with the matching release `2026-10-25`. This dataset can be downloaded and inspected independently of the weights.
+Model checkpoints and configurations are distributed separately on the `main` branch of the [SPT model repository](https://huggingface.co/zsysuyang/XAS_SPT). This dataset can be downloaded and inspected independently of the weights.
 
 <a id="repository-contents"></a>
 
@@ -190,7 +190,7 @@ Install the Hugging Face client. The collection is public and can be downloaded 
 ```bash
 python -m pip install -U huggingface_hub
 hf download zsysuyang/XAS_SPT --repo-type dataset \
-  --revision 2026-10-25 --local-dir spt-data
+  --revision main --local-dir spt-data
 ```
 
 ### Load a computed table
@@ -219,7 +219,7 @@ from datasets import load_dataset
 spectra = load_dataset(
     "zsysuyang/XAS_SPT",
     "computed_non_oxygen",
-    revision="2026-10-25",
+    revision="main",
     split="full",
 )
 ```
@@ -265,7 +265,6 @@ Please cite this dataset collection and the accompanying manuscript. Dataset met
   title = {SPT XANES Dataset},
   year = {2026},
   howpublished = {Hugging Face},
-  note = {Release 2026-10-25},
   url = {https://huggingface.co/datasets/zsysuyang/XAS_SPT}
 }
 ```
