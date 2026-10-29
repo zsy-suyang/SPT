@@ -102,6 +102,8 @@ spt --help
 
 Use a PyTorch build appropriate for your CPU or CUDA environment. To evaluate the reported computed benchmark and noise experiments, follow the pinned Python 3.10 / CUDA 11.8 setup in [Numerical experiments](docs/reproduce.md#assets-and-environment). Prepared applications use their registered execution settings.
 
+The prepared-input Ni–Fe demo below was tested on Ubuntu 20.04.5 LTS with Python 3.10.12 and the dependency versions in [constraints-cuda.txt](constraints-cuda.txt). This demo runs on CPU and does not require a GPU; the CUDA benchmarks use the separately documented GPU configuration. Installation time has not been measured for a fresh desktop environment.
+
 ### 3. Install data and weights
 
 Download the external assets below and place them in the repository before running inference or experiments. The code checkout includes the configurations, indices, fixed partitions and summary tables.
@@ -152,7 +154,9 @@ spt application --cohort ni_fe_activation \
   --output outputs/ni_fe_activation.csv
 ```
 
-The output CSV contains the descriptor predictions for each spectrum. The two Ni applications use their registered CPU settings; Li–Co–O, Co, Ti and Fe applications use CUDA. See [Application commands](docs/applications.md) for all cohorts and [Application spectra](docs/application-data.md) for measured-data sources and energy referencing.
+Expected output: a CSV containing 40 predictions for eight spectra and five descriptors, together with a metadata JSON file. On an Intel Xeon Platinum 8457C server CPU using four PyTorch threads, the complete command took approximately 4 s (median 4.06 s; range 3.99–4.32 s across three fresh-process runs). This includes input and checkpoint loading, inference and output writing, but excludes environment installation, asset downloads and raw-spectrum preparation. This is a timing reference for the stated server configuration, not a desktop timing measurement.
+
+The two Ni applications use their registered CPU settings; Li–Co–O, Co, Ti and Fe applications use CUDA. See [Application commands](docs/applications.md) for all cohorts and [Application spectra](docs/application-data.md) for measured-data sources and energy referencing.
 
 ### Predict a custom spectrum
 
