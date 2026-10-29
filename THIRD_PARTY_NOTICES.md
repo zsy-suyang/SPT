@@ -1,6 +1,6 @@
 # Third-party notices
 
-The repository's source-code license is Apache 2.0, provided in `LICENSE`. Third-party software, adapted code, datasets and model assets retain their respective terms.
+Unless separately indicated, author-owned SPT code, documentation, data and model weights in this release are licensed under CC BY-NC-SA 4.0, provided in `LICENSE`. Third-party software, adapted code, datasets and model assets retain their respective terms and are excluded from this licence change. Rights previously granted under Apache-2.0 remain unaffected.
 
 ## External dependency: einops
 
@@ -24,7 +24,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ## AMFormer baseline
 
-The AMFormer comparison implementation is in [`spt/baselines/amformer/`](spt/baselines/amformer/). Its model and attention blocks correspond to the official source at <https://github.com/aigc-apps/AMFormer>. The [upstream GNU GPL version 3](https://github.com/aigc-apps/AMFormer/blob/main/LICENSE) is retained in full in that directory's [LICENSE](spt/baselines/amformer/LICENSE); its [README](spt/baselines/amformer/README.md) describes how to select the baseline. These components retain those terms and are not relicensed by the repository's Apache 2.0 license.
+The AMFormer comparison implementation is in [`spt/baselines/amformer/`](spt/baselines/amformer/). Its model and attention blocks correspond to the official source at <https://github.com/aigc-apps/AMFormer>. The [upstream GNU GPL version 3](https://github.com/aigc-apps/AMFormer/blob/main/LICENSE) is retained in full in that directory's [LICENSE](spt/baselines/amformer/LICENSE); its [README](spt/baselines/amformer/README.md) describes how to select the baseline. These components retain those terms and are not relicensed or restricted to non-commercial use by the repository-level CC BY-NC-SA 4.0 licence.
 
 ## Data, weights and other dependencies
 

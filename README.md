@@ -17,7 +17,7 @@
   <a href="https://github.com/zsy-suyang/SPT"><img src="docs/assets/badge-code.svg" alt="Code on GitHub"></a>
   <a href="https://huggingface.co/datasets/zsysuyang/XAS_SPT"><img src="docs/assets/badge-data.svg" alt="XAS_SPT dataset collection on Hugging Face"></a>
   <a href="https://huggingface.co/zsysuyang/XAS_SPT"><img src="docs/assets/badge-weights.svg" alt="XAS_SPT model weights on Hugging Face"></a>
-  <a href="LICENSE"><img src="docs/assets/badge-license.svg" alt="Source-code license: Apache 2.0"></a>
+  <a href="LICENSE"><img src="docs/assets/badge-license.svg" alt="Author-owned material: CC BY-NC-SA 4.0"></a>
 </p>
 
 <p align="center">
@@ -29,6 +29,12 @@
   <a href="#experiments">Experiments</a> ·
   <a href="#citation">Citation</a>
 </p>
+
+## ⚠️ Usage Restriction
+
+> Author-owned SPT code, documentation, data and model weights in this release are licensed under [CC BY-NC-SA 4.0](LICENSE), for **non-commercial use only**.
+> Commercial use requires separate permission from the relevant rights holders.
+> Third-party materials retain their original licences; see [License](#license).
 
 <a id="overview"></a>
 
@@ -234,4 +240,6 @@ For code and usage questions, please open a [GitHub issue](https://github.com/zs
 
 ## ⚖️ License
 
-The repository's source-code license is [Apache 2.0](LICENSE). Third-party software and adapted components retain their own terms; see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). This license does not relicense third-party spectra or structures. Data and checkpoint reuse terms are described in the [dataset card](https://huggingface.co/datasets/zsysuyang/XAS_SPT) and [model card](https://huggingface.co/zsysuyang/XAS_SPT).
+Unless separately indicated, author-owned code, documentation, data and model weights in this release are licensed under [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International](LICENSE) (CC BY-NC-SA 4.0). Attribution and ShareAlike conditions apply as specified in the licence. For separate commercial permission, contact [Jun Cheng](mailto:chengjun@xmu.edu.cn) or [Fujie Tang](mailto:tangfujie@xmu.edu.cn).
+
+Third-party software, adapted components, spectra and structures retain their original terms; see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md), the [dataset card](https://huggingface.co/datasets/zsysuyang/XAS_SPT) and the [model card](https://huggingface.co/zsysuyang/XAS_SPT). This change does not revoke rights previously granted under Apache-2.0.

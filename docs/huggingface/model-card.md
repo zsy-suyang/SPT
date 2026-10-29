@@ -1,5 +1,5 @@
 ---
-license: apache-2.0
+license: cc-by-nc-sa-4.0
 library_name: pytorch
 language:
   - en
@@ -24,10 +24,16 @@ datasets:
   <a href="https://github.com/zsy-suyang/SPT"><img src="images/code-badge.svg" alt="GitHub code"></a>
   <a href="https://huggingface.co/datasets/zsysuyang/XAS_SPT"><img src="images/data-badge.svg" alt="Hugging Face dataset"></a>
   <a href="https://huggingface.co/zsysuyang/XAS_SPT"><img src="images/weights-badge.svg" alt="Hugging Face model weights"></a>
-  <a href="LICENSE"><img src="images/license-badge.svg" alt="Repo license: Apache-2.0"></a>
+  <a href="LICENSE"><img src="images/license-badge.svg" alt="Author-owned material: CC BY-NC-SA 4.0"></a>
 </p>
 
 <p align="center"><a href="https://github.com/zsy-suyang/SPT">Code</a> · <a href="https://huggingface.co/datasets/zsysuyang/XAS_SPT">Dataset</a> · <a href="#overview">Overview</a> · <a href="#run-an-application">Download &amp; use</a> · <a href="checkpoints/WEIGHT_INDEX.csv">Weight index</a> · <a href="https://github.com/zsy-suyang/SPT/blob/main/docs/reproduce.md">Experiment guide</a> · <a href="#citation-and-contact">Citation</a></p>
+
+## ⚠️ Usage Restriction
+
+> Author-owned model weights, configurations and documentation in this release are licensed under [CC BY-NC-SA 4.0](LICENSE), for **non-commercial use only**.
+> Commercial use requires separate permission from the relevant rights holders.
+> Third-party materials retain their original licences; see [Licence](#licence).
 
 <a id="overview"></a>
 
@@ -127,7 +133,9 @@ The data collection includes per-spectrum reference predictions and numerical su
 
 ## ⚖️ Licence
 
-The repository retains its Apache 2.0 licence for author-provided material; see [LICENSE](LICENSE). Third-party components retain their respective terms, as documented in the code repository's [third-party notices](https://github.com/zsy-suyang/SPT/blob/main/THIRD_PARTY_NOTICES.md). Load serialized checkpoints and estimators only from trusted sources.
+Unless separately indicated, author-owned model weights, configurations and documentation in this release are licensed under [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International](LICENSE) (CC BY-NC-SA 4.0). Attribution and ShareAlike conditions apply as specified in the licence. For separate commercial permission, contact [Jun Cheng](mailto:chengjun@xmu.edu.cn) or [Fujie Tang](mailto:tangfujie@xmu.edu.cn).
+
+Third-party components retain their respective terms, as documented in the code repository's [third-party notices](https://github.com/zsy-suyang/SPT/blob/main/THIRD_PARTY_NOTICES.md). This change does not revoke rights previously granted under Apache-2.0. Load serialized checkpoints and estimators only from trusted sources.
 
 <a id="citation-and-contact"></a>
 

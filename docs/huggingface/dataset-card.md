@@ -1,6 +1,6 @@
 ---
 pretty_name: SPT XANES Dataset
-license: apache-2.0
+license: cc-by-nc-sa-4.0
 language:
   - en
 task_categories:
@@ -37,10 +37,16 @@ configs:
   <a href="https://github.com/zsy-suyang/SPT"><img src="images/code-badge.svg" alt="GitHub code"></a>
   <a href="https://huggingface.co/datasets/zsysuyang/XAS_SPT"><img src="images/data-badge.svg" alt="Hugging Face dataset"></a>
   <a href="https://huggingface.co/zsysuyang/XAS_SPT"><img src="images/weights-badge.svg" alt="Hugging Face model weights"></a>
-  <a href="LICENSE"><img src="images/license-badge.svg" alt="Repo license: Apache-2.0"></a>
+  <a href="LICENSE"><img src="images/license-badge.svg" alt="Author-owned material: CC BY-NC-SA 4.0"></a>
 </p>
 
 <p align="center"><a href="https://github.com/zsy-suyang/SPT">Code &amp; experiments</a> · <a href="#dataset-overview">Overview</a> · <a href="#download-and-use">Download &amp; use</a> · <a href="datasets/DATA_INDEX.csv">Data index</a> · <a href="#citation">Citation</a></p>
+
+## ⚠️ Usage Restriction
+
+> Author-owned data and documentation in this release are licensed under [CC BY-NC-SA 4.0](LICENSE), for **non-commercial use only**.
+> Commercial use requires separate permission from the relevant rights holders.
+> Third-party materials retain their original licences; see [Licence and attribution](#licence-and-attribution).
 
 <a id="dataset-overview"></a>
 
@@ -249,7 +255,9 @@ The collection supports descriptor-learning benchmarks, spectral sensitivity ana
 
 ## ⚖️ Licence and attribution
 
-The repository retains its existing **Apache-2.0** licence for author-provided material; see [LICENSE](LICENSE). Third-party spectra, structures and source files retain their original terms and attribution requirements. In particular, retain the [NIST licence notice](datasets/applications/ti_nist_standards/source_context/NIST_LICENSE). The repository-level licence does not override these source-specific terms.
+Unless separately indicated, author-owned data and documentation in this release are licensed under [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International](LICENSE) (CC BY-NC-SA 4.0). Attribution and ShareAlike conditions apply as specified in the licence. For separate commercial permission, contact [Jun Cheng](mailto:chengjun@xmu.edu.cn) or [Fujie Tang](mailto:tangfujie@xmu.edu.cn).
+
+Third-party spectra, structures and source files retain their original terms and attribution requirements. In particular, retain the [NIST licence notice](datasets/applications/ti_nist_standards/source_context/NIST_LICENSE). The repository-level licence does not override these source-specific terms or revoke rights previously granted under Apache-2.0.
 
 <a id="citation"></a>
 
